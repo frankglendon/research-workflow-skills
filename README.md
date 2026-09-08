@@ -43,6 +43,8 @@ The preview is rendered from the downloadable demo output. [Evidence report](doc
 
 Run the additional survey/codebook demo with `python -m research_skills survey-demo --output .runs/survey-demo`. It produces two linked workbooks from 7 synthetic questions, 13 variables and 2 routing cases. The original five-output demo remains available. The coordinating skill is a host workflow, not an independent agent process.
 
+The coordinator also uses a [ten-type study taxonomy](skills/research-workflow/references/project-types.md) to separate business decisions, research methods and delivery stages. A [synthetic study record](skills/research-workflow/references/study.example.json) shows how to preserve unresolved scope and capability gaps. These are planning instructions, not an automatic classifier or statistical analysis engine.
+
 
 [Questionnaire preview](docs/assets/07-questionnaire.png) · [Datamap preview](docs/assets/06-datamap.png).
 

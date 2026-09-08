@@ -7,8 +7,8 @@ description: Coordinate a research brief across desk research, questionnaire des
 
 Act as the host's research lead. Use only the stages needed for the user's decision; a desk-only study does not require a questionnaire. This skill supplies coordination instructions, not another autonomous process or permission to spawn agents.
 
-1. Record a concise local `study.json`: decision, scope, outputs, assumptions, budget/stop conditions, source inventory and stage status. Keep client content local. Existing user instructions control whether clarification is needed.
-2. Route to the six professional skills below, load each only when needed, and preserve deliverable paths and content hashes in the study record.
+1. Record a concise local `study.json`: decision, scope, outputs, assumptions, budget/stop conditions, source inventory and stage status. Keep client content local. Existing user instructions control whether clarification is needed. For study classification, use [project types](references/project-types.md): primary/secondary business decisions, methods and scope are separate dimensions. Classify by objective, not by a single metric or file title.
+2. Route to the six professional skills below, load each only when needed, and preserve deliverable paths and content hashes in the study record. Types do not require separate agents. A study plan does not mean statistical estimation or fieldwork is implemented; record capability gaps. Inspect historical reference scope and role before reuse, and leave unresolved geography or entry-versus-expansion assumptions explicit.
 3. Review each handoff against its current upstream version. Questionnaire edits invalidate codebooks and programming tests; codebook changes invalidate affected mappings; source changes invalidate dependent claims. Reuse unrelated completed work.
 4. Close each requested stage as complete, partial, or blocked with a concrete reason. Do not call a prompt, mock replay or a role-metadata file a working autonomous research runtime.
 

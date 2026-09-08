@@ -43,6 +43,8 @@ $ python -m research_skills demo --output .runs/demo
 
 分工与落地建议见 [结构概述](docs/structure.zh-CN.md)。目录中第七个 `research-workflow` 是宿主调度入口，不是第七个独立 Agent。
 
+总入口新增 [10 类研究项目分类与选流程规则](skills/research-workflow/references/project-types.md)，分开记录商业目标、研究方法与交付环节。[合成项目记录](skills/research-workflow/references/study.example.json) 展示范围与能力缺口的保留方式。这是宿主规划能力，未新增自动分类器或统计分析引擎。
+
 
 [问卷实际预览](docs/assets/07-questionnaire.png) · [Datamap 实际预览](docs/assets/06-datamap.png)。
 

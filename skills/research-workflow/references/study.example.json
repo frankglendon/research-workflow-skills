@@ -1,0 +1,43 @@
+{
+  "classification_version": 1,
+  "synthetic": true,
+  "record_kind": "host_maintained_example_not_cli_schema",
+  "decision": "Assess growth options for a fictional lifestyle retailer in a requested region; detailed brief will follow.",
+  "classification": {
+    "status": "provisional",
+    "primary_type": "market_growth",
+    "secondary_types": [],
+    "rationale": "The stated decision concerns growth. Consumer, brand and channel modules remain candidates until the brief defines them."
+  },
+  "methods": ["desk"],
+  "cadence": "ad_hoc",
+  "scope": {
+    "region_requested": "North America",
+    "countries_confirmed": [],
+    "population": null,
+    "time_horizon": null,
+    "business_stage": "unverified"
+  },
+  "reference_roles": [
+    {
+      "id": "H01",
+      "role": "historical_report",
+      "coverage": "one country",
+      "use": "Hypotheses and question design only; current claims require fresh evidence."
+    }
+  ],
+  "requested_stages": ["brief", "source_inventory"],
+  "stage_status": {
+    "brief": "draft",
+    "evidence": "not_requested",
+    "design": "not_requested",
+    "codebook": "not_requested",
+    "fieldwork": "not_requested",
+    "quality": "not_requested",
+    "report": "not_requested",
+    "delivery": "not_requested"
+  },
+  "capability_gaps": ["No built-in fieldwork or causal-effect estimation engine"],
+  "unresolved": ["Country coverage", "Decision horizon", "Existing operations and entry versus expansion", "Required deliverables"],
+  "stop_condition": "Prepare inventory and scope gaps; the full research brief has not been requested yet."
+}

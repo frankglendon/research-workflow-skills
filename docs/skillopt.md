@@ -1,5 +1,9 @@
 # Optional SkillOpt evaluation
 
+## 2026-09-09 study classification update
+
+The coordinator gained a ten-type business taxonomy and scope/capability guidance. A mock dry-run reused the unchanged six-case dataset: baseline 0.0, candidate 0.0, gate reject, zero edits, zero adoptions and zero sessions. This checks adapter integration only; it is not a model evaluation of the new classification guidance and does not establish improved classification accuracy.
+
 The adapter targets a single public `SKILL.md` and reviewed synthetic tasks. It disables transcript harvesting, memory evolution and automatic adoption. Run it against a compatible local [SkillOpt checkout](https://github.com/microsoft/SkillOpt).
 
 ```bash
