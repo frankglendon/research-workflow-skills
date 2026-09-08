@@ -1,0 +1,4 @@
+interface:
+  display_name: "Survey Codebook"
+  short_description: "Build versioned Datamaps and open coding frameworks"
+  default_prompt: "Use $research-codebook to complete the requested research stage and verify its handoffs."

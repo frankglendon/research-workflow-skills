@@ -14,7 +14,7 @@
 
 </div>
 
-面向 AI 应用工程岗位的公开作品集：五个由宿主 Agent 调用的 Skill，将经过复核的计划转换为 Excel 和 PowerPoint。漏审、输入变更、伪造引用、翻译篡改数字等情况会阻止导出；成功文件附脱敏凭证，并通过微软 Open XML SDK 校验。
+面向 AI 应用工程岗位的公开作品集：一个总入口与六个由宿主 Agent 调用的专业 Skill，将经过复核的计划转换为 Excel 和 PowerPoint。漏审、输入变更、伪造引用、翻译篡改数字等情况会阻止导出；成功文件附脱敏凭证，并通过微软 Open XML SDK 校验。
 
 宿主负责推理和语义复核，项目提供技能流程与可执行文件契约。演示使用**预先编写的合成复核结果，模型调用为 0**，无需 API 密钥即可验证代码行为。
 
@@ -31,12 +31,20 @@ $ python -m research_skills demo --output .runs/demo
 | 问卷 QC | 三列问卷、逐行复核、保留原始单元格 | 漏审一行 |
 | 证据报告 | 已复核断言与源文片段 → 可编辑 PPT | 引用不在源文中 |
 | 数据贴数 | 明确的 Excel 单元格 → 单系列 PPT 图表 | 映射未确认或源单元格为空 |
-| 问卷设计 | 单选、开放题、NPS → Excel | 跳转目标不存在或刻度不完整 |
+| 问卷设计 | 10 种结构化题型、分析与编程表 → Excel | 路径覆盖不足或复核版本过期 |
+| 码表设计 | 变量字典、Datamap、开放题编码框架 | 问卷变更但码表未更新 |
 | 幻灯片翻译 | 全部页面文本单元 → 翻译 PPT | `100` 被改成 `900` |
 
 ![由合成 Excel 数值生成的实际可编辑图表](docs/assets/03-bound-chart.png)
 
 预览图直接由可下载的演示文件渲染。[证据报告](docs/assets/02-evidence-report.png) · [翻译页面](docs/assets/05-translated-slide.png)。
+
+新增问卷与码表演示：`python -m research_skills survey-demo --output .runs/survey-demo`，生成同版本问卷和码表两份工作簿。它使用合成的 7 道题、13 个变量和 2 条路径用例。旧版五文件演示保留不变。
+
+分工与落地建议见 [结构概述](docs/structure.zh-CN.md)。目录中第七个 `research-workflow` 是宿主调度入口，不是第七个独立 Agent。
+
+
+[问卷实际预览](docs/assets/07-questionnaire.png) · [Datamap 实际预览](docs/assets/06-datamap.png)。
 
 ## 值得关注的工程设计
 

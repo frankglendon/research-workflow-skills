@@ -2,7 +2,7 @@
 
 This is a public portfolio with synthetic data and generic workflows.
 
-- Reasoning belongs to the host agent; code enforces review and export contracts.
+- Reasoning belongs to the host agent; code enforces review and export contracts. The coordinating entrypoint is a host skill, not an independent process.
 - Add behavior tests before changing a gate. A refusal is an observable result.
 - Preserve source files and bind reviews to the current input and plan hashes.
 - Never place client material, employer assets, credentials or private repository links here.

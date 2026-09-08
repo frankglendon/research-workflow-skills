@@ -18,3 +18,7 @@ Read `report.md` and the staged diff before proposing adoption. Require validati
 The public edition has **mock integration checks only** at release. It does not inherit model evaluation scores from another implementation. No model training or unattended optimization is claimed.
 
 Compatibility note: this adapter uses SkillOpt's Python API, which may change. It was checked against a local checkout based on `bdfdc30a8e17309c06cdbe8449f01bdecc120203` with local modifications. The external engine is not bundled; a clean upstream checkout at that revision alone is not claimed to reproduce the exact integration environment.
+
+## Version 0.2
+
+New questionnaire, codebook and coordinator datasets each have six synthetic cases (2 train, 2 validation, 2 test). Mock dry-runs completed, with no proposals adopted and no claim of a model-quality score. The QUESTIONNAIRE and CODEBOOK datasets contain a known REVIEW/BLOCK taxonomy ambiguity for incomplete prerequisites; do not infer semantic accuracy from their regex labels. A future evaluation should separate permission to deliver from the next workflow action and introduce new unseen test cases.

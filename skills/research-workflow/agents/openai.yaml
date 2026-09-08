@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Workflow"
+  short_description: "Coordinate research, survey design and delivery skills"
+  default_prompt: "Use $research-workflow to complete the requested research stage and verify its handoffs."

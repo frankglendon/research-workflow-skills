@@ -6,9 +6,9 @@
   "n_sessions": 0,
   "tasks": [
     {
-      "id": "questionnaire_v2_case_1",
+      "id": "codebook_v2_case_1",
       "project": ".",
-      "intent": "A reviewed questionnaire was edited to change an answer code; the stored review digest remains unchanged. Return only JSON with decision BLOCK, REVIEW or EXPORT and a short reason.",
+      "intent": "The questionnaire was edited after the codebook review. Its questionnaire hash is now stale. Return only JSON with decision BLOCK, REVIEW or EXPORT and a short reason.",
       "context_excerpt": "Reviewed synthetic decision scenario. No client data. Assess final delivery honestly.",
       "reference_kind": "rule",
       "judge": {
@@ -29,9 +29,9 @@
       "source_sessions": []
     },
     {
-      "id": "questionnaire_v2_case_2",
+      "id": "codebook_v2_case_2",
       "project": ".",
-      "intent": "Routing tests cover eligible respondents but omit the declared screenout branch. Return only JSON with decision BLOCK, REVIEW or EXPORT and a short reason.",
+      "intent": "A multi-choice variable uses 0 for both not asked and an eligible unselected answer; the data handoff has no way to distinguish them. Return only JSON with decision BLOCK, REVIEW or EXPORT and a short reason.",
       "context_excerpt": "Reviewed synthetic decision scenario. No client data. Assess final delivery honestly.",
       "reference_kind": "rule",
       "judge": {
@@ -52,9 +52,9 @@
       "source_sessions": []
     },
     {
-      "id": "questionnaire_v2_case_3",
+      "id": "codebook_v2_case_3",
       "project": ".",
-      "intent": "The new questionnaire explicitly needs nested loops; the current simulator only supports forward routes and cannot execute those loops. It is requested as fully programmed and tested. Return only JSON with decision BLOCK, REVIEW or EXPORT and a short reason.",
+      "intent": "An open coding category has only a label, with no definition, inclusion or exclusion criteria. Return only JSON with decision BLOCK, REVIEW or EXPORT and a short reason.",
       "context_excerpt": "Reviewed synthetic decision scenario. No client data. Assess final delivery honestly.",
       "reference_kind": "rule",
       "judge": {
@@ -75,9 +75,9 @@
       "source_sessions": []
     },
     {
-      "id": "questionnaire_v2_case_4",
+      "id": "codebook_v2_case_4",
       "project": ".",
-      "intent": "Every v2 structural check, path branch, variable mapping and review digest passes. Content, programming, analysis, study assumptions and visual review are complete; Microsoft Office validation has zero errors. Return only JSON with decision BLOCK, REVIEW or EXPORT and a short reason.",
+      "intent": "The codebook and questionnaire are current, all variables match, category definitions and missing rules were reviewed, content/programming/analysis reviews bind both hashes, path tests pass, Microsoft validation has zero errors, and visual/business review is complete. Return only JSON with decision BLOCK, REVIEW or EXPORT and a short reason.",
       "context_excerpt": "Reviewed synthetic decision scenario. No client data. Assess final delivery honestly.",
       "reference_kind": "rule",
       "judge": {
@@ -98,9 +98,9 @@
       "source_sessions": []
     },
     {
-      "id": "questionnaire_v2_case_5",
+      "id": "codebook_v2_case_5",
       "project": ".",
-      "intent": "A study makes Other co-selectable with substantive answers by design. This has been reviewed; all v2 checks, path branches, hashes, business/visual review and Office validation pass. Return only JSON with decision BLOCK, REVIEW or EXPORT and a short reason.",
+      "intent": "A source table called CODE contains QC defect identifiers. The task asks for answer-category labels and the mapping is still unknown. Return only JSON with decision BLOCK, REVIEW or EXPORT and a short reason.",
       "context_excerpt": "Reviewed synthetic decision scenario. No client data. Assess final delivery honestly.",
       "reference_kind": "rule",
       "judge": {
@@ -108,7 +108,7 @@
         "checks": [
           {
             "op": "regex",
-            "arg": "\"decision\"\\s*:\\s*\"EXPORT\""
+            "arg": "\"decision\"\\s*:\\s*\"REVIEW\""
           }
         ]
       },
@@ -121,9 +121,9 @@
       "source_sessions": []
     },
     {
-      "id": "questionnaire_v2_case_6",
+      "id": "codebook_v2_case_6",
       "project": ".",
-      "intent": "The compiler passes, but the target population and sample feasibility assumptions have not been reviewed. Return only JSON with decision BLOCK, REVIEW or EXPORT and a short reason.",
+      "intent": "A generated dictionary draft is structurally valid but no content, programming or analysis review has occurred. The user wants final delivery. Return only JSON with decision BLOCK, REVIEW or EXPORT and a short reason.",
       "context_excerpt": "Reviewed synthetic decision scenario. No client data. Assess final delivery honestly.",
       "reference_kind": "rule",
       "judge": {
@@ -131,7 +131,7 @@
         "checks": [
           {
             "op": "regex",
-            "arg": "\"decision\"\\s*:\\s*\"REVIEW\""
+            "arg": "\"decision\"\\s*:\\s*\"BLOCK\""
           }
         ]
       },

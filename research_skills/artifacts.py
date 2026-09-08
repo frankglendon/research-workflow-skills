@@ -9,6 +9,7 @@ import uuid
 import zipfile
 from lxml import etree
 from .contracts import GateError, fingerprint
+from . import __version__
 
 
 def validate_office(path):
@@ -74,7 +75,7 @@ def export_artifact(output, builder, *, tool, inputs, config, counts=None):
         office = validate_office(pending)
         if input_hashes != [fingerprint(Path(p).read_bytes()) for p in inputs]:
             raise GateError("Source changed during export; repeat review with the current input")
-        manifest = {"schema_version": 1, "engine_version": "0.1.0", "tool": tool,
+        manifest = {"schema_version": 1, "engine_version": __version__, "tool": tool,
             "run_id": run_id, "input_sha256": input_hashes,
             "config_sha256": fingerprint(config), "output_sha256": fingerprint(pending.read_bytes()),
             "gates": {"required_review": "passed", "office": "passed"},

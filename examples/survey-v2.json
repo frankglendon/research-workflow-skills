@@ -1,0 +1,287 @@
+{
+  "schema_version": 2,
+  "meta": {
+    "version": "2.0-demo",
+    "project": "Synthetic service experience",
+    "language": "English",
+    "est_minutes": 6,
+    "synthetic": true
+  },
+  "populations": [
+    {
+      "key": "all",
+      "name": "Eligible users",
+      "sampling": {
+        "universe": "Synthetic eligible service users",
+        "method": "Technical fixture, not fieldwork",
+        "target_n": 100,
+        "rationale": "Synthetic demonstration only; no incidence estimate"
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "decision": "Prioritize service improvements",
+      "metric": "Reason distribution"
+    }
+  ],
+  "qc_plan": "Pilot and review contradictions; do not terminate by time alone.",
+  "routing_cases": [
+    {
+      "id": "screenout",
+      "population": "all",
+      "answers": {
+        "S1": 2
+      },
+      "expected_visited": [
+        "S1"
+      ]
+    },
+    {
+      "id": "eligible",
+      "population": "all",
+      "answers": {
+        "S1": 1,
+        "Q1": [
+          1
+        ],
+        "Q2": "Slow",
+        "Q3": 8,
+        "Q4": {
+          "speed": 3,
+          "clarity": 4
+        },
+        "Q5": [
+          1,
+          2
+        ],
+        "Q6": 3
+      },
+      "expected_visited": [
+        "S1",
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "S1",
+      "population": "all",
+      "module": "Screen",
+      "type": "single",
+      "text": "Have you used the service?",
+      "objective_ids": [
+        "O1"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "Yes"
+        },
+        {
+          "code": 2,
+          "label": "No"
+        }
+      ],
+      "routes": [
+        {
+          "codes": [
+            2
+          ],
+          "target": "END"
+        }
+      ]
+    },
+    {
+      "id": "Q1",
+      "population": "all",
+      "module": "Experience",
+      "type": "multi",
+      "text": "Which aspects need improvement?",
+      "objective_ids": [
+        "O1"
+      ],
+      "min_selections": 1,
+      "max_selections": 2,
+      "randomize": true,
+      "options": [
+        {
+          "code": 1,
+          "label": "Speed"
+        },
+        {
+          "code": 96,
+          "label": "Other",
+          "kind": "other",
+          "specify": true,
+          "fixed": true
+        },
+        {
+          "code": 99,
+          "label": "None",
+          "kind": "none",
+          "exclusive": true,
+          "fixed": true
+        }
+      ]
+    },
+    {
+      "id": "Q2",
+      "population": "all",
+      "module": "Experience",
+      "type": "open",
+      "text": "What happened?",
+      "objective_ids": [
+        "O1"
+      ]
+    },
+    {
+      "population": "all",
+      "module": "Evaluation",
+      "objective_ids": [
+        "O1"
+      ],
+      "id": "Q3",
+      "type": "nps",
+      "text": "How likely are you to recommend the service?",
+      "options": [
+        {
+          "code": 0,
+          "label": "Not at all likely"
+        },
+        {
+          "code": 1,
+          "label": "1"
+        },
+        {
+          "code": 2,
+          "label": "2"
+        },
+        {
+          "code": 3,
+          "label": "3"
+        },
+        {
+          "code": 4,
+          "label": "4"
+        },
+        {
+          "code": 5,
+          "label": "5"
+        },
+        {
+          "code": 6,
+          "label": "6"
+        },
+        {
+          "code": 7,
+          "label": "7"
+        },
+        {
+          "code": 8,
+          "label": "8"
+        },
+        {
+          "code": 9,
+          "label": "9"
+        },
+        {
+          "code": 10,
+          "label": "Extremely likely"
+        }
+      ]
+    },
+    {
+      "population": "all",
+      "module": "Evaluation",
+      "objective_ids": [
+        "O1"
+      ],
+      "id": "Q4",
+      "type": "matrix",
+      "text": "How satisfied are you with each aspect?",
+      "rows": [
+        {
+          "code": "speed",
+          "label": "Speed"
+        },
+        {
+          "code": "clarity",
+          "label": "Clarity"
+        }
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "Very dissatisfied"
+        },
+        {
+          "code": 2,
+          "label": "Dissatisfied"
+        },
+        {
+          "code": 3,
+          "label": "Neither satisfied nor dissatisfied"
+        },
+        {
+          "code": 4,
+          "label": "Satisfied"
+        },
+        {
+          "code": 5,
+          "label": "Very satisfied"
+        }
+      ]
+    },
+    {
+      "population": "all",
+      "module": "Evaluation",
+      "objective_ids": [
+        "O1"
+      ],
+      "id": "Q5",
+      "type": "rank",
+      "text": "Rank the two improvements you would prioritize.",
+      "rank_count": 2,
+      "options": [
+        {
+          "code": 1,
+          "label": "Shorter waiting time"
+        },
+        {
+          "code": 2,
+          "label": "Clearer instructions"
+        },
+        {
+          "code": 3,
+          "label": "More support channels"
+        }
+      ]
+    },
+    {
+      "population": "all",
+      "module": "Evaluation",
+      "objective_ids": [
+        "O1"
+      ],
+      "id": "Q6",
+      "type": "numeric",
+      "text": "How many times did you use the service in the last 30 days?",
+      "min": 0,
+      "max": 100
+    }
+  ],
+  "review": {
+    "status": "approved",
+    "content": true,
+    "programming": true,
+    "analysis": true,
+    "spec_sha256": "0b3b7673ed0357c187b2ecf227b64987833893a205cafe03c56f20724269a1a1"
+  }
+}

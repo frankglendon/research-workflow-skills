@@ -4,11 +4,13 @@ import json
 from pathlib import Path
 from . import workflows, demo
 from .contracts import GateError
+from . import survey_cli
 
 
 def main(argv=None):
     parser = argparse.ArgumentParser(prog="research-skills")
     commands = parser.add_subparsers(dest="command", required=True)
+    survey_cli.register(commands)
     for name,fields in {"demo":["output"], "qc":["input","plan","output"],
         "research":["plan","output"], "bind":["input","template","plan","output"],
         "questionnaire":["plan","output"], "translate":["input","plan","output"],
@@ -26,6 +28,7 @@ def main(argv=None):
 
 
 def dispatch(args):
+    if args.command in survey_cli.COMMANDS: return survey_cli.dispatch(args)
     if args.command == "demo": return demo.run(args.output)
     if args.command == "translation-units":
         output = Path(args.output); output.parent.mkdir(parents=True, exist_ok=True)

@@ -1,6 +1,6 @@
 # Architecture and engineering decisions
 
-The public package has five narrow workflows and one shared export boundary. It is designed to make engineering decisions inspectable during a code review or interview.
+The public package has six specialist workflows plus a coordinating skill and one shared export boundary. It is designed to make engineering decisions inspectable during a code review or interview.
 
 | Decision | Why | Cost / boundary |
 |---|---|---|

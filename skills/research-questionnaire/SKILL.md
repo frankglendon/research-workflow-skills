@@ -1,16 +1,20 @@
 ---
 name: research-questionnaire
-description: Design and validate a small questionnaire with single-choice, open and NPS questions and explicit jump targets. Use for the public questionnaire workflow.
+description: Design a structured research questionnaire, analysis mapping and programming specification with survey logic checks. Use for screening, scales, multi-choice, matrices, ranking and questionnaire revisions.
 ---
 
 # Draft a structured questionnaire
 
-Resolve the research brief before drafting. Keep IDs and option codes unique; express jump targets explicitly and review their conditions separately. NPS has the full 0-10 scale. The static validator does not simulate routing or sampling design.
+Map business decisions to metrics and questions before drafting. Identify the population, screening criteria, sampling assumptions, languages, timing and pilot plan. Learn structure from authorized local references without inheriting client content or fixed project parameters.
 
-1. Inspect the source and clarify missing task requirements. Read [the plan protocol](references/protocol.md).
-2. Complete the required semantic/business review, then bind the reviewed plan to its input hashes. A review flag records a declaration; it is not an independent verifier.
-3. From this skill directory, run `python scripts/run.py questionnaire --plan PLAN --output OUTPUT`. Replace placeholders with absolute local paths.
-4. If a gate blocks export, fix the cause and repeat the affected review. Do not bypass the gate or edit a previously reviewed plan in place.
-5. Inspect the final artifact and keep the redacted manifest with it. Programmatic validity does not establish semantic correctness.
+1. Read [schema v2](references/survey-v2.md). Review wording for one concept per question, an explicit recall period, balanced labels and non-overlapping categories. Preserve existing scale definitions when comparability matters.
+2. Keep unprompted awareness ahead of prompted lists. Distinguish not-asked, unknown, inapplicable and substantive zero. Special codes are project-defined; Other is not automatically exclusive. Randomization changes display order, never stored codes.
+3. Run `python scripts/run.py survey-check --spec SPEC`. Add synthetic routing cases and run `survey-simulate --spec SPEC --cases CASES`. The simulator covers explicit forward routes and display conditions, not arbitrary prose or a live survey platform.
+4. Review content, programming and analysis; bind the current specification hash and run `survey-run --spec SPEC --output OUTPUT`. Missing routing branch coverage or stale reviews block export.
+5. Use `research-codebook` to generate the matching Datamap. Check variable names, multi-response storage, matrix dimensions and missing rules; then inspect Office validity and layout.
+
+Do not invent incidence rates or quotas. Review marginal quota totals separately per dimension. Calibrate timing and quality rules through a pilot; do not assume one cutoff fits every study. Business review and fieldwork piloting remain required beyond the compiler checks.
+
+The original small `questionnaire --plan PLAN` workflow remains supported through [its legacy protocol](references/protocol.md). Prefer v2 for new studies.
 
 This skill requires the shared Python package installed from this repository. It does not run a web server or grant authority to publish or message anyone.

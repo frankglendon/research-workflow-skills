@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "version": "2.0-demo",
+  "questionnaire_sha256": "0b3b7673ed0357c187b2ecf227b64987833893a205cafe03c56f20724269a1a1",
+  "variables": [
+    {
+      "population": "all",
+      "question_id": "S1",
+      "label": "Have you used the service?",
+      "type": "single",
+      "values": {
+        "1": "Yes",
+        "2": "No"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "all_S1",
+      "canonical_id": "all_S1"
+    },
+    {
+      "population": "all",
+      "question_id": "Q1",
+      "label": "Speed",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "all_Q1_1",
+      "canonical_id": "all_Q1_1"
+    },
+    {
+      "population": "all",
+      "question_id": "Q1",
+      "label": "Other",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "all_Q1_96",
+      "canonical_id": "all_Q1_96"
+    },
+    {
+      "population": "all",
+      "question_id": "Q1",
+      "label": "None",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "all_Q1_99",
+      "canonical_id": "all_Q1_99"
+    },
+    {
+      "population": "all",
+      "question_id": "Q1",
+      "label": "Other — specify",
+      "type": "open",
+      "values": {},
+      "base": {
+        "question_id": "Q1",
+        "selected": 96
+      },
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "all_Q1_other_96",
+      "canonical_id": "all_Q1_other_96"
+    },
+    {
+      "population": "all",
+      "question_id": "Q2",
+      "label": "What happened?",
+      "type": "open",
+      "values": {},
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "all_Q2",
+      "canonical_id": "all_Q2"
+    },
+    {
+      "population": "all",
+      "question_id": "Q3",
+      "label": "How likely are you to recommend the service?",
+      "type": "nps",
+      "values": {
+        "0": "Not at all likely",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "Extremely likely"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "all_Q3",
+      "canonical_id": "all_Q3"
+    },
+    {
+      "population": "all",
+      "question_id": "Q4",
+      "label": "Speed",
+      "type": "matrix",
+      "values": {
+        "1": "Very dissatisfied",
+        "2": "Dissatisfied",
+        "3": "Neither satisfied nor dissatisfied",
+        "4": "Satisfied",
+        "5": "Very satisfied"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "all_Q4_speed",
+      "canonical_id": "all_Q4_speed"
+    },
+    {
+      "population": "all",
+      "question_id": "Q4",
+      "label": "Clarity",
+      "type": "matrix",
+      "values": {
+        "1": "Very dissatisfied",
+        "2": "Dissatisfied",
+        "3": "Neither satisfied nor dissatisfied",
+        "4": "Satisfied",
+        "5": "Very satisfied"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "all_Q4_clarity",
+      "canonical_id": "all_Q4_clarity"
+    },
+    {
+      "population": "all",
+      "question_id": "Q5",
+      "label": "Shorter waiting time",
+      "type": "rank",
+      "values": {
+        "1": "Rank 1",
+        "2": "Rank 2"
+      },
+      "base": [],
+      "missing": "Blank = unranked or not asked; preserve eligibility and missing reason separately.",
+      "variable": "all_Q5_1",
+      "canonical_id": "all_Q5_1"
+    },
+    {
+      "population": "all",
+      "question_id": "Q5",
+      "label": "Clearer instructions",
+      "type": "rank",
+      "values": {
+        "1": "Rank 1",
+        "2": "Rank 2"
+      },
+      "base": [],
+      "missing": "Blank = unranked or not asked; preserve eligibility and missing reason separately.",
+      "variable": "all_Q5_2",
+      "canonical_id": "all_Q5_2"
+    },
+    {
+      "population": "all",
+      "question_id": "Q5",
+      "label": "More support channels",
+      "type": "rank",
+      "values": {
+        "1": "Rank 1",
+        "2": "Rank 2"
+      },
+      "base": [],
+      "missing": "Blank = unranked or not asked; preserve eligibility and missing reason separately.",
+      "variable": "all_Q5_3",
+      "canonical_id": "all_Q5_3"
+    },
+    {
+      "population": "all",
+      "question_id": "Q6",
+      "label": "How many times did you use the service in the last 30 days?",
+      "type": "numeric",
+      "values": {
+        "range": [
+          0,
+          100
+        ]
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "all_Q6",
+      "canonical_id": "all_Q6"
+    }
+  ],
+  "codeframes": [
+    {
+      "population": "all",
+      "question_id": "Q2",
+      "unit": "meaning_unit",
+      "mode": "multi",
+      "codes": [
+        {
+          "code": "101",
+          "label": "Waiting delay",
+          "definition": "Explicitly described waiting or delay in receiving the service",
+          "include": "A described queue or delayed response",
+          "exclude": "Cost complaints without a delay"
+        },
+        {
+          "code": "102",
+          "label": "Unclear instructions",
+          "definition": "Difficulty understanding a service instruction",
+          "include": "An instruction described as confusing or ambiguous",
+          "exclude": "Lack of willingness to follow a clear instruction"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "approved",
+    "content": true,
+    "programming": true,
+    "analysis": true,
+    "spec_sha256": "d9d8daa57dcd37fe41e88122ebb39a211120cca6e17c959deacc693356ac1fce"
+  }
+}

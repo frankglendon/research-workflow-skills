@@ -14,7 +14,7 @@
 
 </div>
 
-A public engineering portfolio: five host-driven skills turn reviewed plans into Excel and PowerPoint files. Missing reviews, stale inputs, fabricated source excerpts and changed numeric tokens block delivery. Every successful export includes an audit manifest and passes Microsoft's Open XML SDK validator.
+A public engineering portfolio: one coordinating entrypoint and six specialist skills turn reviewed plans into Excel and PowerPoint files. Missing reviews, stale inputs, fabricated source excerpts and changed numeric tokens block delivery. Every successful export includes an audit manifest and passes Microsoft's Open XML SDK validator.
 
 The host agent performs reasoning and review. This repository provides skill instructions and executable file contracts. Its demo uses **prewritten synthetic reviews and zero model calls**, making it runnable without API credentials.
 
@@ -33,12 +33,18 @@ $ python -m research_skills demo --output .runs/demo
 | Survey QC | Three-column survey, row review, preserved source cells | One required row is unreviewed |
 | Evidence report | Reviewed claims and excerpts → editable PPT | Quote is absent from source text |
 | Data binding | Explicit Excel cells → one PPT chart series | Mapping unconfirmed or source cell empty |
-| Questionnaire | Single-choice, open, NPS → Excel | Missing jump target or incomplete scale |
+| Questionnaire | 10 structured types, analysis and programming sheets → Excel | Missing route coverage or stale review |
+| Codebook | Variable dictionary, Datamap, open coding definitions | Questionnaire changed after codebook review |
 | Slide translation | All slide text runs → translated PPT | `100` becomes `900` |
 
 ![Actual editable chart output using synthetic spreadsheet values](docs/assets/03-bound-chart.png)
 
 The preview is rendered from the downloadable demo output. [Evidence report](docs/assets/02-evidence-report.png) · [Translated slide](docs/assets/05-translated-slide.png).
+
+Run the additional survey/codebook demo with `python -m research_skills survey-demo --output .runs/survey-demo`. It produces two linked workbooks from 7 synthetic questions, 13 variables and 2 routing cases. The original five-output demo remains available. The coordinating skill is a host workflow, not an independent agent process.
+
+
+[Questionnaire preview](docs/assets/07-questionnaire.png) · [Datamap preview](docs/assets/06-datamap.png).
 
 ## Why this project is worth reviewing
 
@@ -75,7 +81,7 @@ python -m unittest discover -s tests -v
 
 On Windows, use `py -3.12 -m venv .venv` and `.venv\Scripts\Activate.ps1`. Linux CI tests the same commands. Choose a fresh output directory when rerunning the demo.
 
-Optional host installation: `python install_skills.py` links the five skills into Codex. Use `--target PATH` for another compatible host. On Windows, symlink creation requires appropriate privileges. Keep the checkout at its installed location; scripts use its `.venv`.
+Optional host installation: `python install_skills.py` links the seven skill entrypoints into Codex. Use `--target PATH` for another compatible host. On Windows, symlink creation requires appropriate privileges. Keep the checkout at its installed location; scripts use its `.venv`.
 
 ## Inspect the implementation
 
