@@ -1,6 +1,10 @@
 # Handoffs and deployment choices
 
-Keep one study brief and stable artifacts, not six diverging copies of business context. Useful local stages are `brief`, `evidence`, `design`, `codebook`, `fieldwork`, `quality`, `report`, `delivery`. Record `not_requested`, `draft`, `review`, `complete`, `partial` or `blocked`, current upstream hashes, artifact paths and unresolved decisions. This is a host-maintained record, not an implemented background scheduler.
+Keep one study brief and stable artifacts, rather than diverging copies of business context. Useful local stages are `brief`, `study_design`, `evidence`, `design`, `codebook`, `fieldwork`, `quality`, `report`, `delivery`. Record `not_requested`, `draft`, `review`, `complete`, `partial` or `blocked`, current upstream hashes, artifact paths and unresolved decisions. This is a host-maintained record, not an implemented background scheduler.
+
+## Overall study design
+
+For a full proposal, call `research-study-design` after interpreting the brief. Connect business decisions, qualitative exploration, quantitative validation, sample bases, analysis and delivery. Preserve unresolved assumptions; a reviewable draft is not fieldwork approval. Hand the frozen measurement design to the questionnaire skill. An isolated file task does not require a full proposal.
 
 ## Desk research loop
 
@@ -18,7 +22,7 @@ Do not convert a coding framework into a quality-deletion rule. “Not sure” c
 
 ## When to split agents
 
-Start with one host agent and six focused skills. Skills are easy to revise, reuse and test; a single host keeps versions consistent. The cost is dependence on host tools/context and no independent background operation.
+Start with one host agent and seven focused skills. Skills are easy to revise, reuse and test; a single host keeps versions consistent. The cost is dependence on host tools/context and no independent background operation.
 
 Split an evidence specialist or questionnaire-programming specialist into another agent only when it has a bounded input, separate permissions/budget, inspectable output and a measurable benefit from parallel work or independent checking. Separate agents add scheduling, retries, state reconciliation and integration testing. Multiple names or roles alone do not establish independence or quality.
 

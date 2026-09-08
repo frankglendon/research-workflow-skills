@@ -29,3 +29,7 @@ All fixture content is synthetic. Source URLs in the example ledger are illustra
 ## Survey/codebook checks
 
 Added checks cover stale questionnaire/codebook review hashes, objective/population references, reserved option exclusivity, forward route targets and branch coverage, conflicting multi-answer routes, matrix/rank expansion, variable-name collisions, codeframe definitions/cycles and formula-like question text. The demo contains 7 synthetic questions, 13 variables and 2 routing paths. Three Datamap header layouts can be inventoried; arbitrary import, live programming, automatic open-response coding and unattended research remain outside the executable scope.
+
+## Study-design increment — 2026-09-09
+
+The package now has eight skill entrypoints: one coordinator and seven specialists, with six executable file engines. All eight skill formats, reference links and evaluation JSON files passed validation; 38 behavior tests passed locally. A broken desk-skill handoff reference was corrected. The new study-design skill passed a mock SkillOpt integration run with no adopted edit. Study quality, fieldwork and statistical execution were not evaluated by these checks. No client proposal or historical material is included. The v0.2.0 demonstration bundle remains unchanged.

@@ -15,7 +15,7 @@ python -m research_skills.optimize --engine /path/to/SkillOpt \
 
 The real backend requires a logged-in Codex CLI and consumes the user's model allowance. Execute skills serially. The adapter records the effective replay label, skill/data hashes, validation scores and final test evidence. State remains in ignored local directories.
 
-Each public skill has six synthetic decision scenarios: two train, two validation, two test. The judge checks a decision label, not reasoning quality or actual artifact behavior. A positive case must state all prerequisites; otherwise a correct request for review can be falsely scored as failure.
+Each public skill has six synthetic decision scenarios: two train, two validation, two test. The judge checks a decision label or explicit judgment fields, not reasoning quality or actual artifact behavior. A positive case must state all prerequisites; otherwise a correct request for review can be falsely scored as failure.
 
 Read `report.md` and the staged diff before proposing adoption. Require validation improvement with no per-case regression, inspect final test results and rerun the repository's behavior tests. A still-reviewed single-target proposal can be adopted from the SkillOpt checkout with `python -m skillopt_sleep adopt --project /path/to/research-workflow-skills --staging /exact/staging/RUN --legacy`. Do not use a default latest staging directory across multiple skills. Adoption preserves existing-target backups.
 
@@ -26,3 +26,7 @@ Compatibility note: this adapter uses SkillOpt's Python API, which may change. I
 ## Version 0.2
 
 New questionnaire, codebook and coordinator datasets each have six synthetic cases (2 train, 2 validation, 2 test). Mock dry-runs completed, with no proposals adopted and no claim of a model-quality score. The QUESTIONNAIRE and CODEBOOK datasets contain a known REVIEW/BLOCK taxonomy ambiguity for incomplete prerequisites; do not infer semantic accuracy from their regex labels. A future evaluation should separate permission to deliver from the next workflow action and introduce new unseen test cases.
+
+## Study-design increment — 2026-09-09
+
+Added `research-study-design` and a new six-case synthetic dataset with 2/2/2 splits. Boolean/count fields distinguish draft readiness, fieldwork approval, subset counting, boost/base denominators, assumed segments and sales causality. A mock dry-run completed with zero edits and zero adoptions. This verifies adapter wiring only; no private model scores or client proposal content are imported. Existing holdout cases were not relabeled.

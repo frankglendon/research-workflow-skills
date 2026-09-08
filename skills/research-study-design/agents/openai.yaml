@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Study Design"
+  short_description: "Plan qualitative and quantitative research with clear handoffs"
+  default_prompt: "Use $research-study-design to create a complete mixed-method research proposal with explicit sampling and execution assumptions."

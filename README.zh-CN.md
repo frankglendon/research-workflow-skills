@@ -14,7 +14,7 @@
 
 </div>
 
-面向 AI 应用工程岗位的公开作品集：一个总入口与六个由宿主 Agent 调用的专业 Skill，将经过复核的计划转换为 Excel 和 PowerPoint。漏审、输入变更、伪造引用、翻译篡改数字等情况会阻止导出；成功文件附脱敏凭证，并通过微软 Open XML SDK 校验。
+面向 AI 应用工程岗位的公开作品集：一个总入口与七个专业 Skill，覆盖整体研究设计和已复核的文件流程。方案设计由宿主完成；六个文件引擎输出 Excel 和 PowerPoint。漏审、输入变更、伪造引用、翻译篡改数字等情况会阻止引擎导出；引擎成功输出附脱敏凭证，并通过微软 Open XML SDK 校验。
 
 宿主负责推理和语义复核，项目提供技能流程与可执行文件契约。演示使用**预先编写的合成复核结果，模型调用为 0**，无需 API 密钥即可验证代码行为。
 
@@ -26,8 +26,9 @@ $ python -m research_skills demo --output .runs/demo
 
 [下载合成演示包](https://github.com/frankglendon/research-workflow-skills/releases/tag/v0.1.0)：包含输入样例、复核计划、五份 Office 输出和运行凭证，也可按下文自行生成。
 
-| 技能 | 本版可运行范围 | 拦截示例 |
+| 技能 | 支持范围 | 复核或拦截示例 |
 |---|---|---|
+| 整体方案设计 | 宿主编写定性与定量方案、抽样和分析计划 | 范围未定时保留假设，不宣称已批准实地执行 |
 | 问卷 QC | 三列问卷、逐行复核、保留原始单元格 | 漏审一行 |
 | 证据报告 | 已复核断言与源文片段 → 可编辑 PPT | 引用不在源文中 |
 | 数据贴数 | 明确的 Excel 单元格 → 单系列 PPT 图表 | 映射未确认或源单元格为空 |
@@ -41,7 +42,7 @@ $ python -m research_skills demo --output .runs/demo
 
 新增问卷与码表演示：`python -m research_skills survey-demo --output .runs/survey-demo`，生成同版本问卷和码表两份工作簿。它使用合成的 7 道题、13 个变量和 2 条路径用例。旧版五文件演示保留不变。
 
-分工与落地建议见 [结构概述](docs/structure.zh-CN.md)。目录中第七个 `research-workflow` 是宿主调度入口，不是第七个独立 Agent。
+分工与落地建议见 [结构概述](docs/structure.zh-CN.md)。共八个入口，其中 `research-workflow` 负责宿主调度；这些入口不代表八个独立 Agent。
 
 总入口新增 [10 类研究项目分类与选流程规则](skills/research-workflow/references/project-types.md)，分开记录商业目标、研究方法与交付环节。[合成项目记录](skills/research-workflow/references/study.example.json) 展示范围与能力缺口的保留方式。这是宿主规划能力，未新增自动分类器或统计分析引擎。
 

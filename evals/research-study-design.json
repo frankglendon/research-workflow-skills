@@ -1,0 +1,155 @@
+{
+  "format": "skillopt_sleep.tasks.v1",
+  "reviewed": true,
+  "dataset_kind": "curated_synthetic",
+  "dataset_version": 1,
+  "n_sessions": 0,
+  "tasks": [
+    {
+      "id": "study_case_1",
+      "project": ".",
+      "intent": "A user requests an internal first proposal and explicitly permits assumptions. Country coverage and supplier prices are still unconfirmed. Assess whether a draft can be produced and fieldwork can start. Return JSON fields draft_allowed and fieldwork_ready.",
+      "context_excerpt": "Reviewed synthetic proposal-review case. No client materials or sessions. Answer only the requested JSON fields.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"draft_allowed\"\\s*:\\s*true(?=\\s*[,}])"
+          },
+          {
+            "op": "regex",
+            "arg": "\"fieldwork_ready\"\\s*:\\s*false(?=\\s*[,}])"
+          }
+        ]
+      },
+      "split": "train",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "study-design"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "study_case_2",
+      "project": ".",
+      "intent": "An opt-in online panel supplies 800 category buyers with demographic quotas. A proposal claims its conventional probability-sampling margin of error guarantees national representativeness. Return JSON field moe_claim_supported.",
+      "context_excerpt": "Reviewed synthetic proposal-review case. No client materials or sessions. Answer only the requested JSON fields.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"moe_claim_supported\"\\s*:\\s*false(?=\\s*[,}])"
+          }
+        ]
+      },
+      "split": "train",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "study-design"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "study_case_3",
+      "project": ".",
+      "intent": "The qualitative plan has 24 consumer interviews; 12 of those same people also do shop-alongs. There are no other participants. Return JSON field unique_consumers with the number of distinct consumers.",
+      "context_excerpt": "Reviewed synthetic proposal-review case. No client materials or sessions. Answer only the requested JSON fields.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"unique_consumers\"\\s*:\\s*24(?=\\s*[,}])"
+          }
+        ]
+      },
+      "split": "val",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "study-design"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "study_case_4",
+      "project": ".",
+      "intent": "A base category sample contains 900 people, and 300 extra brand customers are recruited as a boost. The natural brand share is unknown. Can all 1200 be pooled without adjustment to estimate brand penetration? Return JSON field pool_for_penetration.",
+      "context_excerpt": "Reviewed synthetic proposal-review case. No client materials or sessions. Answer only the requested JSON fields.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"pool_for_penetration\"\\s*:\\s*false(?=\\s*[,}])"
+          }
+        ]
+      },
+      "split": "val",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "study-design"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "study_case_5",
+      "project": ".",
+      "intent": "Qualitative exploration has produced six tentative personas. No quantitative segmentation or stability validation has been performed. The next requested task is questionnaire planning to investigate these hypotheses. Return JSON fields segments_validated and proceed_to_measurement_design.",
+      "context_excerpt": "Reviewed synthetic proposal-review case. No client materials or sessions. Answer only the requested JSON fields.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"segments_validated\"\\s*:\\s*false(?=\\s*[,}])"
+          },
+          {
+            "op": "regex",
+            "arg": "\"proceed_to_measurement_design\"\\s*:\\s*true(?=\\s*[,}])"
+          }
+        ]
+      },
+      "split": "test",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "study-design"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "study_case_6",
+      "project": ".",
+      "intent": "A randomized concept survey finds higher stated purchase intent for one offer. There is no observed transaction or revenue data and no field experiment. Can the proposal claim proven incremental revenue? Return JSON field revenue_lift_proven.",
+      "context_excerpt": "Reviewed synthetic proposal-review case. No client materials or sessions. Answer only the requested JSON fields.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"revenue_lift_proven\"\\s*:\\s*false(?=\\s*[,}])"
+          }
+        ]
+      },
+      "split": "test",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "study-design"
+      ],
+      "source_sessions": []
+    }
+  ]
+}

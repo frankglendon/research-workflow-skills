@@ -32,7 +32,7 @@ For each historical reference, retain its role (`brief`, `proposal`, `questionna
 | Historical questionnaire or Datamap review | Questionnaire or codebook, as relevant | Do not regenerate unrelated outputs |
 | Collected response quality | Survey QC with the correct variable definitions | QC is a delivery stage, not a business research category |
 | Existing tables into a report or report translation | Data binding or slide translation | No implied statistical analysis engine |
-| Segmentation, pricing, concept tests or causal campaign evaluation | Relevant planning and design skills; record execution gaps | Dedicated statistical estimation, fieldwork, experimentation and effect measurement are not implemented by these six skills |
+| Segmentation, pricing, concept tests or causal campaign evaluation | Relevant planning and design skills; record execution gaps | Dedicated statistical estimation, fieldwork, experimentation and effect measurement are not implemented by these seven specialist skills |
 
 Select actual skill names from the entrypoint's stage table. Do not create a new skill or agent for every project type. Specialized statistical work may later justify its own tested capability when real inputs and acceptance criteria are available.
 
@@ -41,3 +41,5 @@ Select actual skill names from the entrypoint's stage table. Do not create a new
 The host may extend its existing `study.json` with `classification_version`, `decision`, `classification` (primary/secondary type and rationale), `methods`, `scope`, `reference_roles`, `requested_stages`, `capability_gaps` and `unresolved`. See [a synthetic planning record](study.example.json). This is an example convention, not a new validated CLI schema or automatic router.
 
 When a retailer asks about North America, preserve that stated region and leave country coverage unresolved unless specified. Verify existing operations before deciding whether the business question is first entry or expansion. Historical single-country material informs hypotheses; it does not supply current multi-country findings. If the user says a fuller brief will follow, prepare the inventory and scope gaps without starting a self-assigned full study.
+
+For an overall research proposal, use `research-study-design` to connect qualitative and quantitative phases before detailed questionnaire and codebook authoring. Method names do not imply implemented statistical engines.

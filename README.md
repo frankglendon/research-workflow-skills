@@ -14,7 +14,7 @@
 
 </div>
 
-A public engineering portfolio: one coordinating entrypoint and six specialist skills turn reviewed plans into Excel and PowerPoint files. Missing reviews, stale inputs, fabricated source excerpts and changed numeric tokens block delivery. Every successful export includes an audit manifest and passes Microsoft's Open XML SDK validator.
+A public engineering portfolio: one coordinating entrypoint and seven specialist skills cover study design and reviewed file workflows. Study design runs in the host; six file engines produce Excel and PowerPoint. Missing reviews, stale inputs, fabricated source excerpts and changed numeric tokens block engine exports. Every successful engine export includes an audit manifest and passes Microsoft's Open XML SDK validator.
 
 The host agent performs reasoning and review. This repository provides skill instructions and executable file contracts. Its demo uses **prewritten synthetic reviews and zero model calls**, making it runnable without API credentials.
 
@@ -28,8 +28,9 @@ $ python -m research_skills demo --output .runs/demo
 
 [Download the synthetic demo bundle](https://github.com/frankglendon/research-workflow-skills/releases/tag/v0.1.0) or reproduce it locally. The bundle includes source fixtures, reviewed plans, five Office outputs and their manifests.
 
-| Skill | Runnable scope | Example refusal |
+| Skill | Supported scope | Review or refusal example |
 |---|---|---|
+| Study design | Host-authored qualitative/quantitative proposal, sampling and analysis plan | Label unresolved scope; do not claim fieldwork is approved |
 | Survey QC | Three-column survey, row review, preserved source cells | One required row is unreviewed |
 | Evidence report | Reviewed claims and excerpts → editable PPT | Quote is absent from source text |
 | Data binding | Explicit Excel cells → one PPT chart series | Mapping unconfirmed or source cell empty |
@@ -83,7 +84,7 @@ python -m unittest discover -s tests -v
 
 On Windows, use `py -3.12 -m venv .venv` and `.venv\Scripts\Activate.ps1`. Linux CI tests the same commands. Choose a fresh output directory when rerunning the demo.
 
-Optional host installation: `python install_skills.py` links the seven skill entrypoints into Codex. Use `--target PATH` for another compatible host. On Windows, symlink creation requires appropriate privileges. Keep the checkout at its installed location; scripts use its `.venv`.
+Optional host installation: `python install_skills.py` links the eight skill entrypoints into Codex. Use `--target PATH` for another compatible host. On Windows, symlink creation requires appropriate privileges. Keep the checkout at its installed location; file scripts use its `.venv`.
 
 ## Inspect the implementation
 

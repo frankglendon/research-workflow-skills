@@ -4,13 +4,13 @@
 
 **Research Workflow Skills — auditable AI-assisted file workflows**
 
-Built five host-driven research skills around structured review plans and deterministic Python file engines. Implemented input/plan hash binding, complete review coverage, source-excerpt and numeric checks, and redacted manifests for Excel/PowerPoint delivery. Used synthetic positive and adversarial cases to exercise failure paths, with Microsoft Open XML SDK validation before publication.
+Built seven host-driven research skills and one coordinator, combining overall study design with six deterministic file workflows. Implemented input/plan hash binding, complete review coverage, source-excerpt and numeric checks, and redacted manifests for Excel/PowerPoint delivery. Used synthetic positive and adversarial cases to exercise failure paths, with Microsoft Open XML SDK validation before publication.
 
 Use the current repository validation record for test counts. Do not add unmeasured productivity gains, revenue impact, user counts or production reliability claims.
 
 ## 30-second introduction
 
-The problem is deciding when an apparently reasonable AI result is ready to deliver. This project keeps reasoning in a host agent while code checks input identity, review coverage and Office file validity. Five skills share that boundary. A missing review, stale plan or fabricated excerpt blocks output. The public demo uses synthetic data and can be reproduced without model credentials.
+The problem is deciding when an apparently reasonable AI result is ready to deliver. This project keeps reasoning in a host agent while code checks input identity, review coverage and Office file validity. Six file engines share that boundary; the study-design skill guides host reasoning. A missing review, stale plan or fabricated excerpt blocks output. The public demo uses synthetic data and can be reproduced without model credentials.
 
 ## Two-minute demonstration
 

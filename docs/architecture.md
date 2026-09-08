@@ -1,6 +1,6 @@
 # Architecture and engineering decisions
 
-The public package has six specialist workflows plus a coordinating skill and one shared export boundary. It is designed to make engineering decisions inspectable during a code review or interview.
+The public package has seven specialist skills plus a coordinator: host-authored study design and six file engines sharing an export boundary. It is designed to make engineering decisions inspectable during a code review or interview.
 
 | Decision | Why | Cost / boundary |
 |---|---|---|
@@ -12,6 +12,8 @@ The public package has six specialist workflows plus a coordinating skill and on
 | No-overwrite export transaction | Validate temporary outputs before publishing final paths | Hard-link publication assumes a compatible local filesystem; a crash can still occur between file and sidecar publication |
 | Official Office validation | Reject schema-invalid packages that tolerant viewers may open | Requires .NET and initially available NuGet dependencies |
 | SkillOpt staging | Separate proposing an edit, evaluating it and applying it | Small decision datasets do not establish broad improvement |
+
+Study design is a host workflow for mixed-method proposals, sampling and analysis plans. Its review checklist does not automatically enforce fieldwork readiness or provide statistical execution.
 
 ## Trust and data flow
 
