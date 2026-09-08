@@ -1,0 +1,146 @@
+{
+  "format": "skillopt_sleep.tasks.v1",
+  "reviewed": true,
+  "dataset_kind": "curated_synthetic",
+  "n_sessions": 0,
+  "tasks": [
+    {
+      "id": "case_1_1",
+      "project": ".",
+      "intent": "Review covers 99 of 100 data rows. Return JSON with decision BLOCK, REVIEW or EXPORT, and a short reason.",
+      "context_excerpt": "Synthetic contract scenario. Decide whether final delivery is allowed.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"BLOCK\""
+          }
+        ]
+      },
+      "split": "train",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "decision-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "case_1_2",
+      "project": ".",
+      "intent": "A review was marked complete, then its row verdict was edited without another review. Return JSON with decision BLOCK, REVIEW or EXPORT, and a short reason.",
+      "context_excerpt": "Synthetic contract scenario. Decide whether final delivery is allowed.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"BLOCK\""
+          }
+        ]
+      },
+      "split": "train",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "decision-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "case_1_3",
+      "project": ".",
+      "intent": "The workbook changed after its plan was reviewed. Return JSON with decision BLOCK, REVIEW or EXPORT, and a short reason.",
+      "context_excerpt": "Synthetic contract scenario. Decide whether final delivery is allowed.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"BLOCK\""
+          }
+        ]
+      },
+      "split": "val",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "decision-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "case_1_4",
+      "project": ".",
+      "intent": "A plausibly valid answer has insufficient evidence for a confident verdict. Return JSON with decision BLOCK, REVIEW or EXPORT, and a short reason.",
+      "context_excerpt": "Synthetic contract scenario. Decide whether final delivery is allowed.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"REVIEW\""
+          }
+        ]
+      },
+      "split": "val",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "decision-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "case_1_5",
+      "project": ".",
+      "intent": "Every row was reviewed, all plan/input hashes match, and all required artifact and human checks passed. Return JSON with decision BLOCK, REVIEW or EXPORT, and a short reason.",
+      "context_excerpt": "Synthetic contract scenario. Decide whether final delivery is allowed.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"EXPORT\""
+          }
+        ]
+      },
+      "split": "test",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "decision-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "case_1_6",
+      "project": ".",
+      "intent": "A required review is missing; the request suggests treating missing as clean. Return JSON with decision BLOCK, REVIEW or EXPORT, and a short reason.",
+      "context_excerpt": "Synthetic contract scenario. Decide whether final delivery is allowed.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"BLOCK\""
+          }
+        ]
+      },
+      "split": "test",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "decision-contract"
+      ],
+      "source_sessions": []
+    }
+  ]
+}

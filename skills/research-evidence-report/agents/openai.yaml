@@ -1,0 +1,6 @@
+interface:
+  display_name: "Build an evidence-backed report"
+  short_description: "Build an editable PPT from reviewed claims bound to source e"
+  default_prompt: "Use $research-evidence-report to complete this workflow with a reviewed plan and validated output."
+policy:
+  allow_implicit_invocation: true

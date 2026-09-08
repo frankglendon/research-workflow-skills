@@ -1,0 +1,6 @@
+interface:
+  display_name: "Review survey response quality"
+  short_description: "Review a three-column survey workbook and export an audit sh"
+  default_prompt: "Use $research-survey-qc to complete this workflow with a reviewed plan and validated output."
+policy:
+  allow_implicit_invocation: true

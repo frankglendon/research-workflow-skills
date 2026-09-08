@@ -1,0 +1,6 @@
+interface:
+  display_name: "Write reviewed values into a chart"
+  short_description: "Map explicit numeric spreadsheet cells to a single-series Po"
+  default_prompt: "Use $research-data-binding to complete this workflow with a reviewed plan and validated output."
+policy:
+  allow_implicit_invocation: true

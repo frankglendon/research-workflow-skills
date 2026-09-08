@@ -1,0 +1,6 @@
+interface:
+  display_name: "Translate reviewed slide text"
+  short_description: "Translate PPTX slide text runs with complete unit coverage a"
+  default_prompt: "Use $research-slide-translation to complete this workflow with a reviewed plan and validated output."
+policy:
+  allow_implicit_invocation: true

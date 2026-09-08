@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.build/
+.runs/
+.skillopt-sleep/
+build/
+dist/
+.env*
+.DS_Store
+*.xlsx
+*.pptx
+*.potx
+*.docx
+*.db

@@ -1,0 +1,146 @@
+{
+  "format": "skillopt_sleep.tasks.v1",
+  "reviewed": true,
+  "dataset_kind": "curated_synthetic",
+  "n_sessions": 0,
+  "tasks": [
+    {
+      "id": "case_4_1",
+      "project": ".",
+      "intent": "An NPS question has no response options. Return JSON with decision BLOCK, REVIEW or EXPORT, and a short reason.",
+      "context_excerpt": "Synthetic contract scenario. Decide whether final delivery is allowed.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"BLOCK\""
+          }
+        ]
+      },
+      "split": "train",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "decision-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "case_4_2",
+      "project": ".",
+      "intent": "Two questions use the same ID. Return JSON with decision BLOCK, REVIEW or EXPORT, and a short reason.",
+      "context_excerpt": "Synthetic contract scenario. Decide whether final delivery is allowed.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"BLOCK\""
+          }
+        ]
+      },
+      "split": "train",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "decision-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "case_4_3",
+      "project": ".",
+      "intent": "A jump points to a nonexistent question. Return JSON with decision BLOCK, REVIEW or EXPORT, and a short reason.",
+      "context_excerpt": "Synthetic contract scenario. Decide whether final delivery is allowed.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"BLOCK\""
+          }
+        ]
+      },
+      "split": "val",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "decision-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "case_4_4",
+      "project": ".",
+      "intent": "All IDs, codes, NPS scale, jump targets, human reviews and Office checks passed. Return JSON with decision BLOCK, REVIEW or EXPORT, and a short reason.",
+      "context_excerpt": "Synthetic contract scenario. Decide whether final delivery is allowed.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"EXPORT\""
+          }
+        ]
+      },
+      "split": "val",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "decision-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "case_4_5",
+      "project": ".",
+      "intent": "A single-choice question has duplicate option codes. Return JSON with decision BLOCK, REVIEW or EXPORT, and a short reason.",
+      "context_excerpt": "Synthetic contract scenario. Decide whether final delivery is allowed.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"BLOCK\""
+          }
+        ]
+      },
+      "split": "test",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "decision-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "case_4_6",
+      "project": ".",
+      "intent": "Natural-language routing is ambiguous and cannot yet be checked. Return JSON with decision BLOCK, REVIEW or EXPORT, and a short reason.",
+      "context_excerpt": "Synthetic contract scenario. Decide whether final delivery is allowed.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"REVIEW\""
+          }
+        ]
+      },
+      "split": "test",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "decision-contract"
+      ],
+      "source_sessions": []
+    }
+  ]
+}
