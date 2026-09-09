@@ -1,10 +1,18 @@
 {
   "dataset_version": 4,
   "tasks": 6,
-  "judge": "semantic rubric intended",
-  "completed": "mock dry-run",
-  "external_replay": "blocked_by_automatic_approval_review",
-  "reason": "External model export authorization required",
-  "real_model_score": null,
-  "adopted": false
+  "judge": "model-judged rubric, hard pass at soft >= 0.8",
+  "completed": "real Codex replay after explicit user authorization",
+  "external_replay": "completed",
+  "validation_passed": 1,
+  "validation_total": 2,
+  "validation_mean_soft": 0.875,
+  "test_passed": 1,
+  "test_total": 2,
+  "test_mean_soft": 0.75,
+  "proposed_edits": 0,
+  "adopted": false,
+  "quality_gain_measured": false,
+  "details": "skillopt-evaluation.json",
+  "scope": "Chapter review assignments only; not source-entailment or full-deck certification."
 }

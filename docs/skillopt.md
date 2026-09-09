@@ -1,5 +1,12 @@
 # Optional SkillOpt evaluation
 
+## 2026-09-10 chapter-content v4 replay
+
+After explicit user authorization, real Codex replay completed: validation 1/2 (mean rubric score 0.875) and held-out test 1/2 (0.750). No edits were proposed or adopted; no optimization gain was demonstrated. See the [evaluation record](../examples/north-america-retail/desk-v3/skillopt-evaluation.json). These six short chapter-review tasks do not certify a complete report or source entailment; the judge received the rubric and answer.
+
+Training failures trigger reflection only below the 0.8 pass threshold. All training tasks passed, so this run produced no edit. Unchanged final validation reuses cached answers. A later optimization informed by these results requires a new, unseen test set.
+
+
 The 0.4.0 retrieval increment adds `evals/retrieval-v1.json`: six reviewed synthetic decisions with separate 2/2/2 splits. Public validation ran mock integration only and adopted no edit. Existing datasets are unchanged. This is separate from the 19 program behavior checks and the host's live Tavily integration test; none measures general research accuracy.
 
 ## 2026-09-09 study classification update

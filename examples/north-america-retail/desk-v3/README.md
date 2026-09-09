@@ -23,8 +23,8 @@ The first command checks hashes, narrative, evidence binding, native objects, ex
 
 ## Edit and render
 
-Edit `desk-research-content.json`, retaining scope and claim references. `authoring/render.mjs` uses the host's current `@oai/artifact-tool` presentation runtime. Resolve `PRESENTATION_SKILL_DIR`, `RUNTIME_PYTHON` and `RUNTIME_NODE_research_skillsS` through the installed presentation skill, make the supplied Node packages available to the authoring script, and run it with the supplied Node executable and a new output directory. Follow that skill's authoring and validation workflow. Do not change a reviewed manifest just to suppress a failed check; review the new revision first.
+Edit `desk-research-content.json`, retaining scope and claim references. `authoring/render.mjs` uses the host's current `@oai/artifact-tool` presentation runtime. Resolve `PRESENTATION_SKILL_DIR`, `RUNTIME_PYTHON` and `RUNTIME_NODE_MODULES` through the installed presentation skill, make the supplied Node packages available to the authoring script, and run it with the supplied Node executable and a new output directory. Follow that skill's authoring and validation workflow. Do not change a reviewed manifest just to suppress a failed check; review the new revision first.
 
 Product photograph and trademarks belong to their respective owners and are used for the case analysis. [Photo attribution](assets/image-source.json). Code licensing does not transfer third-party image rights.
 
-SkillOpt has six chapter-based rubric assignments. This revision completed only a local mock dry-run; external replay was blocked by automatic approval review. No real-model quality score or optimization gain is claimed.
+After explicit user authorization, real Codex replay completed: validation 1/2 (mean rubric score 0.875) and held-out test 1/2 (0.750). No edits were proposed or adopted; no optimization gain was demonstrated. See the [evaluation record](skillopt-evaluation.json). These six short chapter-review tasks do not certify a complete report or source entailment; the judge received the rubric and answer.

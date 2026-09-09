@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-10",
+  "skill": "research-evidence-report",
+  "dataset_version": 4,
+  "dataset_sha256": "cb7405c2dc8e66c7b6be57ab14b5e5af33d3b94b7db0a1d9929d665134ef4b11",
+  "skill_sha256_before": "6918561b82896b6802479e50ddc15956bc8c8546d51d7326eb6d877f400d0676",
+  "skill_sha256_after": "6918561b82896b6802479e50ddc15956bc8c8546d51d7326eb6d877f400d0676",
+  "backend": "codex",
+  "configured_model": "gpt-6-astra",
+  "resolved_model_id": "not_exposed_by_engine",
+  "dataset_kind": "curated_synthetic_review_assignments_with_public_source_excerpts",
+  "sessions_harvested": 0,
+  "tasks": 6,
+  "split_counts": {
+    "train": 2,
+    "validation": 2,
+    "test": 2
+  },
+  "hard_pass_threshold": 0.8,
+  "gate_metric": "hard",
+  "baseline_validation_hard": 0.5,
+  "final_validation_hard": 0.5,
+  "accepted": false,
+  "adopted": false,
+  "holdout_leaked": false,
+  "proposed_edits": 0,
+  "evaluation_valid": true,
+  "replay_health": {
+    "valid": true,
+    "failed_calls": 0,
+    "observed_calls": 12
+  },
+  "scores": {
+    "validation": {
+      "n": 2,
+      "passed": 1,
+      "mean_soft": 0.875,
+      "items": [
+        {
+          "order_within_split": 1,
+          "hard": 0.0,
+          "soft": 0.75,
+          "judge_reason": "明确识别商品规格和币种混杂，拒绝均价排名及无依据的MINISO降价20%，并要求按国家建立同日、同规格的本币可比购物篮。但未指出Daiso价格的历史属性，也未明确Jellycat的“From”为起价；仅保留POP MART价格端点，其他已观察价格阶梯保留不足。"
+        },
+        {
+          "order_within_split": 2,
+          "hard": 1.0,
+          "soft": 1.0,
+          "judge_reason": "未将加拿大月度零售电商占比与AMVO广义电商或买家数据直接比较；结合加拿大渠道背景及墨西哥选品、支付、自取功能，提出增量销售、组合购买、支付流失与履约验证等具体行动，并明确统计口径、功能与实效、消费者偏好推断的边界。"
+        }
+      ]
+    },
+    "train": {
+      "n": 2,
+      "passed": 2,
+      "mean_soft": 0.9,
+      "items": [
+        {
+          "order_within_split": 1,
+          "hard": 1.0,
+          "soft": 0.9,
+          "judge_reason": "准确指出未来调研安排压过案头分析、国别商业机会答案缺失，并明确可比证据的时期、地域、口径及竞品比较维度，也避免无依据评分。主要不足是仍以扩页方案组织修复，未充分强调应优先补齐三国已有证据与实质结论，而非增加页面。"
+        },
+        {
+          "order_within_split": 2,
+          "hard": 1.0,
+          "soft": 0.9,
+          "judge_reason": "明确用Daiso与Five Below的角色商品反驳独占定位，区分现有证据、证据不足与待验证假设，并提出价格、系列完整度及一站式购物体验的比较方法，无虚构评分或因果断言。小幅不足是Daiso的跨品类组合未具体展开，体验比较仍主要停留在验证方案。"
+        }
+      ]
+    },
+    "test": {
+      "n": 2,
+      "passed": 1,
+      "mean_soft": 0.75,
+      "items": [
+        {
+          "order_within_split": 1,
+          "hard": 1.0,
+          "soft": 0.8,
+          "judge_reason": "清楚区分收礼者、购买者与家庭口径，以及计划支出与实际消费；送礼启示具体，也提出了可推翻判断的实购与毛绒实销条件。但未明确对照玩具总体／授权增长与毛绒下滑，自用和收藏仅被列为假设，缺少具体业务启示。"
+        },
+        {
+          "order_within_split": 2,
+          "hard": 0.0,
+          "soft": 0.7,
+          "judge_reason": "覆盖产品叙事、参与、主题与送礼，并说明设计、库存、空间和服务成本，提出轻量试点及观察指标。但缺少具体案例证据，品牌间比较较弱；虽承认不能证明销售增量，却未明确区分全球增长与美国市场机制；适配建议具体，但缺少明确的实施条件和扩展门槛。"
+        }
+      ]
+    }
+  },
+  "external_replay": "completed_after_explicit_user_authorization",
+  "engine_commit": "bdfdc30a8e17309c06cdbe8449f01bdecc120203",
+  "engine_token_estimate": 10234,
+  "actual_provider_token_usage": null,
+  "limits": [
+    "Two test tasks are insufficient to estimate general research quality.",
+    "Judge received rubric and response, not the complete source documents.",
+    "Reference-file loading and full chapter authoring were not verified.",
+    "Repeated unchanged validation uses cached responses; no independent replication.",
+    "Do not train on these exposed test results and reuse them as an unseen holdout."
+  ]
+}

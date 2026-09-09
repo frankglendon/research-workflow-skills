@@ -23,8 +23,8 @@ python -m research_skills desk-audit --study examples/north-america-retail/desk-
 
 ## 编辑与渲染
 
-编辑 `desk-research-content.json` 并维护口径和断言引用。`authoring/render.mjs` 使用宿主当前的 `@oai/artifact-tool` 演示文稿运行时。通过已安装演示文稿技能解析 `PRESENTATION_SKILL_DIR`、`RUNTIME_PYTHON`、`RUNTIME_NODE_research_skillsS`，让脚本可访问该Node依赖，再以提供的Node执行脚本并指定新输出目录。制作及校验沿用宿主技能。更新文件后先复核新版本，不为通过检查直接改写审阅哈希。
+编辑 `desk-research-content.json` 并维护口径和断言引用。`authoring/render.mjs` 使用宿主当前的 `@oai/artifact-tool` 演示文稿运行时。通过已安装演示文稿技能解析 `PRESENTATION_SKILL_DIR`、`RUNTIME_PYTHON`、`RUNTIME_NODE_MODULES`，让脚本可访问该Node依赖，再以提供的Node执行脚本并指定新输出目录。制作及校验沿用宿主技能。更新文件后先复核新版本，不为通过检查直接改写审阅哈希。
 
 商品图与商标归原权利人，本案例用于研究说明。[图片来源](assets/image-source.json)。代码许可不转移第三方图片权利。
 
-SkillOpt增加了六个章节语义评估任务。本轮仅完成本地mock dry-run，外部回放被自动审批拦截，未取得真实模型评分或采用优化候选。
+用户授权后已完成真实 Codex 回放：验证 1/2（平均细项分 0.875），保留测试 1/2（0.750）。未生成候选修改，未采用，未证明优化提升。详见 [评估记录](skillopt-evaluation.json)。本轮是六个短文本章节审稿任务，不认证整册研究或来源真实性；裁判只收到 rubric 与回答。
