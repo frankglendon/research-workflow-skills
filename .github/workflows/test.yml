@@ -27,3 +27,4 @@ jobs:
       - run: python examples/north-america-retail/reproduce.py --output .runs/ci-full-case
       - run: python examples/retrieval/reproduce.py --output .runs/ci-retrieval
       - run: python examples/north-america-retail/professional-v2/reproduce.py --output .runs/ci-professional-v2
+      - run: python examples/north-america-retail/desk-v3/reproduce.py --output .runs/ci-desk-v3

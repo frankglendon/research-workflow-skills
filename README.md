@@ -20,7 +20,7 @@ The host agent performs reasoning and review. This repository provides skill ins
 
 ## See the behavior
 
-**Professional delivery (0.5.0):** [v2 research pack](examples/north-america-retail/professional-v2/README.md) adds a complete 104-node questionnaire, a linked 520-variable codebook and a 35-slide public-source desk report. Country-aware lists, carry-forward funnels and experience-filtered matrices are executable. [Download code and finished files](https://github.com/frankglendon/research-workflow-skills/releases/tag/case-study-v2). Chinese master; localization, production programming and field piloting remain pending.
+**Desk workflow rebuild (0.6.0):** [Current desk case](examples/north-america-retail/desk-v3/README.md) adds question-driven chapter research, competitor and country analysis, counterevidence and editorial review. The earlier v2 desk report had insufficient analytical depth and is retained as history. Its questionnaire and codebook remain in the [v2 pack](examples/north-america-retail/professional-v2/README.md). File validity and test counts do not certify research quality.
 
 **Tavily-first retrieval (0.4.0):** the evidence skill now has a persistent MCP request journal, source snapshots, bounded retries and local evidence-candidate search. Firecrawl remains an explicit page-extraction option. See [integration and actual scope](docs/retrieval.md) or run `python examples/retrieval/reproduce.py --output .runs/retrieval-demo` for the synthetic, zero-network demonstration.
 

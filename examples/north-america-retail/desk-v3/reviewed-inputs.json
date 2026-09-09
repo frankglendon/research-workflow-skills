@@ -1,0 +1,20 @@
+{
+  "version": "desk-v3",
+  "sha256": {
+    "README.md": "b2eff1b50242a69aac21cdba4f698391496d656da04bcb0527aed74a266afa4a",
+    "README.zh-CN.md": "2a85d259e1c81ea7abb8b97a2e527b48177b15d6bc87bf23f3f81293a2943d2a",
+    "assets/image-source.json": "f101536e57627a3b45e797aa2cc901981529baa949a6bd03b19d44fb98e74a26",
+    "assets/moon.jpg": "03c81052dea643384462033fa0d2f002c219a7dae0a9c0a0bcc016850674a942",
+    "authoring/render.mjs": "0d5e5bf14689d08d27e684eb9f5957852b444442cc907b1d372bdc9afca8d3eb",
+    "claims.json": "db7311a66e9827e1927cf959cd597f77aba2a9a44875333a57a9a443096e4ac0",
+    "deliverables/desk-research.pptx": "5526a158c4488f5d37b3219f7ad7d5531974bb48451699e1c019adea35847758",
+    "desk-research-content.json": "90027e290a8fa223ab4d931d190bcfda18809552ffa14472ac9a50d5559201b1",
+    "desk-research.zh-CN.md": "41b133e07d4d3d079f6069b42da0ce1958e22096b485b50033ee61b7bd679f13",
+    "editorial-review.zh-CN.md": "99fd75e7dadf18e178211e8f5f7a9b2d6734120329e37a866aecc1ae8f018a0f",
+    "reproduce.py": "3c40bffc021c899962d88902a50df95293bd4aa64750a9c3a339002e2db4f1a6",
+    "research-map.json": "1efec9b7b432b826724ddcfb20b7818897e8b2ab3cdd25818dbf9f1b36ed9100",
+    "skillopt-status.json": "f9fd5701fdcac7907dbc3bb8a943084fc7ecc19ae0bf38420fae4779cd8612cd",
+    "sources.json": "f16224e9fb76588cebd56ae820c02397818f440e76abf82d6ea89cd66946ca0d"
+  },
+  "scope": "Frozen authored files; does not certify semantic quality"
+}

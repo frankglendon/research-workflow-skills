@@ -1,0 +1,845 @@
+# MINISO 北美案头研究
+
+公开资料截至2026年9月10日。独立研究案例，无机构背书。
+
+
+## 1. 平价生活方式与 IP 消费的北美机会
+
+美国、加拿大、墨西哥
+案头研究报告
+公开资料截至 2026 年 9 月 10 日
+
+## 2. 三个商业问题决定本报告的分析主线
+
+
+需求：哪些消费增长与 MINISO 的商品和场景有关？：区分行业增长、收礼对象和购买任务，判断增长是否能迁移到具体选品。
+
+竞争：消费者为何选择其他品牌，MINISO 可以借鉴什么？：按商品、价格、体验、渠道和复购机制比较，检验“平价＋IP”的差异性。
+
+国家：美国经验如何在加拿大与墨西哥落地？：以当地商品、玩家和履约证据调整路径，给出有条件的机会优先顺序。
+
+**研究含义：** 研究覆盖消费与竞争方向；门店投资回报需要客户内部经营数据
+
+## 3. 机会集中在具体购买任务，竞争已进入商品组合与体验层面
+
+
+需求判断：美国玩具增长得到销量与授权产品共同支持，礼品消费同时重视收礼适配。：优先区分轻收藏、自用小礼与确定性送礼，避免把毛绒或 IP 整体视为必胜赛道。
+
+竞争判断：Daiso、Five Below已将角色商品嵌入文具、家居与低价日常消费。：MINISO需要用角色系列完整度、跨品类搭配和购买便利形成具体选择理由。
+
+国家判断：加拿大有密集平价参照，墨西哥已有角色跨品类目录和门店自取基础。：美国聚焦需求与选品，加拿大突出可解释价值，墨西哥衔接系列选购与本地履约。
+
+**研究含义：** 近期研究优先项：角色跨品类搭配、送礼确定性，以及各国库存/支付/自取信息的一致性
+
+来源：[D05 Circana · US Toy Industry Posts Strongest First Half in Six Years](https://www.circana.com/post/us-toy-industry-posts-strongest-first-half-in-six-years-circana-reports)；[D06 Deloitte · 2025 Holiday Retail Survey](https://www.deloitte.com/content/dam/insights/articles/2025/us188488_cic-holiday-retail/pdf/DI_2025-Holiday-Survey.pdf)；[D16 MINISO México · Cinnamoroll collection](https://www.miniso.com.mx/sanrio/cinnamoroll)；[D20 Daiso USA · September Daiso Deals](https://daisous.com/blogs/daiso-updates/september-daiso-deals-halloween-sanrio-bt21-and-more)；[D25 Statistics Canada · Retail trade, June 2026](https://www150.statcan.gc.ca/n1/daily-quotidien/260821/dq260821a-eng.htm)；[D26 Five Below · Hello Kitty assortment](https://www.fivebelow.com/categories/top-brands/hello-kitty)
+
+## 4. MINISO 参与多种购买任务，同一消费者会跨渠道替代
+
+
+日常好物与顺手购买：Daiso活动包括文具、零食、节庆摆件；Five Below角色商品覆盖日用。：价格参照来自邻近货架，功能和可爱外观共同决定是否加购。
+
+角色收藏与随身展示：POP MART经营盲盒、挂件和大体量玩偶。：同一角色可覆盖入门、重复收藏和升级购买，价格结构不能只看一个爆款。
+
+送礼与表达关系：Build-A-Bear提供参与制作；BoxLunch围绕粉丝礼品组织商品。：消费者也在比较礼物是否适合对方，以及选择和呈现是否省心。
+
+跨品类角色生活方式：MINISO墨西哥Cinnamoroll系列延伸到家居、厨房和科技配件。：分析单元应包含“角色×任务×商品”，才能连接品类规划与消费者研究。
+
+**研究含义：** 竞品集按争夺的购买任务划分；既比较同业杂货，也比较收藏和送礼渠道
+
+来源：[D13 POP MART US · THE MONSTERS Exciting Macaron / related products](https://www.popmart.com/us/products/675/the-monsters-exciting-macaron-vinyl-face-blind-box)；[D16 MINISO México · Cinnamoroll collection](https://www.miniso.com.mx/sanrio/cinnamoroll)；[D18 Build-A-Bear · Form 10-Q, quarter ended Nov 1, 2025](https://ir.buildabear.com/static-files/beef4f8f-4625-4c9c-8e9d-7bed6e3bb225)；[D20 Daiso USA · September Daiso Deals](https://daisous.com/blogs/daiso-updates/september-daiso-deals-halloween-sanrio-bt21-and-more)；[D21 BoxLunch · Company Info](https://www.boxlunch.com/customer-service/boxlunch-policies/company-info)；[D26 Five Below · Hello Kitty assortment](https://www.fivebelow.com/categories/top-brands/hello-kitty)
+
+## 5. 交叉品类需要分别读增长，现有数据不足以合成一个总市场
+
+
+美国玩具追踪：2025年销售额增长6%，包含游戏、积木、毛绒等不同类别。：可判断部分商品的行业势头，不能代表全部生活方式零售。
+
+G12玩具追踪：2025年销售额增长7%，涵盖12个被追踪国家。：可作为跨市场方向背景，不拆成加拿大或墨西哥各自增速。
+
+加拿大总零售：2025年8372亿加元，包含汽车等大类。：提供宏观消费背景，不能用于推算MINISO可服务市场。
+
+墨西哥零售电商：AMVO摘要为9410亿比索，覆盖广泛零售类别。：说明渠道规模，但与实体零售及玩具数据存在范围交叉。
+
+**研究含义：** 战略判断基于分项证据；本报告不把这些不同口径数字相加成为 TAM
+
+来源：[D04 Circana · U.S. Toy Industry Returns to Growth in 2025](https://www.circana.com/post/u-s-toy-industry-returns-to-growth-in-2025-circana-reports)；[D19 Circana · Global Toy Industry Rebounds in 2025](https://www.circana.com/post/global-toy-industry-rebounds-in-2025-as-sales-rise-7-fueled-by-pop-culture-collectibles-and-kidu)；[D23 AMVO · Estudio de Venta Online 2026](https://amvo.org.mx/descarga-evo-2026)；[D24 Statistics Canada · Retail trade, December 2025](https://www150.statcan.gc.ca/n1/daily-quotidien/260220/dq260220a-eng.htm)
+
+## 6. 美国玩具销售在 2026 年上半年继续增长
+
+销售额同比增长，%
+
+| 项目 | 数值 |
+|---|---|
+| 2025全年 | 6 |
+| 2026上半年 | 17 |
+
+市场信号：2025年恢复增长，2026年上半年增速进一步提高。
+
+可用解释：需求仍有活跃度，为相关商品提供机会窗口。
+
+适用边界：两个观察期季节结构不同，不能外推全年17%增长。
+
+**研究含义：** 选品需要进入增长的具体子类，整体景气不能代替单个 IP 或毛绒系列验证
+
+来源：[D04 Circana · U.S. Toy Industry Returns to Growth in 2025](https://www.circana.com/post/u-s-toy-industry-returns-to-growth-in-2025-circana-reports)；[D05 Circana · US Toy Industry Posts Strongest First Half in Six Years](https://www.circana.com/post/us-toy-industry-posts-strongest-first-half-in-six-years-circana-reports)
+
+## 7. 2025 年玩具增量集中在游戏、积木及探索类
+
+美国2025年销售额同比，%
+
+| 项目 | 数值 |
+|---|---|
+| 游戏与拼图 | 37 |
+| 积木 | 15 |
+| 探索及其他 | 20 |
+
+增量集中：上述三类贡献行业92%的增量。
+
+重要反例：毛绒、娃娃与户外运动玩具属于明显下滑类别。
+
+选品含义：收藏和授权趋势不能直接等同于毛绒普涨。
+
+**研究含义：** 优先评估角色积木、收藏玩法与配件组合；毛绒项目单独验证购买理由和替代品
+
+来源：[D04 Circana · U.S. Toy Industry Returns to Growth in 2025](https://www.circana.com/post/u-s-toy-industry-returns-to-growth-in-2025-circana-reports)
+
+## 8. 美国玩具增长同时包含销量扩张和平均售价提升
+
+2026年上半年同比，%
+
+| 项目 | 数值 |
+|---|---|
+| 销售额 | 17 |
+| 销量 | 12 |
+| 平均售价 | 4 |
+
+销量：销量增长12%，表明增长不只是标价提高。
+
+售价：平均售价增长4%，还可能包含商品组合变化。
+
+推理边界：不能把全部售价变化解释成同款提价或消费者愿付溢价。
+
+**研究含义：** MINISO应分别监测售出件数、同款价格和品类组合，区分客流机会与客单结构机会
+
+口径：销售额约由销量×平均售价构成；披露值经四舍五入，12%与4%不应简单相加。
+
+来源：[D05 Circana · US Toy Industry Posts Strongest First Half in Six Years](https://www.circana.com/post/us-toy-industry-posts-strongest-first-half-in-six-years-circana-reports)
+
+## 9. 授权商品增速领先整体，价值仍需要具体角色与玩法承接
+
+美国2026年上半年销售额同比，%
+
+| 项目 | 数值 |
+|---|---|
+| 全部玩具 | 17 |
+| 授权玩具 | 24 |
+
+需求线索：授权玩具占销售39%，其增速高于整体。
+
+业务解释：熟悉角色有助于产品被识别，但授权本身尚不能解释转化。
+
+竞争约束：多家渠道可经营相同授权，差异要落在商品与体验。
+
+**研究含义：** IP选择同时评估认知、商品适配和竞争供给，避免用角色知名度单独决定采购
+
+来源：[D05 Circana · US Toy Industry Posts Strongest First Half in Six Years](https://www.circana.com/post/us-toy-industry-posts-strongest-first-half-in-six-years-circana-reports)
+
+## 10. 青少年与成年收礼对象带来增长，画像需围绕使用情境展开
+
+美国2026年上半年相关玩具销售同比，%
+
+| 项目 | 数值 |
+|---|---|
+| 12–17岁收礼对象 | 33 |
+| 18岁以上收礼对象 | 25 |
+
+已知行为：青少年和成年收礼对象均有增长。
+
+另一个口径：纯成人家庭贡献55%销售，不能当作成年购买者占比。
+
+画像切入：把购买者、最终使用者和礼物接受者分别识别。
+
+**研究含义：** 机会描述采用自用、收藏、送礼任务；本报告不虚构年龄、性别占比或市场分群规模
+
+来源：[D05 Circana · US Toy Industry Posts Strongest First Half in Six Years](https://www.circana.com/post/us-toy-industry-posts-strongest-first-half-in-six-years-circana-reports)
+
+## 11. 假日预算趋紧，礼品需要让消费者确信钱花得合适
+
+美国受访者假日季计划平均花费，美元
+
+| 项目 | 数值 |
+|---|---|
+| 2024计划 | 1778 |
+| 2025计划 | 1595 |
+
+支出背景：2025年计划预算低于2024年，消费者会比较礼物价值。
+
+选择依据：64%受访者喜欢收到愿望清单上的礼物。
+
+研究含义：能识别收礼偏好、展示商品细节和减少选择风险具有价值。
+
+**研究含义：** 送礼陈列可按角色、对象与预算组织；盲选机制应与确定款选择并存
+
+口径：Deloitte在线调查n=4270，2025-08-27至09-05；计划而非实际花费，亦非2026预测。
+
+来源：[D06 Deloitte · 2025 Holiday Retail Survey](https://www.deloitte.com/content/dam/insights/articles/2025/us188488_cic-holiday-retail/pdf/DI_2025-Holiday-Survey.pdf)
+
+## 12. 自用、收藏和送礼要求不同的商品与信息组合
+
+
+自用小礼：Jellycat以人格化商品叙事赋予熟悉物体情感角色。：明确触感、尺寸和日常摆放/携带方式，让购买理由连接真实用途。
+
+重复收藏：POP MART提供系列与整套规则，消费者可以围绕同一角色继续购买。：完整说明款式、重复和整套规则，降低期待与实际收到商品的落差。
+
+确定性送礼：调查显示愿望清单偏好；Build-A-Bear强调个性化和场合。：商品选项、礼物包装、祝福信息和收礼者偏好可共同提高选择确定性。
+
+**研究含义：** 同一 IP 可以服务多个任务，但需要不同的商品说明、陈列及后续沟通
+
+来源：[D06 Deloitte · 2025 Holiday Retail Survey](https://www.deloitte.com/content/dam/insights/articles/2025/us188488_cic-holiday-retail/pdf/DI_2025-Holiday-Survey.pdf)；[D13 POP MART US · THE MONSTERS Exciting Macaron / related products](https://www.popmart.com/us/products/675/the-monsters-exciting-macaron-vinyl-face-blind-box)；[D14 Jellycat US · Amuseables Moon](https://us.jellycat.com/amuseables-moon)；[D18 Build-A-Bear · Form 10-Q, quarter ended Nov 1, 2025](https://ir.buildabear.com/static-files/beef4f8f-4625-4c9c-8e9d-7bed6e3bb225)
+
+## 13. Daiso 与 Five Below 已覆盖平价角色商品，MINISO 需要更具体的差异
+
+
+Daiso：官方活动页覆盖Sanrio零食、盲袋、文具和BT21系列。：既有低价日用品，也使用角色吸引购买；“有IP”并不构成排他优势。
+
+Five Below：Hello Kitty目录横跨毛绒、服饰、学习用品与家居。：以跨品类角色货架竞争顺手购买和礼品预算。
+
+MINISO：墨西哥Cinnamoroll系列覆盖更多生活场景。：可比较系列完整度、跨品类搭配、商品更新和本地购买便利，而非宣称唯一占位。
+
+**研究含义：** 将“平价＋IP”作为竞争参与条件，进一步寻找客户能够持续执行的商品和服务差异
+
+来源：[D16 MINISO México · Cinnamoroll collection](https://www.miniso.com.mx/sanrio/cinnamoroll)；[D20 Daiso USA · September Daiso Deals](https://daisous.com/blogs/daiso-updates/september-daiso-deals-halloween-sanrio-bt21-and-more)；[D26 Five Below · Hello Kitty assortment](https://www.fivebelow.com/categories/top-brands/hello-kitty)
+
+## 14. 重点玩家分别争夺价格便利、角色收藏与礼物体验
+
+
+价格与便利参照：Dollarama：公开低价范围与密集加拿大门店；Daiso：日用、节庆和角色商品。：消费者的价格参照很具体，MINISO需要让商品差异在货架上可见。
+
+跨品类角色零售：Five Below：角色扩展到日用；BoxLunch：粉丝商品覆盖穿搭、家居和礼品。：系列组合与使用情境是比较重点，SKU数量本身不能证明优势。
+
+收藏升级：POP MART：同一角色覆盖徽章、盲盒、挂件和大体量玩偶。：入门到升级的价格与玩法可以分层，但需要匹配授权与库存条件。
+
+情感与参与体验：Jellycat：商品人格化；Build-A-Bear：制作参与；LEGO：拼搭活动。：消费者也会为使用过程和意义付费，借鉴时应考虑门店面积与员工成本。
+
+**研究含义：** 下面用商品、渠道、复购机制和适配边界逐一展开，不将不同商业模式硬排优劣
+
+来源：[D07 Dollarama · Investor Presentation Q4-FY2026](https://www.dollarama.com/en-CA/corp/wp-content/uploads/2026/04/Investor-Presentation-2026-03-24-FY26Q4-vF.pdf)；[D13 POP MART US · THE MONSTERS Exciting Macaron / related products](https://www.popmart.com/us/products/675/the-monsters-exciting-macaron-vinyl-face-blind-box)；[D14 Jellycat US · Amuseables Moon](https://us.jellycat.com/amuseables-moon)；[D17 LEGO Group · H1 2026 results](https://www.lego.com/en-us/aboutus/news/2026/august/strong-demand-and-brand-relevance-drive-lego-group-revenue-up-21-operating-profit-up-22-in-h1-2026)；[D18 Build-A-Bear · Form 10-Q, quarter ended Nov 1, 2025](https://ir.buildabear.com/static-files/beef4f8f-4625-4c9c-8e9d-7bed6e3bb225)；[D20 Daiso USA · September Daiso Deals](https://daisous.com/blogs/daiso-updates/september-daiso-deals-halloween-sanrio-bt21-and-more)；[D21 BoxLunch · Company Info](https://www.boxlunch.com/customer-service/boxlunch-policies/company-info)；[D26 Five Below · Hello Kitty assortment](https://www.fivebelow.com/categories/top-brands/hello-kitty)
+
+## 15. MINISO 北美门店网络扩张，为需求承接提供更多触点
+
+公司披露北美区域门店数，家
+
+| 项目 | 数值 |
+|---|---|
+| 2025年6月 | 394 |
+| 2025年12月 | 461 |
+| 2026年6月 | 536 |
+
+网络变化：北美门店一年净增142家。
+
+经营背景：同期披露北美上半年收入增长37%，同店GMV中个位数增长。
+
+解释边界：门店扩张、开店时点和收入确认不同，不能直接作增长归因瀑布图。
+
+**研究含义：** 扩大覆盖之后，还需验证新店与成熟店的商品组合、购买任务及复购差异
+
+来源：[D01 MINISO · 2026 June Quarter and Interim Results](https://ir.miniso.com/image/MINISO+2026+Q2%26H1+ER_EN.pdf)
+
+## 16. MINISO 会员已有销售联系，下一步研究应解释回访的具体理由
+
+
+可见基础：公司称美国会员约580万、贡献当地销售60.1%；加拿大官网有奖励计划。：会员销售占比体现触达基础，不等于会员方案造成增量。
+
+商品机制：角色系列可以跨毛绒、家居及配件，形成不同购买场景。：值得分开研究同IP复购、跨品类加购、促销驱动回访与纯积分领取。
+
+门店与内容：Eaton Centre案例用IP集合店及系列首发强化商品事件。：上新触达需要与本地有货信息相连，否则内容兴趣难转成完成购买。
+
+适配边界：公开披露没有按国家、门店成熟度和会员批次给出完整增量。：经营评价需结合会员入会前后行为与可比未入会群体，避免简单归因。
+
+**研究含义：** 可先优化角色偏好与上新通知的连接，再用经营数据检验通知、入店和复购的关系
+
+来源：[D01 MINISO · 2026 June Quarter and Interim Results](https://ir.miniso.com/image/MINISO+2026+Q2%26H1+ER_EN.pdf)；[D08 MINISO Canada · Canada official homepage](https://miniso.ca)；[D16 MINISO México · Cinnamoroll collection](https://www.miniso.com.mx/sanrio/cinnamoroll)；[D22 MINISO · Brand Profile / brand timeline](https://www.miniso.com/brand)
+
+## 17. Five Below 以平价多品类参与角色消费，销售保持增长
+
+公司销售额，亿美元
+
+| 项目 | 数值 |
+|---|---|
+| FY2024 | 38.76527 |
+| FY2025 | 47.64147 |
+
+经营表现：FY2025收入增长22.9%。
+可比店销售增长12.8%。
+
+商品观察：凯蒂猫商品覆盖毛绒、服饰、文具和家居。
+
+竞争含义：既争夺角色预算，也争夺价格敏感消费者的顺手购买。
+
+**研究含义：** 对标应观察同任务购物篮、角色陈列和相关配件，不能只比较两家公司的收入增速
+
+口径：FY2025截至2026-01-31；商品目录是2026-09-10快照，两者不构成因果证据。
+
+来源：[D02 Five Below · Fourth Quarter and Fiscal 2025 Financial Results](https://investor.fivebelow.com/news/press-release-details/2026/Five-Below-Inc--Announces-Fourth-Quarter-and-Fiscal-2025-Financial-Results/default.aspx)；[D26 Five Below · Hello Kitty assortment](https://www.fivebelow.com/categories/top-brands/hello-kitty)
+
+## 18. Five Below 的角色货架把粉丝兴趣连接到多种日常购买
+
+
+服务任务：同一Hello Kitty入口呈现玩具、毛绒和生活用品。：角色成为浏览入口，消费者可按喜好跨品类选购。
+
+商品与价格：本轮核实目录结构，未取得同款、同店、同日的完整价格样本。：可确认多品类竞争，暂不评价谁更便宜或哪个渠道毛利更高。
+
+渠道机制：商品目录可把低频收藏与日常所需放在一个选择场景里。：对MINISO的可借鉴点是让角色系列覆盖多个使用任务。
+
+结果与边界：公司可比店销售增长与整体增长均为正。：尚不能把增长归因于Sanrio或角色商品，需商品/门店数据验证贡献。
+
+**研究含义：** 用角色购物篮比较竞争：主商品、配件、包装和可获得性一起看
+
+来源：[D02 Five Below · Fourth Quarter and Fiscal 2025 Financial Results](https://investor.fivebelow.com/news/press-release-details/2026/Five-Below-Inc--Announces-Fourth-Quarter-and-Fiscal-2025-Financial-Results/default.aspx)；[D26 Five Below · Hello Kitty assortment](https://www.fivebelow.com/categories/top-brands/hello-kitty)
+
+## 19. POP MART 美洲收入以线上为主，门店数量无法解释全部增长
+
+2025年美洲收入渠道占比，%
+
+| 项目 | 数值 |
+|---|---|
+| 线上 | 64 |
+| 线下 | 32.8 |
+| 其他 | 3.2 |
+
+渠道结构：线上占64.0%，线下32.8%，其他3.2%。
+
+扩张背景：实体店由22家增至64家，网络扩张与数字渠道并行。
+
+比较边界：美洲不是美国或北美；收入单位与地域需独立保留。
+
+**研究含义：** 收藏项目需要同时设计线上商品信息、发售规则与门店体验，不能只模仿开大店
+
+来源：[D03 POP MART / HKEX · Annual Results for the Year Ended 31 December 2025](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032500285.pdf)
+
+## 20. POP MART 同一角色覆盖小件入口与高价升级商品
+
+美国官网商品推荐区标价，美元
+
+| 项目 | 数值 |
+|---|---|
+| 徽章盲盒 | 8.99 |
+| Have a Seat盲盒 | 26.99 |
+| Fall in Wild玩偶 | 99.99 |
+| I Found You玩偶 | 199.99 |
+
+价格结构：同一角色家族通过不同载体形成多个购买入口。
+
+收藏机制：Macaron整套6个不重复盲盒，规则是商品价值的一部分。
+
+适用边界：不同商品规格，仅说明可见台阶，不能估计销售分布或均价。
+
+**研究含义：** MINISO可评估同IP的小配件、主商品和礼盒层级；具体价格仍需成本与愿付验证
+
+口径：2026-09-10快照；税费、运费及库存未结算核验；Macaron规则不套用其他系列。
+
+来源：[D13 POP MART US · THE MONSTERS Exciting Macaron / related products](https://www.popmart.com/us/products/675/the-monsters-exciting-macaron-vinyl-face-blind-box)
+
+## 21. Jellycat 用人格化叙事帮助消费者为日常物体找到情感意义
+
+
+商品证据：Amuseables Moon将月亮变成具有表情和性格的毛绒，官网起价33美元。：情感叙事与可见造型共同赋予产品识别度。
+
+购买任务：文案给商品写性格、习惯和情境，并提供礼物选择入口。：消费者可用商品表达关系或个人偏好，价值不必依赖已有影视角色。
+
+可借鉴机制：把商品的形态、触感与日常使用场景连成具体故事。：适用于原创角色与非IP商品；需要产品本身支持叙事，不能只改文案。
+
+适配边界：本轮核实商品页面，未取得美国销售、受众占比或广告增量。：不能据此宣称某年龄性别主导，也不把起价当全系列价格。
+
+**研究含义：** 原创商品研究应同时评估“外观喜欢”与“为什么想带回家/送给谁”
+
+来源：[D14 Jellycat US · Amuseables Moon](https://us.jellycat.com/amuseables-moon)
+
+## 22. LEGO 通过多主题产品与零售体验扩大需求覆盖
+
+集团全球收入，亿丹麦克朗
+
+| 项目 | 数值 |
+|---|---|
+| 2025上半年 | 346 |
+| 2026上半年 | 419 |
+
+增长结果：集团收入增长21%。
+消费者销售增长22%。
+
+商品供给：推出330多个新品，畅销主题兼有自有与娱乐授权IP。
+
+渠道观察：品牌门店1106家，同时与零售合作伙伴开展互动展示。
+
+**研究含义：** 可借鉴跨兴趣产品架构与参与式展示；全球收入不用于估计美国市场份额
+
+来源：[D17 LEGO Group · H1 2026 results](https://www.lego.com/en-us/aboutus/news/2026/august/strong-demand-and-brand-relevance-drive-lego-group-revenue-up-21-operating-profit-up-22-in-h1-2026)
+
+## 23. LEGO 的主题组合把角色热度与持续参与活动结合
+
+
+产品主题：Botanicals、Icons、Technic、Speed Champions与Star Wars进入畅销主题。：兴趣入口包括植物、机械、车辆和娱乐角色，降低对单一IP的依赖。
+
+产品活动：拼搭过程本身构成使用体验；公司继续推进门店互动展示。：体验可以发生在购买后，也可以在门店帮助理解商品。
+
+MINISO适配：角色积木、桌面摆件或可组装礼物有相邻任务。：借鉴主题与活动组织，不能直接套用LEGO的技术、专利或高投入体系。
+
+研究重点：公开主题清单没有提供每类在北美的消费结构。：下一步仅验证与自身商品相关的参与时长、难度和送礼适配。
+
+**研究含义：** 产品创新应检验消费者愿不愿参与使用过程，而不只是测试包装是否吸睛
+
+来源：[D17 LEGO Group · H1 2026 results](https://www.lego.com/en-us/aboutus/news/2026/august/strong-demand-and-brand-relevance-drive-lego-group-revenue-up-21-operating-profit-up-22-in-h1-2026)
+
+## 24. Build-A-Bear 将顾客参与制作嵌入礼物意义
+
+
+选择与制作：顾客参与毛绒填充、穿衣、配饰和命名。：商品选择转化为亲自完成的礼物或纪念过程。
+
+送礼场景：公司以送礼、个性化和授权产品拓展年龄人群。：生日、纪念和关系表达可成为持续购买任务，不能只按儿童玩具理解。
+
+数字与实体：电商关注收藏和送礼者，实体端保留互动过程。：不同触点承接不同任务，网站需帮助选择，门店提供参与体验。
+
+MINISO适配：完整制作流程需要人员和面积。：可先研究轻量包装、祝福卡或配件搭配，避免照搬高成本制作店。
+
+**研究含义：** 借鉴“购买者参与”这一机制，具体服务形式须匹配门店人力和等候容忍度
+
+来源：[D18 Build-A-Bear · Form 10-Q, quarter ended Nov 1, 2025](https://ir.buildabear.com/static-files/beef4f8f-4625-4c9c-8e9d-7bed6e3bb225)
+
+## 25. Daiso 把角色商品、节庆和日用品放在同一低价选择环境
+
+
+商品任务：活动页包含万圣节摆件、Sanrio零食/盲袋/文具和BT21文具系列。：角色消费与日用需求共存，形成多个入店与加购理由。
+
+价格观察：页面列出2.25美元万圣节摆件。：可以识别低额购买入口，但页面未标年份，不当作当前同款门店报价。
+
+渠道边界：美国FAQ对其线上业务设置配送范围。：官网与实体体验并不完全等同，研究时需核对渠道业务范围。
+
+对MINISO含义：两者在部分角色与任务上有交集。：差异比较应深入商品设计、系列完整度、陈列和实际获得便利。
+
+**研究含义：** Daiso是“低价角色商品已存在”的反证，需要进入核心竞品清单
+
+来源：[D09 Daiso USA · FAQ](https://daisous.com/pages/faq)；[D20 Daiso USA · September Daiso Deals](https://daisous.com/blogs/daiso-updates/september-daiso-deals-halloween-sanrio-bt21-and-more)
+
+## 26. Dollarama 在加拿大提供清晰而密集的低价参照
+
+
+经营观察：截至2026-02-01，加拿大1691家店，公开价格范围C$0.25–C$5.00。：覆盖网络和价格表述使其成为日用与顺手购买的重要参照。
+
+可比范围：商品结构与MINISO并非完全相同。：比较日用、文具或简单礼品时应按任务配对，IP精品不能直接与所有低价SKU相除。
+
+地区变化：Dollarcity于2025年6月进入墨西哥，年底11家店。：墨西哥低价网络在增加，但其扩张速度和业务模式不能照搬加拿大。
+
+MINISO适配：消费者可能需要更明确的商品价值解释。：角色设计、功能组合和礼物完整性需要在货架上可见。
+
+**研究含义：** 加拿大定位应回答“比低价替代品多提供什么”，并用具体商品展示而非抽象品牌标签
+
+来源：[D07 Dollarama · Investor Presentation Q4-FY2026](https://www.dollarama.com/en-CA/corp/wp-content/uploads/2026/04/Investor-Presentation-2026-03-24-FY26Q4-vF.pdf)
+
+## 27. BoxLunch 围绕粉丝生活方式组织跨品类礼品
+
+
+购买入口：商品覆盖服饰、配饰、家居、礼品、收藏品，兼有授权和非授权。：角色兴趣可连接穿搭、家居表达和送礼，而非只集中在玩具。
+
+渠道模式：品牌同时经营网站和实体门店。：购物任务可以在内容、浏览和实体体验之间衔接。
+
+附加意义：品牌公布每消费10美元帮助提供一餐的公益承诺。：购买的意义可以超出商品功能，但不能据此推断公益提高转化。
+
+MINISO适配：跨品类角色系列与MINISO有较高任务相邻性。：可学习按粉丝生活场景组织商品，不能假定相同客户、价格或效果。
+
+**研究含义：** 重点借鉴角色系列如何成为生活方式组合，公益承诺的效果须另有证据
+
+来源：[D21 BoxLunch · Company Info](https://www.boxlunch.com/customer-service/boxlunch-policies/company-info)
+
+## 28. 可迁移的是购买机制，实施方式要服从 MINISO 的经营条件
+
+
+收藏层级：POP MART：同角色多载体、系列和整套规则。：可迁移：入口/主购/升级结构；限制：授权、库存和重复购买规则。
+
+商品意义：Jellycat：人格化形态与叙事。：可迁移：原创商品情境；限制：需要设计和产品品质支撑。
+
+参与体验：LEGO / Build-A-Bear：拼搭展示或顾客参与制作。：可迁移：轻量互动；限制：人力、面积和排队成本。
+
+系列日常化：Daiso / BoxLunch：角色跨文具、家居、穿搭及送礼任务。：可迁移：跨品类陈列；限制：商品匹配和系列供货完整度。
+
+**研究含义：** 优先选择能用现有商品与门店能力承接的机制，再决定是否投入更重的体验改造
+
+来源：[D13 POP MART US · THE MONSTERS Exciting Macaron / related products](https://www.popmart.com/us/products/675/the-monsters-exciting-macaron-vinyl-face-blind-box)；[D14 Jellycat US · Amuseables Moon](https://us.jellycat.com/amuseables-moon)；[D17 LEGO Group · H1 2026 results](https://www.lego.com/en-us/aboutus/news/2026/august/strong-demand-and-brand-relevance-drive-lego-group-revenue-up-21-operating-profit-up-22-in-h1-2026)；[D18 Build-A-Bear · Form 10-Q, quarter ended Nov 1, 2025](https://ir.buildabear.com/static-files/beef4f8f-4625-4c9c-8e9d-7bed6e3bb225)；[D20 Daiso USA · September Daiso Deals](https://daisous.com/blogs/daiso-updates/september-daiso-deals-halloween-sanrio-bt21-and-more)；[D21 BoxLunch · Company Info](https://www.boxlunch.com/customer-service/boxlunch-policies/company-info)
+
+## 29. 商品样本显示多种价格台阶，尚不足以证明 MINISO 价格优势
+
+
+低额参照：Daiso活动摆件US$2.25；Dollarama公开C$0.25–5.00。：前者是特定活动，后者为加元范围，均不与其他币种直接排名。
+
+收藏主购样本：POP MART Have a Seat盲盒US$26.99；Jellycat Moon起价US$33。：用途、尺寸与销售机制不同，仅说明消费者面对不同选择门槛。
+
+升级样本：POP MART相关玩偶：US$99.99与US$199.99。：证明同一角色存在升级商品，不能反推高价销售占比。
+
+本项目定价任务：本轮未得到三国同款、同规格、同日成交价格。：保留价格相对位置未决，先明确商品层级，再做本币购物篮比较。
+
+**研究含义：** 机会是清楚组织价值层级；最终价格须结合本地成本、替代商品与愿付水平
+
+来源：[D07 Dollarama · Investor Presentation Q4-FY2026](https://www.dollarama.com/en-CA/corp/wp-content/uploads/2026/04/Investor-Presentation-2026-03-24-FY26Q4-vF.pdf)；[D13 POP MART US · THE MONSTERS Exciting Macaron / related products](https://www.popmart.com/us/products/675/the-monsters-exciting-macaron-vinyl-face-blind-box)；[D14 Jellycat US · Amuseables Moon](https://us.jellycat.com/amuseables-moon)；[D20 Daiso USA · September Daiso Deals](https://daisous.com/blogs/daiso-updates/september-daiso-deals-halloween-sanrio-bt21-and-more)
+
+## 30. 加拿大 2025 年零售温和增长，数量增长低于金额增长
+
+2025全年同比，%
+
+| 项目 | 数值 |
+|---|---|
+| 零售金额 | 4 |
+| 零售销量口径 | 2.3 |
+
+总体环境：全年零售额8372亿加元，同比增长4.0%。
+
+数量背景：销量口径同比增长2.3%，低于金额增速。
+
+适用范围：包含汽车等大类，用作环境背景，不代表IP礼品需求。
+
+**研究含义：** 加拿大方案需要同时解释商品价值和具体购买任务，避免用总零售增长证明某个品类机会
+
+来源：[D24 Statistics Canada · Retail trade, December 2025](https://www150.statcan.gc.ca/n1/daily-quotidien/260220/dq260220a-eng.htm)
+
+## 31. 加拿大线上零售已有规模，线下仍承担主要销售
+
+2026年6月加拿大零售渠道占比，%
+
+| 项目 | 数值 |
+|---|---|
+| 线上零售 | 7.7 |
+| 其余零售 | 92.3 |
+
+月度观察：零售743亿加元，电商57亿加元，占比7.7%。
+
+实体背景：一般商品零售商环比增长2.7%。
+
+范围提醒：本国零售统计并不等于加拿大消费者所有跨境网络购买。
+
+**研究含义：** 数字入口可以服务门店选择与购买准备，不能仅凭线上占比决定渠道预算
+
+口径：季调月度口径；其余零售=100%−电商占比，基于披露比例计算。
+
+来源：[D25 Statistics Canada · Retail trade, June 2026](https://www150.statcan.gc.ca/n1/daily-quotidien/260821/dq260821a-eng.htm)
+
+## 32. 加拿大既有 IP 集合店，也有非 IP 商品供给基础
+
+
+零售案例：多伦多Eaton Centre IP Collection Store展示Sanrio并首发Harry Potter加拿大系列。：角色主题能够形成具体到门店的购物事件。
+
+数字入口：加拿大官网有角色系列、奖励计划、DoorDash和门店查询。：商品兴趣、入会与购买入口已经可见，需要核实实际库存和服务覆盖。
+
+供给侧观察：批发页称有1500多个非IP SKU、8类产品。：说明角色之外仍有品类供给，但批发目录不代表零售销售结构。
+
+本地竞争：Dollarama形成清晰低价参照。：角色系列需要展示多出的设计、功能和礼物价值，非IP商品也需任务清晰。
+
+**研究含义：** 加拿大优先研究“角色主商品＋有用配件”的组合价值，并分别评价零售与批发口径
+
+来源：[D07 Dollarama · Investor Presentation Q4-FY2026](https://www.dollarama.com/en-CA/corp/wp-content/uploads/2026/04/Investor-Presentation-2026-03-24-FY26Q4-vF.pdf)；[D08 MINISO Canada · Canada official homepage](https://miniso.ca)；[D15 MINISO Canada · Wholesale catalogue](https://miniso-ca.com/pages/wholesale)；[D22 MINISO · Brand Profile / brand timeline](https://www.miniso.com/brand)
+
+## 33. 加拿大的差异化应落在可解释的价值和角色系列完整度
+
+
+价格参照：Dollarama的低价范围和密集网络是当地事实。：MINISO对相邻日用商品应提供直观的设计/功能比较。
+
+购物任务：IP集合店能围绕角色组织多种商品。：在送礼与粉丝任务中比较完整套系，而非只拼最低单价。
+
+购买便利：官网包含配送与门店入口。：优先检查不同邮编的可达性、到店前库存信息与角色页面是否一致。
+
+本地适配：全国网络、地区结构和语言体验存在不同需求。：具体测试按服务省份和门店商圈分层，公开资料不直接替代本地消费者证据。
+
+**研究含义：** 加拿大可先验证“买得明白、搭配完整、拿得到”的零售表达
+
+来源：[D07 Dollarama · Investor Presentation Q4-FY2026](https://www.dollarama.com/en-CA/corp/wp-content/uploads/2026/04/Investor-Presentation-2026-03-24-FY26Q4-vF.pdf)；[D08 MINISO Canada · Canada official homepage](https://miniso.ca)；[D22 MINISO · Brand Profile / brand timeline](https://www.miniso.com/brand)
+
+## 34. 墨西哥的数字购买基础使商品信息与履约衔接成为研究重点
+
+
+渠道背景：AMVO 2026研究摘要披露9410亿比索零售电商与7720万数字购买者。：数字渠道具备可观规模；这些数字不能缩成IP、玩具或MINISO市场。
+
+本地能力：MINISO墨西哥FAQ列出宅配、自取和多种付款方式。：实际选择不仅取决于是否喜欢商品，也涉及能否使用合适付款与取货方式。
+
+经营任务：角色内容、商品详情、支付和自取信息可在本地路径中连接。：有网站功能不证明转化有效，应按完成购买过程查找不一致。
+
+比较边界：AMVO与加拿大官方零售统计的范围、样本和时期不同。：本报告不对两国电商成熟度作直接数字排名。
+
+**研究含义：** 墨西哥机会分析把角色选购与本地付款/自取一起看，避免只做品牌认知研究
+
+来源：[D11 MINISO México · Preguntas Frecuentes](https://www.miniso.com.mx/faq)；[D23 AMVO · Estudio de Venta Online 2026](https://amvo.org.mx/descarga-evo-2026)
+
+## 35. 墨西哥 Cinnamoroll 系列已经把角色延伸到多个生活场景
+
+
+毛绒与收藏：页面列有装饰毛绒及角色积木。：分别承接陪伴、摆放和参与组装的任务。
+
+上学与日用：午餐包、收纳和厨房容器进入同一系列。：一个角色可成为日常物品的选择线索，提高跨品类研究的必要性。
+
+个护与科技：角色进一步出现在美妆及科技配件。：需要确认形象延伸是否保持功能品质，而非假定贴角色就有效。
+
+获取方式：系列网页称可宅配或200多家店自取。：可研究从系列兴趣到本地可得性的衔接；数量为网页自述，未实测。
+
+**研究含义：** 优先测试同角色的跨任务搭配，区分真正加购与对原本日用品购买的替代
+
+来源：[D16 MINISO México · Cinnamoroll collection](https://www.miniso.com.mx/sanrio/cinnamoroll)
+
+## 36. 墨西哥购买路径需要把角色兴趣落实到付款和取货条件
+
+
+看到商品：按角色进入系列，比较毛绒、家居与配件。：详情页应说明规格与用途，帮助消费者判断是否适合自己或收礼者。
+
+决定购买：FAQ支持多种付款方式，含卡、现金网点和电子钱包。：不同方式可能影响完成时间与操作体验，不能只检验卡支付页面。
+
+选择获得方式：宅配与门店自取并存。：价格、预计时效、具体门店库存需要在决策前清楚呈现。
+
+兑现体验：公开页面说明的是功能，不是履约结果。：实际测试记录付款、取货信息和到手商品一致性，连接满意度与复购。
+
+**研究含义：** 本地转化研究应覆盖完整购买路径，并保留消费者未完成购买的具体原因
+
+来源：[D11 MINISO México · Preguntas Frecuentes](https://www.miniso.com.mx/faq)；[D16 MINISO México · Cinnamoroll collection](https://www.miniso.com.mx/sanrio/cinnamoroll)
+
+## 37. 墨西哥同时面对生活方式同业与新增低价网络
+
+
+生活方式同业：MUMUSO官网列出本地门店目录。：足以进入门店与任务比较，尚不足以给出全国份额或价格排名。
+
+新增低价供给：Dollarcity 2025年6月开首店，年底在墨西哥11家。：观察低价网络扩张对日用品任务的影响，不套用加拿大1691家规模。
+
+MINISO现有能力：当地Cinnamoroll系列与自取服务已有公开呈现。：机会可从已有角色商品和履约基础出发，不需要先假设市场为空白。
+
+比较单元：同商圈、同用途商品、可用付款和获得时间。：渠道差异要在同一购买任务下比较，才能解释消费者为什么换店。
+
+**研究含义：** 墨西哥先做商圈任务比较与角色购物篮观察，再判断具体扩张或商品投入
+
+来源：[D07 Dollarama · Investor Presentation Q4-FY2026](https://www.dollarama.com/en-CA/corp/wp-content/uploads/2026/04/Investor-Presentation-2026-03-24-FY26Q4-vF.pdf)；[D12 MUMUSO México · Directorio de Tiendas](https://mumusomx.com/directorio-2)；[D16 MINISO México · Cinnamoroll collection](https://www.miniso.com.mx/sanrio/cinnamoroll)
+
+## 38. 三个市场需要不同的价值表达与购买路径重点
+
+
+美国：玩具与授权需求活跃，Five Below/Daiso也经营角色生活用品。：强调商品组合、角色选择和送礼任务，比较实际替代品。
+
+加拿大：低价参照清晰，已有IP集合店和数字入口。：解释额外价值，检查本地可得性与系列完整度。
+
+墨西哥：角色已跨品类，宅配、自取和多种付款共存。：把系列兴趣衔接到本地付款、门店库存与获得体验。
+
+**研究含义：** 北美采用共同的角色与商品研究框架，各国保留不同竞争参照和渠道执行条件
+
+来源：[D05 Circana · US Toy Industry Posts Strongest First Half in Six Years](https://www.circana.com/post/us-toy-industry-posts-strongest-first-half-in-six-years-circana-reports)；[D07 Dollarama · Investor Presentation Q4-FY2026](https://www.dollarama.com/en-CA/corp/wp-content/uploads/2026/04/Investor-Presentation-2026-03-24-FY26Q4-vF.pdf)；[D11 MINISO México · Preguntas Frecuentes](https://www.miniso.com.mx/faq)；[D16 MINISO México · Cinnamoroll collection](https://www.miniso.com.mx/sanrio/cinnamoroll)；[D22 MINISO · Brand Profile / brand timeline](https://www.miniso.com/brand)；[D25 Statistics Canada · Retail trade, June 2026](https://www150.statcan.gc.ca/n1/daily-quotidien/260821/dq260821a-eng.htm)；[D26 Five Below · Hello Kitty assortment](https://www.fivebelow.com/categories/top-brands/hello-kitty)
+
+## 39. 美国可优先验证角色商品在自用、轻收藏与送礼之间的组合
+
+
+机会依据：行业销量增长、授权表现积极，同时有明确低价角色竞争。：可研究任务组合带来的选择理由，避免单纯扩充IP数量。
+
+商品方向：小配件、角色主商品、确定款礼物提供不同入口。：展示用途和组合关系，消费者可按自己或收礼者的喜好选择。
+
+反向条件：2025年毛绒大类下滑；相同授权已被多个渠道经营。：若商品同质且功能/设计无差别，角色热度不足以支撑溢价。
+
+行动含义：先比较同角色不同载体与主要替代商品。：以选择理由、跨品类加购和礼物适配评估组合，而非只看喜欢度。
+
+**研究含义：** 美国研究优先级：任务适配与替代关系，随后再检验价格和商品组合
+
+来源：[D04 Circana · U.S. Toy Industry Returns to Growth in 2025](https://www.circana.com/post/u-s-toy-industry-returns-to-growth-in-2025-circana-reports)；[D05 Circana · US Toy Industry Posts Strongest First Half in Six Years](https://www.circana.com/post/us-toy-industry-posts-strongest-first-half-in-six-years-circana-reports)；[D06 Deloitte · 2025 Holiday Retail Survey](https://www.deloitte.com/content/dam/insights/articles/2025/us188488_cic-holiday-retail/pdf/DI_2025-Holiday-Survey.pdf)；[D20 Daiso USA · September Daiso Deals](https://daisous.com/blogs/daiso-updates/september-daiso-deals-halloween-sanrio-bt21-and-more)；[D26 Five Below · Hello Kitty assortment](https://www.fivebelow.com/categories/top-brands/hello-kitty)
+
+## 40. 加拿大可围绕商品价值说明与系列完整度组织小范围试验
+
+
+机会依据：IP集合店与数字入口已存在，低价网络同时提供强参照。：在已有门店与供货能力下，细化商品为什么值得选择。
+
+可行方向：主商品搭配有用配件，展示用途、材质和礼物选择。：让价值具体到消费者能看到的差异，而非依赖品牌宣传。
+
+实施条件：指定门店能稳定供应核心角色系列。：库存断层时先处理可得性，再评价陈列和沟通的效果。
+
+评估重点：对照任务相近商品与低价替代品。：观察价值理解、购买选择和完成获取，价格判断全部保留加元。
+
+**研究含义：** 加拿大先检验“额外价值说得清、核心商品拿得到”，再讨论扩大投入
+
+来源：[D07 Dollarama · Investor Presentation Q4-FY2026](https://www.dollarama.com/en-CA/corp/wp-content/uploads/2026/04/Investor-Presentation-2026-03-24-FY26Q4-vF.pdf)；[D08 MINISO Canada · Canada official homepage](https://miniso.ca)；[D22 MINISO · Brand Profile / brand timeline](https://www.miniso.com/brand)
+
+## 41. 墨西哥可用角色套系连接商品浏览与本地获得方式
+
+
+机会依据：角色跨家居、收藏和配件，网站支持本地付款与自取。：用一个角色连接多个任务，减少消费者跨页面寻找商品的成本。
+
+可行方向：按送礼、自用桌面或随身配件组织系列选择。：组合应说明具体用途、单件价格与能否在同一地点获得。
+
+实施条件：网页与门店库存、支付说明及自取条件一致。：若组合商品不能一起取得，需解释配送和缺货选择，避免承诺失配。
+
+评估重点：记录角色浏览后是否找到合适商品并完成获得。：区分无购买意愿、付款不便、缺货和获得时间不合适。
+
+**研究含义：** 墨西哥先把选择与获得的路径做完整，再判断系列组合能否带来增量
+
+来源：[D11 MINISO México · Preguntas Frecuentes](https://www.miniso.com.mx/faq)；[D16 MINISO México · Cinnamoroll collection](https://www.miniso.com.mx/sanrio/cinnamoroll)；[D23 AMVO · Estudio de Venta Online 2026](https://amvo.org.mx/descarga-evo-2026)
+
+## 42. 角色上新只有连接到选择、获得和使用，才形成完整体验
+
+
+吸引兴趣：角色上新或会员通知引起关注。：信息需要指向具体商品与适用任务，避免仅推送IP名字。
+
+帮助选择：明确尺寸、材质、款式和盲盒规则。：送礼者更需要确定性，收藏者更关心系列与重复风险。
+
+完成获得：呈现价格、付款方式、库存和配送/自取条件。：不同国家与触点可提供不同路径，但承诺必须一致。
+
+支持再购买：围绕使用感受和角色偏好解释下一次相关商品。：区分自然复购与促销影响，以批次数据验证会员联系的效果。
+
+**研究含义：** 体验优化应按消费者完成任务的过程组织，品牌、商品、渠道研究采用同一条路径
+
+来源：[D01 MINISO · 2026 June Quarter and Interim Results](https://ir.miniso.com/image/MINISO+2026+Q2%26H1+ER_EN.pdf)；[D06 Deloitte · 2025 Holiday Retail Survey](https://www.deloitte.com/content/dam/insights/articles/2025/us188488_cic-holiday-retail/pdf/DI_2025-Holiday-Survey.pdf)；[D11 MINISO México · Preguntas Frecuentes](https://www.miniso.com.mx/faq)；[D13 POP MART US · THE MONSTERS Exciting Macaron / related products](https://www.popmart.com/us/products/675/the-monsters-exciting-macaron-vinyl-face-blind-box)；[D16 MINISO México · Cinnamoroll collection](https://www.miniso.com.mx/sanrio/cinnamoroll)
+
+## 43. IP 商品规划需要分别定义入口、主购和升级任务
+
+
+入口商品：徽章、文具或随身小配件的购买门槛较易解释。：承担尝试与日常使用，需提供清晰功能和价格。
+
+主购商品：毛绒、角色积木或核心家居商品承接主要任务。：明确造型、品质和使用体验，不能只依赖同一图案。
+
+升级选择：较大规格、更多参与体验或礼物组合。：价值差异需要真实内容支撑，不能仅提高价格或扩大包装。
+
+规则匹配：盲盒、确定款和整套机制对应不同预期。：送礼与收藏可并存，但消费者应在购买前理解收到什么。
+
+**研究含义：** 层级用于设计商品任务；本报告没有足够成本与愿付数据给出具体上市价格
+
+来源：[D13 POP MART US · THE MONSTERS Exciting Macaron / related products](https://www.popmart.com/us/products/675/the-monsters-exciting-macaron-vinyl-face-blind-box)；[D16 MINISO México · Cinnamoroll collection](https://www.miniso.com.mx/sanrio/cinnamoroll)
+
+## 44. 四类反证决定机会判断何时需要调整
+
+
+品类反证：毛绒大类曾下滑，行业授权增长未必惠及全部商品。：若具体系列购买动机弱，调整品类和任务，不能靠更多IP填补。
+
+竞争反证：Daiso、Five Below已覆盖平价角色商品。：若消费者看不见差异，回到商品设计、功能和获得便利。
+
+国家反证：加拿大低价参照与墨西哥付款/自取条件不同。：美国成功机制仅在本地条件成立时迁移，不套用同一价格或门店方案。
+
+数据反证：现有企业收入与官网功能无法证明单项动作效果。：新增经营或消费者证据与判断冲突时，更新机会优先顺序。
+
+**研究含义：** 对机会保持条件化判断，既保留支持证据，也保留会改变结论的观察
+
+来源：[D04 Circana · U.S. Toy Industry Returns to Growth in 2025](https://www.circana.com/post/u-s-toy-industry-returns-to-growth-in-2025-circana-reports)；[D07 Dollarama · Investor Presentation Q4-FY2026](https://www.dollarama.com/en-CA/corp/wp-content/uploads/2026/04/Investor-Presentation-2026-03-24-FY26Q4-vF.pdf)；[D20 Daiso USA · September Daiso Deals](https://daisous.com/blogs/daiso-updates/september-daiso-deals-halloween-sanrio-bt21-and-more)；[D25 Statistics Canada · Retail trade, June 2026](https://www150.statcan.gc.ca/n1/daily-quotidien/260821/dq260821a-eng.htm)；[D26 Five Below · Hello Kitty assortment](https://www.fivebelow.com/categories/top-brands/hello-kitty)
+
+## 45. 近期优先项应利用已有能力，同时解决消费者的具体选择困难
+
+
+优先：商品与任务表达：已有角色目录可按自用、收藏和送礼组织。：先确认商品规格、用途、系列和规则是否让人理解；实施成本相对可控。
+
+优先：选择与获得一致：本地支付、自取和门店信息已经有基础。：先核验核心商品能否在承诺渠道获得，解决阻断购买的问题。
+
+随后：组合与轻体验：跨品类搭配、包装和简单参与环节。：在稳定供货与可用人力条件下比较增量，不预设提升幅度。
+
+后续：重门店体验与扩张：大型主题空间或更重的体验服务。：需要客流、租金、人力、毛利和资本回报测算，公开研究不足以批准投资。
+
+**研究含义：** 排序依据是现有能力与问题清晰度；不以虚构机会评分替代经营判断
+
+来源：[D06 Deloitte · 2025 Holiday Retail Survey](https://www.deloitte.com/content/dam/insights/articles/2025/us188488_cic-holiday-retail/pdf/DI_2025-Holiday-Survey.pdf)；[D11 MINISO México · Preguntas Frecuentes](https://www.miniso.com.mx/faq)；[D13 POP MART US · THE MONSTERS Exciting Macaron / related products](https://www.popmart.com/us/products/675/the-monsters-exciting-macaron-vinyl-face-blind-box)；[D16 MINISO México · Cinnamoroll collection](https://www.miniso.com.mx/sanrio/cinnamoroll)；[D20 Daiso USA · September Daiso Deals](https://daisous.com/blogs/daiso-updates/september-daiso-deals-halloween-sanrio-bt21-and-more)
+
+## 46. 三个商业问题的答案：机会存在，但要落到具体任务与本地条件
+
+
+需求：部分支持：玩具销量和授权商品增长支持相关需求，礼品选择强调收礼适配。：优先自用小礼、轻收藏与确定性送礼；不声称所有毛绒或IP都会增长。
+
+竞争：修正原假设：平价角色商品已有多家竞争供给。：差异应落在商品组合、原创表达、系列完整度与购买体验。
+
+国家：有条件迁移：共同框架可复用，各国竞争参照与履约条件需要区别。：美国重任务与选品，加拿大重价值表达，墨西哥重系列选购与本地获得。
+
+**研究含义：** 案头已形成方向判断；市场细分规模、价格弹性和投资回报仍需一手或经营数据
+
+来源：[D05 Circana · US Toy Industry Posts Strongest First Half in Six Years](https://www.circana.com/post/us-toy-industry-posts-strongest-first-half-in-six-years-circana-reports)；[D06 Deloitte · 2025 Holiday Retail Survey](https://www.deloitte.com/content/dam/insights/articles/2025/us188488_cic-holiday-retail/pdf/DI_2025-Holiday-Survey.pdf)；[D07 Dollarama · Investor Presentation Q4-FY2026](https://www.dollarama.com/en-CA/corp/wp-content/uploads/2026/04/Investor-Presentation-2026-03-24-FY26Q4-vF.pdf)；[D11 MINISO México · Preguntas Frecuentes](https://www.miniso.com.mx/faq)；[D16 MINISO México · Cinnamoroll collection](https://www.miniso.com.mx/sanrio/cinnamoroll)；[D20 Daiso USA · September Daiso Deals](https://daisous.com/blogs/daiso-updates/september-daiso-deals-halloween-sanrio-bt21-and-more)；[D26 Five Below · Hello Kitty assortment](https://www.fivebelow.com/categories/top-brands/hello-kitty)
+
+## 47. 一手研究应验证会改变机会判断的少数关键假设
+
+
+任务与替代：访谈最近一次自用、收藏或送礼购买，展示实际替代商品。：定量区分购买者/收礼者，测量任务、跨品类选择和未购买原因。
+
+价格与组合：在本地同规格购物篮基础上测试单件与组合。：保留本币、预算和功能差异，避免跨币种或异规格硬比较。
+
+获得与复购：沿实际付款、门店自取及会员触达过程观察。：结合门店/会员批次数据，检验是否减少放弃或提高后续购买。
+
+**研究含义：** 与已完成的问卷和整体方案衔接；不把上述验证结果写成已经发生的案头发现
+
+来源：[D04 Circana · U.S. Toy Industry Returns to Growth in 2025](https://www.circana.com/post/u-s-toy-industry-returns-to-growth-in-2025-circana-reports)；[D06 Deloitte · 2025 Holiday Retail Survey](https://www.deloitte.com/content/dam/insights/articles/2025/us188488_cic-holiday-retail/pdf/DI_2025-Holiday-Survey.pdf)；[D11 MINISO México · Preguntas Frecuentes](https://www.miniso.com.mx/faq)；[D16 MINISO México · Cinnamoroll collection](https://www.miniso.com.mx/sanrio/cinnamoroll)；[D26 Five Below · Hello Kitty assortment](https://www.fivebelow.com/categories/top-brands/hello-kitty)
+
+## 48. 证据来自公开原始披露与官网观察，解释和建议由本研究提出
+
+
+公开表现：公司财报/经营公告、Circana、Statistics Canada与AMVO公开摘要。：保留自然年/财年、美国/北美/美洲、金额/数量及统计覆盖差异。
+
+商品与路径：官方商品页、品牌页、活动页和FAQ，访问时间2026-09-09至10。：页面可证明公开呈现；价格非成交，库存与服务未进行交易实测。
+
+分析方法：按购买任务比较商品、价格、渠道、体验与复购机制，并主动核对反例。：初始“平价＋IP差异化”假设经竞品证据修正，不形成排他占位结论。
+
+未决事项：细分市场规模、各国消费者画像、同款价格排名、单店与项目投资回报。：待取得一手或经营数据后更新，不用跨市场拼接或主观评分补齐。
+
+**研究含义：** 公开案例采用独立视觉与原创分析；来源完整链接、口径和定位随报告提供
+
+## 49. 来源与统计范围 1
+
+
+D01 MINISO：2026 June Quarter and Interim Results：2026-08-28；2026上半年；公司区域和集团口径；未经审计
+
+D02 Five Below：Fourth Quarter and Fiscal 2025 Financial Results：2026-03-18；FY2025截至2026-01-31；美元
+
+D03 POP MART / HKEX：Annual Results for the Year Ended 31 December 2025：2026-03-25；2025自然年；Americas，不等于美国或本项目三国
+
+D04 Circana：U.S. Toy Industry Returns to Growth in 2025：2026-02-03；美国玩具Retail Tracking Service；2025同比
+
+D05 Circana：US Toy Industry Posts Strongest First Half in Six Years：2026-08-12；美国玩具2026年1–6月同比；页更新8月13日
+
+D06 Deloitte：2025 Holiday Retail Survey：2025；美国在线调查n=4270，2025-08-27至09-05；计划花费
+
+D07 Dollarama：Investor Presentation Q4-FY2026：2026-03-24；加拿大截至2026-02-01；Dollarcity截至2025-12-31；封面年份笔误与内文需区分
+
+**研究含义：** 完整URL见本页备注及 sources.json
+
+来源：[D01 MINISO · 2026 June Quarter and Interim Results](https://ir.miniso.com/image/MINISO+2026+Q2%26H1+ER_EN.pdf)；[D02 Five Below · Fourth Quarter and Fiscal 2025 Financial Results](https://investor.fivebelow.com/news/press-release-details/2026/Five-Below-Inc--Announces-Fourth-Quarter-and-Fiscal-2025-Financial-Results/default.aspx)；[D03 POP MART / HKEX · Annual Results for the Year Ended 31 December 2025](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032500285.pdf)；[D04 Circana · U.S. Toy Industry Returns to Growth in 2025](https://www.circana.com/post/u-s-toy-industry-returns-to-growth-in-2025-circana-reports)；[D05 Circana · US Toy Industry Posts Strongest First Half in Six Years](https://www.circana.com/post/us-toy-industry-posts-strongest-first-half-in-six-years-circana-reports)；[D06 Deloitte · 2025 Holiday Retail Survey](https://www.deloitte.com/content/dam/insights/articles/2025/us188488_cic-holiday-retail/pdf/DI_2025-Holiday-Survey.pdf)；[D07 Dollarama · Investor Presentation Q4-FY2026](https://www.dollarama.com/en-CA/corp/wp-content/uploads/2026/04/Investor-Presentation-2026-03-24-FY26Q4-vF.pdf)
+
+## 50. 来源与统计范围 2
+
+
+D08 MINISO Canada：Canada official homepage：网页无明确发布日期；官网功能和系列入口快照，非销售数据
+
+D09 Daiso USA：FAQ：网页无明确发布日期；美国线上商店服务限制；页面包含批量线上业务语境
+
+D11 MINISO México：Preguntas Frecuentes：网页无明确发布日期；官网购买、付款、配送和门店自取说明；非履约实测
+
+D12 MUMUSO México：Directorio de Tiendas：网页无明确发布日期；墨西哥门店目录存在性，非市场规模或份额
+
+D13 POP MART US：THE MONSTERS Exciting Macaron / related products：动态商品页；美国官网商品与推荐区原币标价快照
+
+D14 Jellycat US：Amuseables Moon：动态商品页；美国站商品起价与说明，不代表全系列均价
+
+D15 MINISO Canada：Wholesale catalogue：动态官网页；加拿大批发目录；非零售销售结构
+
+**研究含义：** 完整URL见本页备注及 sources.json
+
+来源：[D08 MINISO Canada · Canada official homepage](https://miniso.ca)；[D09 Daiso USA · FAQ](https://daisous.com/pages/faq)；[D11 MINISO México · Preguntas Frecuentes](https://www.miniso.com.mx/faq)；[D12 MUMUSO México · Directorio de Tiendas](https://mumusomx.com/directorio-2)；[D13 POP MART US · THE MONSTERS Exciting Macaron / related products](https://www.popmart.com/us/products/675/the-monsters-exciting-macaron-vinyl-face-blind-box)；[D14 Jellycat US · Amuseables Moon](https://us.jellycat.com/amuseables-moon)；[D15 MINISO Canada · Wholesale catalogue](https://miniso-ca.com/pages/wholesale)
+
+## 51. 来源与统计范围 3
+
+
+D16 MINISO México：Cinnamoroll collection：动态商品页；墨西哥角色系列与网站自述的自取范围
+
+D17 LEGO Group：H1 2026 results：2026-08-25；集团全球口径，不等于美国
+
+D18 Build-A-Bear：Form 10-Q, quarter ended Nov 1, 2025：2025-12-11；公司经营模式与目标客群描述
+
+D19 Circana：Global Toy Industry Rebounds in 2025：2026-01-27；G12追踪市场合计，含美加墨，不提供各国细分值
+
+D20 Daiso USA：September Daiso Deals：页面未标明年份；官方活动页存档，价格不是实时门店报价
+
+D21 BoxLunch：Company Info：动态官网页；官方定位与品牌承诺，非效果测量
+
+D22 MINISO：Brand Profile / brand timeline：动态官网页；企业自述历史门店案例，非当前全网表现
+
+**研究含义：** 完整URL见本页备注及 sources.json
+
+来源：[D16 MINISO México · Cinnamoroll collection](https://www.miniso.com.mx/sanrio/cinnamoroll)；[D17 LEGO Group · H1 2026 results](https://www.lego.com/en-us/aboutus/news/2026/august/strong-demand-and-brand-relevance-drive-lego-group-revenue-up-21-operating-profit-up-22-in-h1-2026)；[D18 Build-A-Bear · Form 10-Q, quarter ended Nov 1, 2025](https://ir.buildabear.com/static-files/beef4f8f-4625-4c9c-8e9d-7bed6e3bb225)；[D19 Circana · Global Toy Industry Rebounds in 2025](https://www.circana.com/post/global-toy-industry-rebounds-in-2025-as-sales-rise-7-fueled-by-pop-culture-collectibles-and-kidu)；[D20 Daiso USA · September Daiso Deals](https://daisous.com/blogs/daiso-updates/september-daiso-deals-halloween-sanrio-bt21-and-more)；[D21 BoxLunch · Company Info](https://www.boxlunch.com/customer-service/boxlunch-policies/company-info)；[D22 MINISO · Brand Profile / brand timeline](https://www.miniso.com/brand)
+
+## 52. 来源与统计范围 4
+
+
+D23 AMVO：Estudio de Venta Online 2026：2026；协会原始摘要；全零售电商范围
+
+D24 Statistics Canada：Retail trade, December 2025：2026-02-20；加拿大零售2025全年及12月口径；初始发布版本
+
+D25 Statistics Canada：Retail trade, June 2026：2026-08-21；加拿大2026年6月，季调月度数据，可能修订
+
+D26 Five Below：Hello Kitty assortment：动态商品页；美国官网系列目录，非销售或门店库存
+
+**研究含义：** 完整URL见本页备注及 sources.json
+
+来源：[D23 AMVO · Estudio de Venta Online 2026](https://amvo.org.mx/descarga-evo-2026)；[D24 Statistics Canada · Retail trade, December 2025](https://www150.statcan.gc.ca/n1/daily-quotidien/260220/dq260220a-eng.htm)；[D25 Statistics Canada · Retail trade, June 2026](https://www150.statcan.gc.ca/n1/daily-quotidien/260821/dq260821a-eng.htm)；[D26 Five Below · Hello Kitty assortment](https://www.fivebelow.com/categories/top-brands/hello-kitty)

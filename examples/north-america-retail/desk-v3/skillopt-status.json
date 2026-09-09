@@ -1,0 +1,10 @@
+{
+  "dataset_version": 4,
+  "tasks": 6,
+  "judge": "semantic rubric intended",
+  "completed": "mock dry-run",
+  "external_replay": "blocked_by_automatic_approval_review",
+  "reason": "External model export authorization required",
+  "real_model_score": null,
+  "adopted": false
+}

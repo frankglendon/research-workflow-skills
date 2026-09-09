@@ -1,0 +1,106 @@
+{
+  "format": "skillopt_sleep.tasks.v1",
+  "reviewed": true,
+  "dataset_kind": "curated_synthetic",
+  "dataset_version": 4,
+  "n_sessions": 0,
+  "evaluation_scope": "Model-judged chapter editing, not end-to-end research certification.",
+  "tasks": [
+    {
+      "id": "desk-content-v4-1",
+      "project": ".",
+      "intent": "Review this finished three-country desk report and propose a concrete chapter repair. Reply in Chinese, at most 500 Chinese characters.",
+      "context_excerpt": "{\"kind\": \"Synthetic reviewer assignment using authored public-source case excerpts; no client source material\", \"pages\": [{\"number\": 16, \"section\": \"美国\", \"title\": \"美国先检验“主动到店”与“顺路逛店”，再决定门店体验投入\", \"body\": [[\"已知\", \"MINISO有本地门店查询入口及美国会员经营披露。\"], [\"尚不知道\", \"商圈内实际可达率、顾客到店目的、未成交原因和店型效果。\"], [\"研究安排\", \"店内陪访观察发现与选择过程；B02/03看访店和购买关系，E15/E16记录地点与专程性。\"]], \"decision\": \"若主要流失来自可达性，优先渠道覆盖；若来自商品或结账，优先店内改进。两条路径需要不同证据。\", \"claim_ids\": [\"F03\", \"F18\"], \"kind\": \"columns\", \"source_ids\": [\"D01\", \"D10\"], \"interpretation\": \"有来源事实及研究推断\"}, {\"number\": 17, \"section\": \"加拿大\", \"title\": \"加拿大需要把语言、地区和配送入口拆开验证\", \"body\": [[\"已知\", \"官网展示合作系列，并提供奖励计划、门店查询与\\nDoorDash 入口。\"], [\"竞争条件\", \"Dollarama是有广泛门店网络的本地价值零售对照。\"], [\"研究安排\", \"英语和法语审校，按州省回圈地区；区分能看到入口、当地可用与真正完成交易。\"]], \"decision\": \"不能因有配送入口就假定全国覆盖；优先检查所在地库存、费用与到手体验。\", \"claim_ids\": [\"F14\", \"F16\"], \"kind\": \"columns\", \"source_ids\": [\"D07\", \"D08\"], \"interpretation\": \"有来源事实及研究推断\"}, {\"number\": 18, \"section\": \"墨西哥\", \"title\": \"墨西哥的付款与取货选择，要作为完整旅程的一部分\", \"body\": [[\"已知\", \"MINISO官网说明宅配、自取及多种付款方式；自取取决于附近库存。\"], [\"竞争背景\", \"Dollarcity 已进入墨西哥；\\nMUMUSO 存在本地门店目录。\"], [\"研究安排\", \"本地西语问卷；陪访跟踪选品、付款确认、取货/收货和问题处理。\"]], \"decision\": \"先定位“知道商品但未完成交易”发生在哪一步，不能直接把它解释为品牌吸引力不足。\", \"claim_ids\": [\"F15\", \"F19\", \"F20\"], \"kind\": \"columns\", \"source_ids\": [\"D07\", \"D11\", \"D12\"], \"interpretation\": \"有来源事实及研究推断\"}, {\"number\": 25, \"section\": \"机会优先级\", \"title\": \"先做可验证、能改变决策的研究，再做高投入试点\", \"body\": [[\"第一优先\", \"品类×场景与转化障碍\", \"直接决定商品和渠道重点；用访谈、购买回溯和漏斗验证\"], [\"第二优先\", \"角色商品与赠礼支持\", \"需要具体产品和本地语义；用概念筛选与小规模测试验证\"], [\"第三优先\", \"大店与会员的增量回报\", \"需要客流、成本与交易数据；案头及意向调查无法单独回答\"]], \"decision\": \"排序为本项目研究建议，依据决策影响与当前证据缺口；不是测量得到的机会分数。\", \"claim_ids\": [], \"kind\": \"table\", \"headers\": [\"优先级\", \"问题\", \"执行理由\"], \"source_ids\": [], \"interpretation\": \"研究设计与执行建议\"}, {\"number\": 26, \"section\": \"研究假设\", \"title\": \"每个机会假设都设置可能推翻它的证据\", \"body\": [[\"H1\", \"IP吸引能带来新增购买\", \"若购买仍主要由实用/价格决定，且非买家对IP反应低，应缩小IP主张适用人群\"], [\"H2\", \"轻松赠礼能提高考虑\", \"若对方适配和包装并非主要障碍，或主张不比实用版本好，则不优先投入\"], [\"H3\", \"渠道便利是关键流失点\", \"若可达性高而质量/款式拒绝突出，应转向商品改进\"], [\"H4\", \"会员与复购有关\", \"若控制国家/购买频次后关系弱，不能将高会员贡献当成留存效果\"]], \"decision\": \"访谈主动追问失败经历和替代选择；报告保留与主假设相反的结果。\", \"claim_ids\": [], \"kind\": \"table\", \"headers\": [\"假设\", \"待验证判断\", \"反证与动作\"], \"source_ids\": [], \"interpretation\": \"研究设计与执行建议\"}]}",
+      "reference_kind": "rubric",
+      "reference": "Identify future-plan dominance and missing country answers; specify comparable country evidence and competitor dimensions; do not replace research with more questions, scores or page counts.",
+      "split": "train",
+      "origin": "curated",
+      "tags": [
+        "synthetic-review-assignment",
+        "chapter-content",
+        "semantic-rubric"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "desk-content-v4-2",
+      "project": ".",
+      "intent": "Review: MINISO uniquely owns affordable IP retail. Correct the thesis and give a specific implication. Reply in Chinese, at most 500 Chinese characters.",
+      "context_excerpt": "{\"kind\": \"Synthetic reviewer assignment using authored public-source case excerpts; no client source material\", \"pages\": [{\"number\": 13, \"id\": \"P13\", \"section\": \"02 竞争机制\", \"title\": \"Daiso 与 Five Below 已覆盖平价角色商品，MINISO 需要更具体的差异\", \"role\": \"analysis\", \"question_ids\": [\"Q2\"], \"claim_ids\": [\"F25\", \"F30\", \"F36\"], \"source_ids\": [\"D16\", \"D20\", \"D26\"], \"body\": [[\"Daiso\", \"官方活动页覆盖Sanrio零食、盲袋、文具和BT21系列。\", \"既有低价日用品，也使用角色吸引购买；“有IP”并不构成排他优势。\"], [\"Five Below\", \"Hello Kitty目录横跨毛绒、服饰、学习用品与家居。\", \"以跨品类角色货架竞争顺手购买和礼品预算。\"], [\"MINISO\", \"墨西哥Cinnamoroll系列覆盖更多生活场景。\", \"可比较系列完整度、跨品类搭配、商品更新和本地购买便利，而非宣称唯一占位。\"]], \"implication\": \"将“平价＋IP”作为竞争参与条件，进一步寻找客户能够持续执行的商品和服务差异\", \"finding\": \"Daiso 与 Five Below 已覆盖平价角色商品，MINISO 需要更具体的差异\", \"kind\": \"table\", \"headers\": [\"观察维度\", \"公开证据\", \"研究判断\"], \"chart\": null, \"note\": \"\", \"image\": null}, {\"number\": 18, \"id\": \"P18\", \"section\": \"02 竞争机制\", \"title\": \"Five Below 的角色货架把粉丝兴趣连接到多种日常购买\", \"role\": \"competitor\", \"question_ids\": [\"Q2\"], \"claim_ids\": [\"F36\", \"F05\"], \"source_ids\": [\"D02\", \"D26\"], \"body\": [[\"服务任务\", \"同一Hello Kitty入口呈现玩具、毛绒和生活用品。\", \"角色成为浏览入口，消费者可按喜好跨品类选购。\"], [\"商品与价格\", \"本轮核实目录结构，未取得同款、同店、同日的完整价格样本。\", \"可确认多品类竞争，暂不评价谁更便宜或哪个渠道毛利更高。\"], [\"渠道机制\", \"商品目录可把低频收藏与日常所需放在一个选择场景里。\", \"对MINISO的可借鉴点是让角色系列覆盖多个使用任务。\"], [\"结果与边界\", \"公司可比店销售增长与整体增长均为正。\", \"尚不能把增长归因于Sanrio或角色商品，需商品/门店数据验证贡献。\"]], \"implication\": \"用角色购物篮比较竞争：主商品、配件、包装和可获得性一起看\", \"finding\": \"Five Below 的角色货架把粉丝兴趣连接到多种日常购买\", \"kind\": \"table\", \"headers\": [\"观察维度\", \"公开证据\", \"研究判断\"], \"chart\": null, \"note\": \"\", \"image\": null}, {\"number\": 25, \"id\": \"P25\", \"section\": \"02 竞争机制\", \"title\": \"Daiso 把角色商品、节庆和日用品放在同一低价选择环境\", \"role\": \"competitor\", \"question_ids\": [\"Q2\"], \"claim_ids\": [\"F30\", \"F17\"], \"source_ids\": [\"D09\", \"D20\"], \"body\": [[\"商品任务\", \"活动页包含万圣节摆件、Sanrio零食/盲袋/文具和BT21文具系列。\", \"角色消费与日用需求共存，形成多个入店与加购理由。\"], [\"价格观察\", \"页面列出2.25美元万圣节摆件。\", \"可以识别低额购买入口，但页面未标年份，不当作当前同款门店报价。\"], [\"渠道边界\", \"美国FAQ对其线上业务设置配送范围。\", \"官网与实体体验并不完全等同，研究时需核对渠道业务范围。\"], [\"对MINISO含义\", \"两者在部分角色与任务上有交集。\", \"差异比较应深入商品设计、系列完整度、陈列和实际获得便利。\"]], \"implication\": \"Daiso是“低价角色商品已存在”的反证，需要进入核心竞品清单\", \"finding\": \"Daiso 把角色商品、节庆和日用品放在同一低价选择环境\", \"kind\": \"table\", \"headers\": [\"观察维度\", \"公开证据\", \"研究判断\"], \"chart\": null, \"note\": \"\", \"image\": null}]}",
+      "reference_kind": "rubric",
+      "reference": "Reject exclusivity using Daiso and Five Below cross-category character assortment; distinguish evidence and interpretation; compare products/assortment/experience without fabricated scores or causal claims.",
+      "split": "train",
+      "origin": "curated",
+      "tags": [
+        "synthetic-review-assignment",
+        "chapter-content",
+        "semantic-rubric"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "desk-content-v4-3",
+      "project": ".",
+      "intent": "An analyst ranks these retailers by average price and recommends a 20% MINISO discount. Review and rewrite the analysis. Reply in Chinese, at most 500 Chinese characters.",
+      "context_excerpt": "{\"kind\": \"Synthetic reviewer assignment using authored public-source case excerpts; no client source material\", \"pages\": [{\"number\": 20, \"id\": \"P20\", \"section\": \"02 竞争机制\", \"title\": \"POP MART 同一角色覆盖小件入口与高价升级商品\", \"role\": \"analysis\", \"question_ids\": [\"Q2\"], \"claim_ids\": [\"F21\", \"F22\"], \"source_ids\": [\"D13\"], \"body\": [[\"价格结构\", \"同一角色家族通过不同载体形成多个购买入口。\"], [\"收藏机制\", \"Macaron整套6个不重复盲盒，规则是商品价值的一部分。\"], [\"适用边界\", \"不同商品规格，仅说明可见台阶，不能估计销售分布或均价。\"]], \"implication\": \"MINISO可评估同IP的小配件、主商品和礼盒层级；具体价格仍需成本与愿付验证\", \"finding\": \"POP MART 同一角色覆盖小件入口与高价升级商品\", \"kind\": \"chart\", \"headers\": [\"观察维度\", \"公开证据\", \"研究判断\"], \"chart\": {\"categories\": [\"徽章盲盒\", \"Have a Seat盲盒\", \"Fall in Wild玩偶\", \"I Found You玩偶\"], \"values\": [8.99, 26.99, 99.99, 199.99], \"unit\": \"美国官网商品推荐区标价，美元\", \"series_name\": \"数值\", \"format\": \"0.00\"}, \"note\": \"2026-09-10快照；税费、运费及库存未结算核验；Macaron规则不套用其他系列。\", \"image\": null}, {\"number\": 29, \"id\": \"P29\", \"section\": \"02 竞争机制\", \"title\": \"商品样本显示多种价格台阶，尚不足以证明 MINISO 价格优势\", \"role\": \"analysis\", \"question_ids\": [\"Q2\"], \"claim_ids\": [\"F14\", \"F21\", \"F23\", \"F30\"], \"source_ids\": [\"D07\", \"D13\", \"D14\", \"D20\"], \"body\": [[\"低额参照\", \"Daiso活动摆件US$2.25；Dollarama公开C$0.25–5.00。\", \"前者是特定活动，后者为加元范围，均不与其他币种直接排名。\"], [\"收藏主购样本\", \"POP MART Have a Seat盲盒US$26.99；Jellycat Moon起价US$33。\", \"用途、尺寸与销售机制不同，仅说明消费者面对不同选择门槛。\"], [\"升级样本\", \"POP MART相关玩偶标价US$99.99和US$199.99。\", \"证明同一角色存在升级商品，不能反推高价销售占比。\"], [\"MINISO定价任务\", \"本轮未得到三国同款、同规格、同日成交价格。\", \"保留价格相对位置未决，先明确商品层级，再做本币购物篮比较。\"]], \"implication\": \"机会是清楚组织价值层级；最终价格须结合本地成本、替代商品与愿付水平\", \"finding\": \"商品样本显示多种价格台阶，尚不足以证明 MINISO 价格优势\", \"kind\": \"table\", \"headers\": [\"观察维度\", \"公开证据\", \"研究判断\"], \"chart\": null, \"note\": \"\", \"image\": null}]}",
+      "reference_kind": "rubric",
+      "reference": "Identify heterogeneous SKU/specification, currency, historical Daiso price and From Jellycat price; reject average-price ranking and unsupported discount; preserve observed price steps and require matched local baskets.",
+      "split": "val",
+      "origin": "curated",
+      "tags": [
+        "synthetic-review-assignment",
+        "chapter-content",
+        "semantic-rubric"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "desk-content-v4-4",
+      "project": ".",
+      "intent": "Build a cross-country recommendation grounded in these pages, explaining actual differences. Reply in Chinese, at most 500 Chinese characters.",
+      "context_excerpt": "{\"kind\": \"Synthetic reviewer assignment using authored public-source case excerpts; no client source material\", \"pages\": [{\"number\": 31, \"id\": \"P31\", \"section\": \"03 国家差异\", \"title\": \"加拿大线上零售已有规模，线下仍承担主要销售\", \"role\": \"analysis\", \"question_ids\": [\"Q3\"], \"claim_ids\": [\"F35\"], \"source_ids\": [\"D25\"], \"body\": [[\"月度观察\", \"电商57亿加元，总零售743亿加元，电商占7.7%。\"], [\"实体背景\", \"一般商品零售商当月销售环比增长2.7%。\"], [\"范围提醒\", \"本国零售统计并不等于加拿大消费者所有跨境网络购买。\"]], \"implication\": \"数字入口可以服务门店选择与购买准备，不能仅凭线上占比决定渠道预算\", \"finding\": \"加拿大线上零售已有规模，线下仍承担主要销售\", \"kind\": \"chart\", \"headers\": [\"观察维度\", \"公开证据\", \"研究判断\"], \"chart\": {\"categories\": [\"线上零售\", \"其余零售\"], \"values\": [7.7, 92.3], \"unit\": \"2026年6月加拿大零售渠道占比，%\", \"series_name\": \"数值\", \"format\": \"0.0\"}, \"note\": \"季调月度口径；其余零售=100%−电商占比，基于披露比例计算。\", \"image\": null}, {\"number\": 34, \"id\": \"P34\", \"section\": \"03 国家差异\", \"title\": \"墨西哥的数字购买基础使商品信息与履约衔接成为研究重点\", \"role\": \"country\", \"question_ids\": [\"Q3\"], \"claim_ids\": [\"F33\", \"F19\"], \"source_ids\": [\"D11\", \"D23\"], \"body\": [[\"渠道背景\", \"AMVO 2026研究摘要披露9410亿比索零售电商与7720万数字购买者。\", \"数字渠道具备可观规模；这些数字不能缩成IP、玩具或MINISO市场。\"], [\"本地能力\", \"MINISO墨西哥FAQ列出宅配、自取和多种付款方式。\", \"实际选择不仅取决于是否喜欢商品，也涉及能否使用合适付款与取货方式。\"], [\"经营任务\", \"角色内容、商品详情、支付和自取信息可在本地路径中连接。\", \"有网站功能不证明转化有效，应按完成购买过程查找不一致。\"], [\"比较边界\", \"AMVO与加拿大官方零售统计的范围、样本和时期不同。\", \"本报告不对两国电商成熟度作直接数字排名。\"]], \"implication\": \"墨西哥机会分析把角色选购与本地付款/自取一起看，避免只做品牌认知研究\", \"finding\": \"墨西哥的数字购买基础使商品信息与履约衔接成为研究重点\", \"kind\": \"table\", \"headers\": [\"观察维度\", \"公开证据\", \"研究判断\"], \"chart\": null, \"note\": \"\", \"image\": null}, {\"number\": 35, \"id\": \"P35\", \"section\": \"03 国家差异\", \"title\": \"墨西哥 Cinnamoroll 系列已经把角色延伸到多个生活场景\", \"role\": \"country\", \"question_ids\": [\"Q3\", \"Q2\"], \"claim_ids\": [\"F25\"], \"source_ids\": [\"D16\"], \"body\": [[\"毛绒与收藏\", \"页面列有装饰毛绒及角色积木。\", \"分别承接陪伴、摆放和参与组装的任务。\"], [\"上学与日用\", \"午餐包、收纳和厨房容器进入同一系列。\", \"一个角色可成为日常物品的选择线索，提高跨品类研究的必要性。\"], [\"个护与科技\", \"角色进一步出现在美妆及科技配件。\", \"需要确认形象延伸是否保持功能品质，而非假定贴角色就有效。\"], [\"获取方式\", \"系列网页称可宅配或200多家店自取。\", \"可研究从系列兴趣到本地可得性的衔接；数量为网页自述，未实测。\"]], \"implication\": \"优先测试同角色的跨任务搭配，区分真正加购与对原本日用品购买的替代\", \"finding\": \"墨西哥 Cinnamoroll 系列已经把角色延伸到多个生活场景\", \"kind\": \"table\", \"headers\": [\"观察维度\", \"公开证据\", \"研究判断\"], \"chart\": null, \"note\": \"\", \"image\": null}, {\"number\": 36, \"id\": \"P36\", \"section\": \"03 国家差异\", \"title\": \"墨西哥购买路径需要把角色兴趣落实到付款和取货条件\", \"role\": \"country\", \"question_ids\": [\"Q3\"], \"claim_ids\": [\"F19\", \"F25\"], \"source_ids\": [\"D11\", \"D16\"], \"body\": [[\"看到商品\", \"按角色进入系列，比较毛绒、家居与配件。\", \"详情页应说明规格与用途，帮助消费者判断是否适合自己或收礼者。\"], [\"决定购买\", \"FAQ支持多种付款方式，含卡、现金网点和电子钱包。\", \"不同方式可能影响完成时间与操作体验，不能只检验卡支付页面。\"], [\"选择获得方式\", \"宅配与门店自取并存。\", \"价格、预计时效、具体门店库存需要在决策前清楚呈现。\"], [\"兑现体验\", \"公开页面说明的是功能，不是履约结果。\", \"实际测试记录付款、取货信息和到手商品一致性，连接满意度与复购。\"]], \"implication\": \"本地转化研究应覆盖完整购买路径，并保留消费者未完成购买的具体原因\", \"finding\": \"墨西哥购买路径需要把角色兴趣落实到付款和取货条件\", \"kind\": \"table\", \"headers\": [\"观察维度\", \"公开证据\", \"研究判断\"], \"chart\": null, \"note\": \"\", \"image\": null}]}",
+      "reference_kind": "rubric",
+      "reference": "Avoid comparing Canadian monthly retailer ecommerce share directly with AMVO broad ecommerce and buyers. Use Mexico assortment/payment/pickup and Canada context. Give concrete implications with limits, not generic omnichannel slogans.",
+      "split": "val",
+      "origin": "curated",
+      "tags": [
+        "synthetic-review-assignment",
+        "chapter-content",
+        "semantic-rubric"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "desk-content-v4-5",
+      "project": ".",
+      "intent": "Which buying tasks are supported, and what evidence would change the answer? Reply in Chinese, at most 500 Chinese characters.",
+      "context_excerpt": "{\"kind\": \"Synthetic reviewer assignment using authored public-source case excerpts; no client source material\", \"pages\": [{\"number\": 7, \"id\": \"P07\", \"section\": \"01 市场与需求\", \"title\": \"2025 年玩具增量集中在游戏、积木及探索类\", \"role\": \"analysis\", \"question_ids\": [\"Q1\"], \"claim_ids\": [\"F37\", \"F09\"], \"source_ids\": [\"D04\"], \"body\": [[\"增量集中\", \"上述三类贡献行业92%的增量。\"], [\"重要反例\", \"毛绒、娃娃与户外运动玩具属于明显下滑类别。\"], [\"选品含义\", \"收藏和授权趋势不能直接等同于毛绒普涨。\"]], \"implication\": \"优先评估角色积木、收藏玩法与配件组合；毛绒项目单独验证购买理由和替代品\", \"finding\": \"2025 年玩具增量集中在游戏、积木及探索类\", \"kind\": \"chart\", \"headers\": [\"观察维度\", \"公开证据\", \"研究判断\"], \"chart\": {\"categories\": [\"游戏与拼图\", \"积木\", \"探索及其他\"], \"values\": [37, 15, 20], \"unit\": \"美国2025年销售额同比，%\", \"series_name\": \"数值\", \"format\": \"0\"}, \"note\": \"\", \"image\": null}, {\"number\": 9, \"id\": \"P09\", \"section\": \"01 市场与需求\", \"title\": \"授权商品增速领先整体，价值仍需要具体角色与玩法承接\", \"role\": \"analysis\", \"question_ids\": [\"Q1\"], \"claim_ids\": [\"F10\", \"F11\"], \"source_ids\": [\"D05\"], \"body\": [[\"需求线索\", \"授权玩具占销售39%，其增速高于整体。\"], [\"业务解释\", \"熟悉角色有助于产品被识别，但授权本身尚不能解释转化。\"], [\"竞争约束\", \"多家渠道可经营相同授权，差异要落在商品与体验。\"]], \"implication\": \"IP选择同时评估认知、商品适配和竞争供给，避免用角色知名度单独决定采购\", \"finding\": \"授权商品增速领先整体，价值仍需要具体角色与玩法承接\", \"kind\": \"chart\", \"headers\": [\"观察维度\", \"公开证据\", \"研究判断\"], \"chart\": {\"categories\": [\"全部玩具\", \"授权玩具\"], \"values\": [17, 24], \"unit\": \"美国2026年上半年销售额同比，%\", \"series_name\": \"数值\", \"format\": \"0\"}, \"note\": \"\", \"image\": null}, {\"number\": 10, \"id\": \"P10\", \"section\": \"01 市场与需求\", \"title\": \"青少年与成年收礼对象带来增长，画像需围绕使用情境展开\", \"role\": \"analysis\", \"question_ids\": [\"Q1\"], \"claim_ids\": [\"F38\"], \"source_ids\": [\"D05\"], \"body\": [[\"已知行为\", \"青少年和成年收礼对象均有增长。\"], [\"另一个口径\", \"纯成人家庭贡献55%销售，不能当作成年购买者占比。\"], [\"画像切入\", \"把购买者、最终使用者和礼物接受者分别识别。\"]], \"implication\": \"机会描述采用自用、收藏、送礼任务；本报告不虚构年龄、性别占比或市场分群规模\", \"finding\": \"青少年与成年收礼对象带来增长，画像需围绕使用情境展开\", \"kind\": \"chart\", \"headers\": [\"观察维度\", \"公开证据\", \"研究判断\"], \"chart\": {\"categories\": [\"12–17岁收礼对象\", \"18岁以上收礼对象\"], \"values\": [33, 25], \"unit\": \"美国2026年上半年相关玩具销售同比，%\", \"series_name\": \"数值\", \"format\": \"0\"}, \"note\": \"\", \"image\": null}, {\"number\": 11, \"id\": \"P11\", \"section\": \"01 市场与需求\", \"title\": \"假日预算趋紧，礼品需要让消费者确信钱花得合适\", \"role\": \"analysis\", \"question_ids\": [\"Q1\"], \"claim_ids\": [\"F12\", \"F13\"], \"source_ids\": [\"D06\"], \"body\": [[\"支出背景\", \"2025年计划预算低于2024年，消费者会比较礼物价值。\"], [\"选择依据\", \"64%受访者喜欢收到愿望清单上的礼物。\"], [\"研究含义\", \"能识别收礼偏好、展示商品细节和减少选择风险具有价值。\"]], \"implication\": \"送礼陈列可按角色、对象与预算组织；盲选机制应与确定款选择并存\", \"finding\": \"假日预算趋紧，礼品需要让消费者确信钱花得合适\", \"kind\": \"chart\", \"headers\": [\"观察维度\", \"公开证据\", \"研究判断\"], \"chart\": {\"categories\": [\"2024计划\", \"2025计划\"], \"values\": [1778, 1595], \"unit\": \"美国受访者假日季计划平均花费，美元\", \"series_name\": \"数值\", \"format\": \"0\"}, \"note\": \"Deloitte在线调查n=4270，2025-08-27至09-05；计划而非实际花费，亦非2026预测。\", \"image\": null}]}",
+      "reference_kind": "rubric",
+      "reference": "Distinguish total/license growth from plush decline; recipient vs buyer vs household; planned holiday spend vs actual. Give specific self-use/collection/gifting implications and a real counterevidence condition.",
+      "split": "test",
+      "origin": "curated",
+      "tags": [
+        "synthetic-review-assignment",
+        "chapter-content",
+        "semantic-rubric"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "desk-content-v4-6",
+      "project": ".",
+      "intent": "Compare mechanisms worth borrowing from adjacent brands with operational tradeoffs. Reply in Chinese, at most 500 Chinese characters.",
+      "context_excerpt": "{\"kind\": \"Synthetic reviewer assignment using authored public-source case excerpts; no client source material\", \"pages\": [{\"number\": 21, \"id\": \"P21\", \"section\": \"02 竞争机制\", \"title\": \"Jellycat 用人格化叙事帮助消费者为日常物体找到情感意义\", \"role\": \"competitor\", \"question_ids\": [\"Q2\", \"Q1\"], \"claim_ids\": [\"F23\"], \"source_ids\": [\"D14\"], \"body\": [[\"商品证据\", \"Amuseables Moon将月亮变成具有表情和性格的毛绒，官网起价33美元。\", \"情感叙事与可见造型共同赋予产品识别度。\"], [\"购买任务\", \"文案给商品写性格、习惯和情境，并提供礼物选择入口。\", \"消费者可用商品表达关系或个人偏好，价值不必依赖已有影视角色。\"], [\"可借鉴机制\", \"把商品的形态、触感与日常使用场景连成具体故事。\", \"适用于原创角色与非IP商品；需要产品本身支持叙事，不能只改文案。\"], [\"适配边界\", \"本轮核实商品页面，未取得美国销售、受众占比或广告增量。\", \"不能据此宣称某年龄性别主导，也不把起价当全系列价格。\"]], \"implication\": \"原创商品研究应同时评估“外观喜欢”与“为什么想带回家/送给谁”\", \"finding\": \"Jellycat 用人格化叙事帮助消费者为日常物体找到情感意义\", \"kind\": \"table\", \"headers\": [\"观察维度\", \"公开证据\", \"研究判断\"], \"chart\": null, \"note\": \"\", \"image\": null}, {\"number\": 23, \"id\": \"P23\", \"section\": \"02 竞争机制\", \"title\": \"LEGO 的主题组合把角色热度与持续参与活动结合\", \"role\": \"competitor\", \"question_ids\": [\"Q2\", \"Q1\"], \"claim_ids\": [\"F27\"], \"source_ids\": [\"D17\"], \"body\": [[\"产品主题\", \"Botanicals、Icons、Technic、Speed Champions与Star Wars进入畅销主题。\", \"兴趣入口包括植物、机械、车辆和娱乐角色，降低对单一IP的依赖。\"], [\"产品活动\", \"拼搭过程本身构成使用体验；公司继续推进门店互动展示。\", \"体验可以发生在购买后，也可以在门店帮助理解商品。\"], [\"MINISO适配\", \"角色积木、桌面摆件或可组装礼物有相邻任务。\", \"借鉴主题与活动组织，不能直接套用LEGO的技术、专利或高投入体系。\"], [\"研究重点\", \"公开主题清单没有提供每类在北美的消费结构。\", \"下一步仅验证与自身商品相关的参与时长、难度和送礼适配。\"]], \"implication\": \"产品创新应检验消费者愿不愿参与使用过程，而不只是测试包装是否吸睛\", \"finding\": \"LEGO 的主题组合把角色热度与持续参与活动结合\", \"kind\": \"table\", \"headers\": [\"观察维度\", \"公开证据\", \"研究判断\"], \"chart\": null, \"note\": \"\", \"image\": null}, {\"number\": 24, \"id\": \"P24\", \"section\": \"02 竞争机制\", \"title\": \"Build-A-Bear 将顾客参与制作嵌入礼物意义\", \"role\": \"competitor\", \"question_ids\": [\"Q2\", \"Q1\"], \"claim_ids\": [\"F28\"], \"source_ids\": [\"D18\"], \"body\": [[\"选择与制作\", \"顾客参与毛绒填充、穿衣、配饰和命名。\", \"商品选择转化为亲自完成的礼物或纪念过程。\"], [\"送礼场景\", \"公司以送礼、个性化和授权产品拓展年龄人群。\", \"生日、纪念和关系表达可成为持续购买任务，不能只按儿童玩具理解。\"], [\"数字与实体\", \"电商关注收藏和送礼者，实体端保留互动过程。\", \"不同触点承接不同任务，网站需帮助选择，门店提供参与体验。\"], [\"MINISO适配\", \"完整制作流程需要人员和面积。\", \"可先研究轻量包装、祝福卡或配件搭配，避免照搬高成本制作店。\"]], \"implication\": \"借鉴“购买者参与”这一机制，具体服务形式须匹配门店人力和等候容忍度\", \"finding\": \"Build-A-Bear 将顾客参与制作嵌入礼物意义\", \"kind\": \"table\", \"headers\": [\"观察维度\", \"公开证据\", \"研究判断\"], \"chart\": null, \"note\": \"\", \"image\": null}, {\"number\": 28, \"id\": \"P28\", \"section\": \"02 竞争机制\", \"title\": \"可迁移的是购买机制，实施方式要服从 MINISO 的经营条件\", \"role\": \"analysis\", \"question_ids\": [\"Q2\"], \"claim_ids\": [\"F21\", \"F23\", \"F27\", \"F28\", \"F30\", \"F31\"], \"source_ids\": [\"D13\", \"D14\", \"D17\", \"D18\", \"D20\", \"D21\"], \"body\": [[\"收藏层级｜POP MART\", \"同角色多载体、系列和整套规则。\", \"可迁移：入口/主购/升级结构；限制：授权、库存和重复购买规则。\"], [\"商品意义｜Jellycat\", \"人格化形态与叙事。\", \"可迁移：原创商品情境；限制：需要设计和产品品质支撑。\"], [\"参与体验｜LEGO / Build-A-Bear\", \"拼搭展示或顾客参与制作。\", \"可迁移：轻量互动；限制：人力、面积和排队成本。\"], [\"系列日常化｜Daiso / BoxLunch\", \"角色跨文具、家居、穿搭及送礼任务。\", \"可迁移：跨品类陈列；限制：商品匹配和系列供货完整度。\"]], \"implication\": \"优先选择能用现有商品与门店能力承接的机制，再决定是否投入更重的体验改造\", \"finding\": \"可迁移的是购买机制，实施方式要服从 MINISO 的经营条件\", \"kind\": \"table\", \"headers\": [\"观察维度\", \"公开证据\", \"研究判断\"], \"chart\": null, \"note\": \"\", \"image\": null}]}",
+      "reference_kind": "rubric",
+      "reference": "Compare product narrative, participation, themes and gifting with case evidence; explain resource/format fit; global growth does not prove a US mechanism; propose concrete adaptation with conditions, not brand slogans.",
+      "split": "test",
+      "origin": "curated",
+      "tags": [
+        "synthetic-review-assignment",
+        "chapter-content",
+        "semantic-rubric"
+      ],
+      "source_sessions": []
+    }
+  ]
+}

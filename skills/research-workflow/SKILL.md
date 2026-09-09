@@ -28,3 +28,6 @@ Drafting and checking may occur as separate passes in the same host. Do not desc
 See [handoffs and deployment choices](references/handoffs.md) when managing a full study.
 
 For source discovery or renewed evidence gaps, route to the evidence skill's [Tavily-first retrieval handoff](../research-evidence-report/references/retrieval.md). Read saved request state before resuming, reuse extracted pages before searching again, and keep within the planned call budget. Firecrawl is an explicit page-extraction alternative. Local retrieval returns candidates, never semantic approval or completed research.
+
+
+案头研究交接必须包含商业问题及对应答案、重点竞品比较、国家或细分市场分析和机会推导。调用案头 Skill 时先走其研究工作流；不能只执行检索、证据检查和 PPT 渲染后宣布完整报告完成。

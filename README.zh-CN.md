@@ -18,7 +18,7 @@
 
 宿主负责推理和语义复核，项目提供技能流程与可执行文件契约。演示使用**预先编写的合成复核结果，模型调用为 0**，无需 API 密钥即可验证代码行为。
 
-**专业交付（0.5.0）：**[v2研究包](examples/north-america-retail/professional-v2/README.zh-CN.md)补齐104节点问卷、520变量码表与35页独立案头报告；新增国家选项、品牌漏斗带入及按经历筛选的矩阵行。[下载代码与全部成品](https://github.com/frankglendon/research-workflow-skills/releases/tag/case-study-v2)。当前为中文主稿，本地化、生产平台联调与实地预测试尚待执行。
+**案头流程重建（0.6.0）：**[当前案头案例](examples/north-america-retail/desk-v3/README.zh-CN.md)补齐问题驱动的逐章研究、竞品与国家分析、反证及整册审稿。v2案头分析深度不足，保留为历史；问卷与码表仍在[v2研究包](examples/north-america-retail/professional-v2/README.zh-CN.md)。文件有效性和测试数量不认证研究质量。
 
 **Tavily 优先检索（0.4.0）：**案头 Skill 已接入请求状态保存、逐页原文、限额退避和本地候选片段检索；Firecrawl 保留为显式单页备选。见 [实现与边界](docs/retrieval.md)，或运行 `python examples/retrieval/reproduce.py --output .runs/retrieval-demo` 查看无需联网的合成演示。
 

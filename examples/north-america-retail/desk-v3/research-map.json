@@ -1,0 +1,860 @@
+{
+  "version": "desk-v3",
+  "questions": [
+    {
+      "id": "Q1",
+      "question": "哪些需求增长与MINISO商品和任务有关？",
+      "initial_hypothesis": "成人与授权需求支持平价IP商品增长",
+      "falsifier": "品类下滑、购买动机不相关或授权优势被同类供给稀释"
+    },
+    {
+      "id": "Q2",
+      "question": "竞争机制是什么，MINISO可借鉴什么？",
+      "initial_hypothesis": "平价与IP组合形成差异",
+      "falsifier": "对手同样经营跨品类平价角色商品"
+    },
+    {
+      "id": "Q3",
+      "question": "美国机制如何在加拿大和墨西哥落地？",
+      "initial_hypothesis": "共同商品架构可跨国使用",
+      "falsifier": "本地价格参照与获得方式改变购买选择"
+    }
+  ],
+  "pages": [
+    {
+      "id": "P01",
+      "role": "cover",
+      "question_ids": [],
+      "claim_ids": [],
+      "finding": "平价生活方式与 IP 消费的北美机会",
+      "implication": "独立研究案例；无品牌委托或机构背书"
+    },
+    {
+      "id": "P02",
+      "role": "setup",
+      "question_ids": [],
+      "claim_ids": [],
+      "finding": "三个商业问题决定本报告的分析主线",
+      "implication": "研究覆盖消费与竞争方向；门店投资回报需要客户内部经营数据"
+    },
+    {
+      "id": "P03",
+      "role": "summary",
+      "question_ids": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "claim_ids": [
+        "F10",
+        "F11",
+        "F13",
+        "F25",
+        "F30",
+        "F35",
+        "F36"
+      ],
+      "finding": "机会集中在具体购买任务，竞争已进入商品组合与体验层面",
+      "implication": "近期研究优先项：角色跨品类搭配、送礼确定性，以及各国库存/支付/自取信息的一致性"
+    },
+    {
+      "id": "P04",
+      "role": "analysis",
+      "question_ids": [
+        "Q1",
+        "Q2"
+      ],
+      "claim_ids": [
+        "F25",
+        "F28",
+        "F30",
+        "F31",
+        "F36",
+        "F21"
+      ],
+      "finding": "MINISO 参与多种购买任务，同一消费者会跨渠道替代",
+      "implication": "竞品集按争夺的购买任务划分；既比较同业杂货，也比较收藏和送礼渠道"
+    },
+    {
+      "id": "P05",
+      "role": "analysis",
+      "question_ids": [
+        "Q1"
+      ],
+      "claim_ids": [
+        "F08",
+        "F29",
+        "F33",
+        "F34"
+      ],
+      "finding": "交叉品类需要分别读增长，现有数据不足以合成一个总市场",
+      "implication": "战略判断基于分项证据；本报告不把这些不同口径数字相加成为 TAM"
+    },
+    {
+      "id": "P06",
+      "role": "analysis",
+      "question_ids": [
+        "Q1"
+      ],
+      "claim_ids": [
+        "F08",
+        "F10"
+      ],
+      "finding": "美国玩具销售在 2026 年上半年继续增长",
+      "implication": "选品需要进入增长的具体子类，整体景气不能代替单个 IP 或毛绒系列验证"
+    },
+    {
+      "id": "P07",
+      "role": "analysis",
+      "question_ids": [
+        "Q1"
+      ],
+      "claim_ids": [
+        "F37",
+        "F09"
+      ],
+      "finding": "2025 年玩具增量集中在游戏、积木及探索类",
+      "implication": "优先评估角色积木、收藏玩法与配件组合；毛绒项目单独验证购买理由和替代品"
+    },
+    {
+      "id": "P08",
+      "role": "analysis",
+      "question_ids": [
+        "Q1"
+      ],
+      "claim_ids": [
+        "F10"
+      ],
+      "finding": "美国玩具增长同时包含销量扩张和平均售价提升",
+      "implication": "MINISO应分别监测售出件数、同款价格和品类组合，区分客流机会与客单结构机会"
+    },
+    {
+      "id": "P09",
+      "role": "analysis",
+      "question_ids": [
+        "Q1"
+      ],
+      "claim_ids": [
+        "F10",
+        "F11"
+      ],
+      "finding": "授权商品增速领先整体，价值仍需要具体角色与玩法承接",
+      "implication": "IP选择同时评估认知、商品适配和竞争供给，避免用角色知名度单独决定采购"
+    },
+    {
+      "id": "P10",
+      "role": "analysis",
+      "question_ids": [
+        "Q1"
+      ],
+      "claim_ids": [
+        "F38"
+      ],
+      "finding": "青少年与成年收礼对象带来增长，画像需围绕使用情境展开",
+      "implication": "机会描述采用自用、收藏、送礼任务；本报告不虚构年龄、性别占比或市场分群规模"
+    },
+    {
+      "id": "P11",
+      "role": "analysis",
+      "question_ids": [
+        "Q1"
+      ],
+      "claim_ids": [
+        "F12",
+        "F13"
+      ],
+      "finding": "假日预算趋紧，礼品需要让消费者确信钱花得合适",
+      "implication": "送礼陈列可按角色、对象与预算组织；盲选机制应与确定款选择并存"
+    },
+    {
+      "id": "P12",
+      "role": "analysis",
+      "question_ids": [
+        "Q1"
+      ],
+      "claim_ids": [
+        "F13",
+        "F22",
+        "F23",
+        "F28"
+      ],
+      "finding": "自用、收藏和送礼要求不同的商品与信息组合",
+      "implication": "同一 IP 可以服务多个任务，但需要不同的商品说明、陈列及后续沟通"
+    },
+    {
+      "id": "P13",
+      "role": "analysis",
+      "question_ids": [
+        "Q2"
+      ],
+      "claim_ids": [
+        "F25",
+        "F30",
+        "F36"
+      ],
+      "finding": "Daiso 与 Five Below 已覆盖平价角色商品，MINISO 需要更具体的差异",
+      "implication": "将“平价＋IP”作为竞争参与条件，进一步寻找客户能够持续执行的商品和服务差异"
+    },
+    {
+      "id": "P14",
+      "role": "analysis",
+      "question_ids": [
+        "Q2"
+      ],
+      "claim_ids": [
+        "F14",
+        "F21",
+        "F23",
+        "F28",
+        "F30",
+        "F31",
+        "F36",
+        "F27"
+      ],
+      "finding": "重点玩家分别争夺价格便利、角色收藏与礼物体验",
+      "implication": "下面用商品、渠道、复购机制和适配边界逐一展开，不将不同商业模式硬排优劣"
+    },
+    {
+      "id": "P15",
+      "role": "analysis",
+      "question_ids": [
+        "Q2",
+        "Q3"
+      ],
+      "claim_ids": [
+        "F01",
+        "F02"
+      ],
+      "finding": "MINISO 北美门店网络扩张，为需求承接提供更多触点",
+      "implication": "扩大覆盖之后，还需验证新店与成熟店的商品组合、购买任务及复购差异"
+    },
+    {
+      "id": "P16",
+      "role": "competitor",
+      "question_ids": [
+        "Q2"
+      ],
+      "claim_ids": [
+        "F03",
+        "F16",
+        "F25",
+        "F32"
+      ],
+      "finding": "MINISO 会员已有销售联系，下一步研究应解释回访的具体理由",
+      "implication": "可先优化角色偏好与上新通知的连接，再用经营数据检验通知、入店和复购的关系"
+    },
+    {
+      "id": "P17",
+      "role": "analysis",
+      "question_ids": [
+        "Q2"
+      ],
+      "claim_ids": [
+        "F05",
+        "F36"
+      ],
+      "finding": "Five Below 以平价多品类参与角色消费，销售保持增长",
+      "implication": "对标应观察同任务购物篮、角色陈列和相关配件，不能只比较两家公司的收入增速"
+    },
+    {
+      "id": "P18",
+      "role": "competitor",
+      "question_ids": [
+        "Q2"
+      ],
+      "claim_ids": [
+        "F36",
+        "F05"
+      ],
+      "finding": "Five Below 的角色货架把粉丝兴趣连接到多种日常购买",
+      "implication": "用角色购物篮比较竞争：主商品、配件、包装和可获得性一起看"
+    },
+    {
+      "id": "P19",
+      "role": "analysis",
+      "question_ids": [
+        "Q2"
+      ],
+      "claim_ids": [
+        "F06",
+        "F07"
+      ],
+      "finding": "POP MART 美洲收入以线上为主，门店数量无法解释全部增长",
+      "implication": "收藏项目需要同时设计线上商品信息、发售规则与门店体验，不能只模仿开大店"
+    },
+    {
+      "id": "P20",
+      "role": "analysis",
+      "question_ids": [
+        "Q2"
+      ],
+      "claim_ids": [
+        "F21",
+        "F22"
+      ],
+      "finding": "POP MART 同一角色覆盖小件入口与高价升级商品",
+      "implication": "MINISO可评估同IP的小配件、主商品和礼盒层级；具体价格仍需成本与愿付验证"
+    },
+    {
+      "id": "P21",
+      "role": "competitor",
+      "question_ids": [
+        "Q2",
+        "Q1"
+      ],
+      "claim_ids": [
+        "F23"
+      ],
+      "finding": "Jellycat 用人格化叙事帮助消费者为日常物体找到情感意义",
+      "implication": "原创商品研究应同时评估“外观喜欢”与“为什么想带回家/送给谁”"
+    },
+    {
+      "id": "P22",
+      "role": "analysis",
+      "question_ids": [
+        "Q2"
+      ],
+      "claim_ids": [
+        "F26",
+        "F27"
+      ],
+      "finding": "LEGO 通过多主题产品与零售体验扩大需求覆盖",
+      "implication": "可借鉴跨兴趣产品架构与参与式展示；全球收入不用于估计美国市场份额"
+    },
+    {
+      "id": "P23",
+      "role": "competitor",
+      "question_ids": [
+        "Q2",
+        "Q1"
+      ],
+      "claim_ids": [
+        "F27"
+      ],
+      "finding": "LEGO 的主题组合把角色热度与持续参与活动结合",
+      "implication": "产品创新应检验消费者愿不愿参与使用过程，而不只是测试包装是否吸睛"
+    },
+    {
+      "id": "P24",
+      "role": "competitor",
+      "question_ids": [
+        "Q2",
+        "Q1"
+      ],
+      "claim_ids": [
+        "F28"
+      ],
+      "finding": "Build-A-Bear 将顾客参与制作嵌入礼物意义",
+      "implication": "借鉴“购买者参与”这一机制，具体服务形式须匹配门店人力和等候容忍度"
+    },
+    {
+      "id": "P25",
+      "role": "competitor",
+      "question_ids": [
+        "Q2"
+      ],
+      "claim_ids": [
+        "F30",
+        "F17"
+      ],
+      "finding": "Daiso 把角色商品、节庆和日用品放在同一低价选择环境",
+      "implication": "Daiso是“低价角色商品已存在”的反证，需要进入核心竞品清单"
+    },
+    {
+      "id": "P26",
+      "role": "competitor",
+      "question_ids": [
+        "Q2",
+        "Q3"
+      ],
+      "claim_ids": [
+        "F14",
+        "F15"
+      ],
+      "finding": "Dollarama 在加拿大提供清晰而密集的低价参照",
+      "implication": "加拿大定位应回答“比低价替代品多提供什么”，并用具体商品展示而非抽象品牌标签"
+    },
+    {
+      "id": "P27",
+      "role": "competitor",
+      "question_ids": [
+        "Q2"
+      ],
+      "claim_ids": [
+        "F31"
+      ],
+      "finding": "BoxLunch 围绕粉丝生活方式组织跨品类礼品",
+      "implication": "重点借鉴角色系列如何成为生活方式组合，公益承诺的效果须另有证据"
+    },
+    {
+      "id": "P28",
+      "role": "analysis",
+      "question_ids": [
+        "Q2"
+      ],
+      "claim_ids": [
+        "F21",
+        "F23",
+        "F27",
+        "F28",
+        "F30",
+        "F31"
+      ],
+      "finding": "可迁移的是购买机制，实施方式要服从 MINISO 的经营条件",
+      "implication": "优先选择能用现有商品与门店能力承接的机制，再决定是否投入更重的体验改造"
+    },
+    {
+      "id": "P29",
+      "role": "analysis",
+      "question_ids": [
+        "Q2"
+      ],
+      "claim_ids": [
+        "F14",
+        "F21",
+        "F23",
+        "F30"
+      ],
+      "finding": "商品样本显示多种价格台阶，尚不足以证明 MINISO 价格优势",
+      "implication": "机会是清楚组织价值层级；最终价格须结合本地成本、替代商品与愿付水平"
+    },
+    {
+      "id": "P30",
+      "role": "analysis",
+      "question_ids": [
+        "Q3"
+      ],
+      "claim_ids": [
+        "F34"
+      ],
+      "finding": "加拿大 2025 年零售温和增长，数量增长低于金额增长",
+      "implication": "加拿大方案需要同时解释商品价值和具体购买任务，避免用总零售增长证明某个品类机会"
+    },
+    {
+      "id": "P31",
+      "role": "analysis",
+      "question_ids": [
+        "Q3"
+      ],
+      "claim_ids": [
+        "F35"
+      ],
+      "finding": "加拿大线上零售已有规模，线下仍承担主要销售",
+      "implication": "数字入口可以服务门店选择与购买准备，不能仅凭线上占比决定渠道预算"
+    },
+    {
+      "id": "P32",
+      "role": "country",
+      "question_ids": [
+        "Q3"
+      ],
+      "claim_ids": [
+        "F16",
+        "F24",
+        "F32",
+        "F14"
+      ],
+      "finding": "加拿大既有 IP 集合店，也有非 IP 商品供给基础",
+      "implication": "加拿大优先研究“角色主商品＋有用配件”的组合价值，并分别评价零售与批发口径"
+    },
+    {
+      "id": "P33",
+      "role": "country",
+      "question_ids": [
+        "Q3",
+        "Q2"
+      ],
+      "claim_ids": [
+        "F14",
+        "F16",
+        "F32"
+      ],
+      "finding": "加拿大的差异化应落在可解释的价值和角色系列完整度",
+      "implication": "加拿大可先验证“买得明白、搭配完整、拿得到”的零售表达"
+    },
+    {
+      "id": "P34",
+      "role": "country",
+      "question_ids": [
+        "Q3"
+      ],
+      "claim_ids": [
+        "F33",
+        "F19"
+      ],
+      "finding": "墨西哥的数字购买基础使商品信息与履约衔接成为研究重点",
+      "implication": "墨西哥机会分析把角色选购与本地付款/自取一起看，避免只做品牌认知研究"
+    },
+    {
+      "id": "P35",
+      "role": "country",
+      "question_ids": [
+        "Q3",
+        "Q2"
+      ],
+      "claim_ids": [
+        "F25"
+      ],
+      "finding": "墨西哥 Cinnamoroll 系列已经把角色延伸到多个生活场景",
+      "implication": "优先测试同角色的跨任务搭配，区分真正加购与对原本日用品购买的替代"
+    },
+    {
+      "id": "P36",
+      "role": "country",
+      "question_ids": [
+        "Q3"
+      ],
+      "claim_ids": [
+        "F19",
+        "F25"
+      ],
+      "finding": "墨西哥购买路径需要把角色兴趣落实到付款和取货条件",
+      "implication": "本地转化研究应覆盖完整购买路径，并保留消费者未完成购买的具体原因"
+    },
+    {
+      "id": "P37",
+      "role": "country",
+      "question_ids": [
+        "Q3",
+        "Q2"
+      ],
+      "claim_ids": [
+        "F15",
+        "F20",
+        "F25"
+      ],
+      "finding": "墨西哥同时面对生活方式同业与新增低价网络",
+      "implication": "墨西哥先做商圈任务比较与角色购物篮观察，再判断具体扩张或商品投入"
+    },
+    {
+      "id": "P38",
+      "role": "country",
+      "question_ids": [
+        "Q3"
+      ],
+      "claim_ids": [
+        "F10",
+        "F14",
+        "F19",
+        "F25",
+        "F32",
+        "F35",
+        "F36"
+      ],
+      "finding": "三个市场需要不同的价值表达与购买路径重点",
+      "implication": "北美采用共同的角色与商品研究框架，各国保留不同竞争参照和渠道执行条件"
+    },
+    {
+      "id": "P39",
+      "role": "opportunity",
+      "question_ids": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "claim_ids": [
+        "F10",
+        "F11",
+        "F13",
+        "F30",
+        "F36",
+        "F09"
+      ],
+      "finding": "美国可优先验证角色商品在自用、轻收藏与送礼之间的组合",
+      "implication": "美国研究优先级：任务适配与替代关系，随后再检验价格和商品组合"
+    },
+    {
+      "id": "P40",
+      "role": "opportunity",
+      "question_ids": [
+        "Q3"
+      ],
+      "claim_ids": [
+        "F14",
+        "F16",
+        "F32"
+      ],
+      "finding": "加拿大可围绕商品价值说明与系列完整度组织小范围试验",
+      "implication": "加拿大先检验“额外价值说得清、核心商品拿得到”，再讨论扩大投入"
+    },
+    {
+      "id": "P41",
+      "role": "opportunity",
+      "question_ids": [
+        "Q3"
+      ],
+      "claim_ids": [
+        "F19",
+        "F25",
+        "F33"
+      ],
+      "finding": "墨西哥可用角色套系连接商品浏览与本地获得方式",
+      "implication": "墨西哥先把选择与获得的路径做完整，再判断系列组合能否带来增量"
+    },
+    {
+      "id": "P42",
+      "role": "opportunity",
+      "question_ids": [
+        "Q1",
+        "Q2"
+      ],
+      "claim_ids": [
+        "F03",
+        "F13",
+        "F19",
+        "F22",
+        "F25"
+      ],
+      "finding": "角色上新只有连接到选择、获得和使用，才形成完整体验",
+      "implication": "体验优化应按消费者完成任务的过程组织，品牌、商品、渠道研究采用同一条路径"
+    },
+    {
+      "id": "P43",
+      "role": "opportunity",
+      "question_ids": [
+        "Q2"
+      ],
+      "claim_ids": [
+        "F21",
+        "F22",
+        "F25"
+      ],
+      "finding": "IP 商品规划需要分别定义入口、主购和升级任务",
+      "implication": "层级用于设计商品任务；本报告没有足够成本与愿付数据给出具体上市价格"
+    },
+    {
+      "id": "P44",
+      "role": "analysis",
+      "question_ids": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "claim_ids": [
+        "F09",
+        "F14",
+        "F30",
+        "F35",
+        "F36"
+      ],
+      "finding": "四类反证决定机会判断何时需要调整",
+      "implication": "对机会保持条件化判断，既保留支持证据，也保留会改变结论的观察"
+    },
+    {
+      "id": "P45",
+      "role": "opportunity",
+      "question_ids": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "claim_ids": [
+        "F13",
+        "F19",
+        "F21",
+        "F25",
+        "F30"
+      ],
+      "finding": "近期优先项应利用已有能力，同时解决消费者的具体选择困难",
+      "implication": "排序依据是现有能力与问题清晰度；不以虚构机会评分替代经营判断"
+    },
+    {
+      "id": "P46",
+      "role": "summary",
+      "question_ids": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "claim_ids": [
+        "F10",
+        "F11",
+        "F13",
+        "F14",
+        "F19",
+        "F25",
+        "F30",
+        "F36"
+      ],
+      "finding": "三个商业问题的答案：机会存在，但要落到具体任务与本地条件",
+      "implication": "案头已形成方向判断；市场细分规模、价格弹性和投资回报仍需一手或经营数据"
+    },
+    {
+      "id": "P47",
+      "role": "future_research",
+      "question_ids": [],
+      "claim_ids": [
+        "F09",
+        "F13",
+        "F19",
+        "F25",
+        "F36"
+      ],
+      "finding": "一手研究应验证会改变机会判断的少数关键假设",
+      "implication": "与已完成的问卷和整体方案衔接；不把上述验证结果写成已经发生的案头发现"
+    },
+    {
+      "id": "P48",
+      "role": "methods",
+      "question_ids": [],
+      "claim_ids": [],
+      "finding": "证据来自公开原始披露与官网观察，解释和建议由本研究提出",
+      "implication": "公开案例采用独立视觉与原创分析；来源完整链接、口径和定位随报告提供"
+    },
+    {
+      "id": "P49",
+      "role": "sources",
+      "question_ids": [],
+      "claim_ids": [],
+      "finding": "来源与统计范围 1",
+      "implication": "完整URL见本页备注及 sources.json"
+    },
+    {
+      "id": "P50",
+      "role": "sources",
+      "question_ids": [],
+      "claim_ids": [],
+      "finding": "来源与统计范围 2",
+      "implication": "完整URL见本页备注及 sources.json"
+    },
+    {
+      "id": "P51",
+      "role": "sources",
+      "question_ids": [],
+      "claim_ids": [],
+      "finding": "来源与统计范围 3",
+      "implication": "完整URL见本页备注及 sources.json"
+    },
+    {
+      "id": "P52",
+      "role": "sources",
+      "question_ids": [],
+      "claim_ids": [],
+      "finding": "来源与统计范围 4",
+      "implication": "完整URL见本页备注及 sources.json"
+    }
+  ],
+  "answers": [
+    {
+      "id": "A1",
+      "question_id": "Q1",
+      "status": "partial",
+      "answer": "需求增长支持部分购买任务；毛绒与其他类别不可泛化。",
+      "page_ids": [
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P21",
+        "P23",
+        "P24",
+        "P39",
+        "P42",
+        "P44",
+        "P45"
+      ]
+    },
+    {
+      "id": "A2",
+      "question_id": "Q2",
+      "status": "refuted",
+      "answer": "平价＋IP排他差异假设被竞品商品证据推翻，应比较组合和体验。",
+      "page_ids": [
+        "P04",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27",
+        "P28",
+        "P29",
+        "P33",
+        "P35",
+        "P37",
+        "P39",
+        "P42",
+        "P43",
+        "P44",
+        "P45"
+      ]
+    },
+    {
+      "id": "A3",
+      "question_id": "Q3",
+      "status": "partial",
+      "answer": "共同任务框架可复用，价值表达和付款/取货需按国适配。",
+      "page_ids": [
+        "P15",
+        "P26",
+        "P30",
+        "P31",
+        "P32",
+        "P33",
+        "P34",
+        "P35",
+        "P36",
+        "P37",
+        "P38",
+        "P39",
+        "P40",
+        "P41",
+        "P44",
+        "P45"
+      ]
+    }
+  ],
+  "claim_ids": [
+    "F01",
+    "F02",
+    "F03",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17",
+    "F19",
+    "F20",
+    "F21",
+    "F22",
+    "F23",
+    "F24",
+    "F25",
+    "F26",
+    "F27",
+    "F28",
+    "F29",
+    "F30",
+    "F31",
+    "F32",
+    "F33",
+    "F34",
+    "F35",
+    "F36",
+    "F37",
+    "F38"
+  ],
+  "semantic_review": "See editorial-review.md; structural command does not verify research quality"
+}
