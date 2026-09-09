@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "study_id": "case-20260909",
+  "stages": [
+    {
+      "id": "design",
+      "depends_on": [],
+      "inputs": [
+        "research-plan.md",
+        "qualitative-guide.md",
+        "analysis-plan.md"
+      ],
+      "required_artifacts": [
+        "plan",
+        "qualitative",
+        "analysis"
+      ],
+      "review_mode": "host",
+      "acceptance": [
+        {
+          "id": "coverage",
+          "description": "Review the coverage of this design example; not fieldwork certification"
+        },
+        {
+          "id": "sampling",
+          "description": "Review the sampling of this design example; not fieldwork certification"
+        },
+        {
+          "id": "limitations",
+          "description": "Review the limitations of this design example; not fieldwork certification"
+        }
+      ]
+    },
+    {
+      "id": "questionnaire",
+      "depends_on": [
+        "design"
+      ],
+      "inputs": [
+        "questionnaire-spec.json"
+      ],
+      "required_artifacts": [
+        "questionnaire",
+        "programming"
+      ],
+      "review_mode": "host",
+      "acceptance": [
+        {
+          "id": "measurement",
+          "description": "Review the measurement of this design example; not fieldwork certification"
+        },
+        {
+          "id": "routes",
+          "description": "Review the routes of this design example; not fieldwork certification"
+        },
+        {
+          "id": "bases",
+          "description": "Review the bases of this design example; not fieldwork certification"
+        }
+      ]
+    },
+    {
+      "id": "codebook",
+      "depends_on": [
+        "questionnaire"
+      ],
+      "inputs": [
+        "codebook-plan.json"
+      ],
+      "required_artifacts": [
+        "codebook"
+      ],
+      "review_mode": "host",
+      "acceptance": [
+        {
+          "id": "mapping",
+          "description": "Review the mapping of this design example; not fieldwork certification"
+        },
+        {
+          "id": "open_coding",
+          "description": "Review the open coding of this design example; not fieldwork certification"
+        }
+      ]
+    }
+  ]
+}

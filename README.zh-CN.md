@@ -18,6 +18,14 @@
 
 宿主负责推理和语义复核，项目提供技能流程与可执行文件契约。演示使用**预先编写的合成复核结果，模型调用为 0**，无需 API 密钥即可验证代码行为。
 
+**完整设计案例：**[北美零售研究](examples/north-america-retail/README.zh-CN.md)，包含 23 页定性与定量方案、访谈指南、54 节点问卷和 120 变量码表。案例目录可直接下载 Word、Excel，也可[一次下载全部代码与成品](https://github.com/frankglendon/research-workflow-skills/releases/tag/case-study-v1)。虚构品牌与合成路径用于展示设计交接，没有实地研究或市场发现。
+
+```bash
+python examples/north-america-retail/reproduce.py --output .runs/full-case
+```
+
+复现会重新编译两份工作簿、验证随包 Word，并回放三个设计阶段；12 条合成用例覆盖 56 个显式分支。它复用已记录的宿主审阅，不重新生成方案或开展研究。
+
 ```text
 $ python -m research_skills demo --output .runs/demo
 {"synthetic": true, "model_calls": 0, "exports": 5,

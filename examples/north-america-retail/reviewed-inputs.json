@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "review_scope": "host-reviewed design example",
+  "sha256": {
+    "research-plan.md": "77813b7a2bb6880dc91d532ac4265c482bebdc36282be8050d56a685fd238d16",
+    "qualitative-guide.md": "87283d7602282f1d4e63d04f7af4464360afb34830f4daf521979ee903182614",
+    "programming-guide.md": "3b1f2db5aef605e091760ff3902a40710911850820f5cd9d8cd200a1fd736ec7",
+    "analysis-plan.md": "8cae14ef48ce49324b2f89ddd7d9db79a2609c4db62b8fd9b2ee77ac953889e1",
+    "questionnaire-spec.json": "f91298961235d437406c2760590ab330c407081c2119aeb124004aeec354e485",
+    "codebook-plan.json": "c80c3e490147c9e8ddd67109697f23f52f892434ea95450ca6e0261454c97a67",
+    "study-plan.json": "4677c4e934d96208e973d985509e151138539e820a62a7d5f193a220ae196e8b",
+    "case-review.json": "fa0f8f256747acd574395a1a3944a5f00288934ba9ba72066b18f9297a5644b9",
+    "deliverables/research-plan.docx": "1997525745186dfd82a29c3479a9edff7ccac27eee02001db8f9dd60dadc5888"
+  }
+}

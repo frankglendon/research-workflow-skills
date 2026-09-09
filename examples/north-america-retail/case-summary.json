@@ -1,0 +1,15 @@
+{
+  "audience": "public",
+  "questionnaire_nodes": 54,
+  "respondent_questions": 51,
+  "system_nodes": 3,
+  "variables": 120,
+  "codeframes": 4,
+  "cases": 12,
+  "branches": 56,
+  "review_scope": "host-reviewed design example; no independent reviewer authentication or fieldwork validation",
+  "fieldwork_executed": false,
+  "platform_deployed": false,
+  "reviews_presealed_for_reproduction": true,
+  "original_answers_included": false
+}

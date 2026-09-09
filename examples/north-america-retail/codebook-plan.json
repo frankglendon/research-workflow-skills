@@ -1,0 +1,2543 @@
+{
+  "schema_version": 1,
+  "version": "1.0-design-case",
+  "questionnaire_sha256": "90ca7d1540b7f9231a8abd6cc28ea43aad2f5d43e03cfc162a867328a4284490",
+  "variables": [
+    {
+      "population": "main",
+      "question_id": "S00",
+      "label": "本研究了解购物经历，自愿参与，可随时退出。是否同意参加？",
+      "type": "single",
+      "values": {
+        "1": "同意",
+        "2": "不同意"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_S00",
+      "canonical_id": "main_S00"
+    },
+    {
+      "population": "main",
+      "question_id": "S01",
+      "label": "您的年龄属于以下哪一组？",
+      "type": "single",
+      "values": {
+        "1": "18岁以下",
+        "2": "18至24岁",
+        "3": "25至34岁",
+        "4": "35至44岁",
+        "5": "45至54岁",
+        "6": "55岁及以上",
+        "7": "不愿回答"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_S01",
+      "canonical_id": "main_S01"
+    },
+    {
+      "population": "main",
+      "question_id": "S02",
+      "label": "您目前通常居住在哪个国家？",
+      "type": "single",
+      "values": {
+        "1": "美国",
+        "2": "加拿大",
+        "3": "墨西哥",
+        "4": "其他国家"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_S02",
+      "canonical_id": "main_S02"
+    },
+    {
+      "population": "main",
+      "question_id": "S03",
+      "label": "过去12个月，您在该国居住是否已满6个月？",
+      "type": "single",
+      "values": {
+        "1": "是",
+        "2": "否"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_S03",
+      "canonical_id": "main_S03"
+    },
+    {
+      "population": "main",
+      "question_id": "S04",
+      "label": "文具与日常小物",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_S04_1",
+      "canonical_id": "main_S04_1"
+    },
+    {
+      "population": "main",
+      "question_id": "S04",
+      "label": "家居生活用品",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_S04_2",
+      "canonical_id": "main_S04_2"
+    },
+    {
+      "population": "main",
+      "question_id": "S04",
+      "label": "小型数码配件",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_S04_3",
+      "canonical_id": "main_S04_3"
+    },
+    {
+      "population": "main",
+      "question_id": "S04",
+      "label": "个人护理与美妆工具",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_S04_4",
+      "canonical_id": "main_S04_4"
+    },
+    {
+      "population": "main",
+      "question_id": "S04",
+      "label": "玩具或收藏品",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_S04_5",
+      "canonical_id": "main_S04_5"
+    },
+    {
+      "population": "main",
+      "question_id": "S04",
+      "label": "礼品与节庆用品",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_S04_6",
+      "canonical_id": "main_S04_6"
+    },
+    {
+      "population": "main",
+      "question_id": "S04",
+      "label": "以上均无",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_S04_99",
+      "canonical_id": "main_S04_99"
+    },
+    {
+      "population": "main",
+      "question_id": "S05",
+      "label": "对于上述购买，您是否参与选择商品或决定是否购买？",
+      "type": "single",
+      "values": {
+        "1": "自己决定或共同决定",
+        "2": "完全由他人决定"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_S05",
+      "canonical_id": "main_S05"
+    },
+    {
+      "population": "main",
+      "question_id": "H00",
+      "label": "样本来源层",
+      "type": "single",
+      "values": {
+        "1": "基础样本",
+        "2": "品牌购买者加样"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_H00",
+      "canonical_id": "main_H00"
+    },
+    {
+      "population": "main",
+      "question_id": "A01",
+      "label": "想到购买这些商品，您最先想到哪些店、购物平台或品牌？请按想到的顺序填写；想不到可以写“不知道”。",
+      "type": "open",
+      "values": {},
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_A01",
+      "canonical_id": "main_A01"
+    },
+    {
+      "population": "main",
+      "question_id": "A02",
+      "label": "请回想最近一次购买上述商品，主要购买的是哪一类？",
+      "type": "single",
+      "values": {
+        "1": "文具与日常小物",
+        "2": "家居生活用品",
+        "3": "小型数码配件",
+        "4": "个人护理与美妆工具",
+        "5": "玩具或收藏品",
+        "6": "礼品与节庆用品"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_A02",
+      "canonical_id": "main_A02"
+    },
+    {
+      "population": "main",
+      "question_id": "A03",
+      "label": "这次购买主要是给谁使用或收藏？",
+      "type": "single",
+      "values": {
+        "1": "自己",
+        "2": "家庭成员",
+        "3": "朋友或同事",
+        "4": "伴侣",
+        "5": "其他对象"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_A03",
+      "canonical_id": "main_A03"
+    },
+    {
+      "population": "main",
+      "question_id": "A04",
+      "label": "这次购买最主要的用途是什么？",
+      "type": "single",
+      "values": {
+        "1": "满足实际需要或替换",
+        "2": "奖励自己或改善心情",
+        "3": "日常赠礼",
+        "4": "生日节庆等场合赠礼",
+        "5": "个人收藏",
+        "6": "其他用途"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_A04",
+      "canonical_id": "main_A04"
+    },
+    {
+      "population": "main",
+      "question_id": "A05",
+      "label": "在开始这次购物之前，您对购买的计划是怎样的？",
+      "type": "single",
+      "values": {
+        "1": "已确定具体商品",
+        "2": "确定品类但未定商品",
+        "3": "有购物想法但无明确目标",
+        "4": "没有购物计划，临时决定"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_A05",
+      "canonical_id": "main_A05"
+    },
+    {
+      "population": "main",
+      "question_id": "A06",
+      "label": "原有物品用完或损坏",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A06_1",
+      "canonical_id": "main_A06_1"
+    },
+    {
+      "population": "main",
+      "question_id": "A06",
+      "label": "看到新品或有趣设计",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A06_2",
+      "canonical_id": "main_A06_2"
+    },
+    {
+      "population": "main",
+      "question_id": "A06",
+      "label": "看到喜欢的IP或角色",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A06_3",
+      "canonical_id": "main_A06_3"
+    },
+    {
+      "population": "main",
+      "question_id": "A06",
+      "label": "有赠礼场合",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A06_4",
+      "canonical_id": "main_A06_4"
+    },
+    {
+      "population": "main",
+      "question_id": "A06",
+      "label": "遇到折扣或优惠",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A06_5",
+      "canonical_id": "main_A06_5"
+    },
+    {
+      "population": "main",
+      "question_id": "A06",
+      "label": "在逛店或浏览时被吸引",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A06_6",
+      "canonical_id": "main_A06_6"
+    },
+    {
+      "population": "main",
+      "question_id": "A06",
+      "label": "朋友或社交内容推荐",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A06_7",
+      "canonical_id": "main_A06_7"
+    },
+    {
+      "population": "main",
+      "question_id": "A06",
+      "label": "以上均无",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A06_99",
+      "canonical_id": "main_A06_99"
+    },
+    {
+      "population": "main",
+      "question_id": "A07",
+      "label": "这次最终通过什么渠道购买？",
+      "type": "single",
+      "values": {
+        "1": "生活方式或礼品连锁实体店",
+        "2": "大型综合零售实体店",
+        "3": "玩具或收藏品专门实体店",
+        "4": "线上综合购物平台",
+        "5": "品牌自营网站或应用",
+        "6": "其他渠道"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_A07",
+      "canonical_id": "main_A07"
+    },
+    {
+      "population": "main",
+      "question_id": "A08",
+      "label": "现场陈列或试用",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A08_1",
+      "canonical_id": "main_A08_1"
+    },
+    {
+      "population": "main",
+      "question_id": "A08",
+      "label": "店员介绍",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A08_2",
+      "canonical_id": "main_A08_2"
+    },
+    {
+      "population": "main",
+      "question_id": "A08",
+      "label": "搜索引擎或商品页面",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A08_3",
+      "canonical_id": "main_A08_3"
+    },
+    {
+      "population": "main",
+      "question_id": "A08",
+      "label": "社交媒体内容",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A08_4",
+      "canonical_id": "main_A08_4"
+    },
+    {
+      "population": "main",
+      "question_id": "A08",
+      "label": "亲友建议",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A08_5",
+      "canonical_id": "main_A08_5"
+    },
+    {
+      "population": "main",
+      "question_id": "A08",
+      "label": "过往购买经验",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A08_6",
+      "canonical_id": "main_A08_6"
+    },
+    {
+      "population": "main",
+      "question_id": "A08",
+      "label": "价格或促销信息",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A08_7",
+      "canonical_id": "main_A08_7"
+    },
+    {
+      "population": "main",
+      "question_id": "A08",
+      "label": "以上均无",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A08_99",
+      "canonical_id": "main_A08_99"
+    },
+    {
+      "population": "main",
+      "question_id": "A09",
+      "label": "距离近或到货快",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A09_1",
+      "canonical_id": "main_A09_1"
+    },
+    {
+      "population": "main",
+      "question_id": "A09",
+      "label": "商品选择适合",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A09_2",
+      "canonical_id": "main_A09_2"
+    },
+    {
+      "population": "main",
+      "question_id": "A09",
+      "label": "价格在预算内",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A09_3",
+      "canonical_id": "main_A09_3"
+    },
+    {
+      "population": "main",
+      "question_id": "A09",
+      "label": "商品质量可信",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A09_4",
+      "canonical_id": "main_A09_4"
+    },
+    {
+      "population": "main",
+      "question_id": "A09",
+      "label": "发现新品的体验",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A09_5",
+      "canonical_id": "main_A09_5"
+    },
+    {
+      "population": "main",
+      "question_id": "A09",
+      "label": "退换或服务便利",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A09_6",
+      "canonical_id": "main_A09_6"
+    },
+    {
+      "population": "main",
+      "question_id": "A09",
+      "label": "可买到喜欢的IP",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A09_7",
+      "canonical_id": "main_A09_7"
+    },
+    {
+      "population": "main",
+      "question_id": "A09",
+      "label": "以上均无",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_A09_99",
+      "canonical_id": "main_A09_99"
+    },
+    {
+      "population": "main",
+      "question_id": "A10",
+      "label": "您是否记得这次所选品类商品合计实际支付的金额？",
+      "type": "single",
+      "values": {
+        "1": "记得",
+        "2": "记不清或不愿回答"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_A10",
+      "canonical_id": "main_A10"
+    },
+    {
+      "population": "main",
+      "question_id": "A11",
+      "label": "这次该品类合计实际支付多少？请按付款币种填写数字。",
+      "type": "numeric",
+      "values": {
+        "range": [
+          0,
+          1000000
+        ]
+      },
+      "base": [
+        {
+          "question_id": "A10",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_A11",
+      "canonical_id": "main_A11"
+    },
+    {
+      "population": "main",
+      "question_id": "A12",
+      "label": "这笔金额使用什么币种？",
+      "type": "single",
+      "values": {
+        "1": "美元 USD",
+        "2": "加元 CAD",
+        "3": "墨西哥比索 MXN",
+        "4": "其他币种"
+      },
+      "base": [
+        {
+          "question_id": "A10",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_A12",
+      "canonical_id": "main_A12"
+    },
+    {
+      "population": "main",
+      "question_id": "A12",
+      "label": "其他币种 — specify",
+      "type": "open",
+      "values": {},
+      "base": {
+        "question_id": "A12",
+        "selected": 4
+      },
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_A12_other_4",
+      "canonical_id": "main_A12_other_4"
+    },
+    {
+      "population": "main",
+      "question_id": "A13",
+      "label": "您刚才填写的金额包含税费吗？",
+      "type": "single",
+      "values": {
+        "1": "包含全部已付税费",
+        "2": "不包含税费",
+        "3": "没有相关税费",
+        "4": "不确定"
+      },
+      "base": [
+        {
+          "question_id": "A10",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_A13",
+      "canonical_id": "main_A13"
+    },
+    {
+      "population": "main",
+      "question_id": "A14",
+      "label": "这次购买是否使用了折扣、优惠券或其他价格优惠？",
+      "type": "single",
+      "values": {
+        "1": "是",
+        "2": "否",
+        "3": "不确定"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_A14",
+      "canonical_id": "main_A14"
+    },
+    {
+      "population": "main",
+      "question_id": "B01",
+      "label": "在今天参加研究之前，您是否听说过「示例生活方式零售品牌」？",
+      "type": "single",
+      "values": {
+        "1": "听说过",
+        "2": "没有听说过",
+        "3": "不确定"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_B01",
+      "canonical_id": "main_B01"
+    },
+    {
+      "population": "main",
+      "question_id": "B02",
+      "label": "在看到今天的任何介绍前，「示例生活方式零售品牌」让您想到什么？可填写“不清楚”。",
+      "type": "open",
+      "values": {},
+      "base": [
+        {
+          "question_id": "B01",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_B02",
+      "canonical_id": "main_B02"
+    },
+    {
+      "population": "main",
+      "question_id": "B03",
+      "label": "过去6个月，您是否从「示例生活方式零售品牌」购买过商品？",
+      "type": "single",
+      "values": {
+        "1": "购买过",
+        "2": "没有购买过",
+        "3": "不确定"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_B03",
+      "canonical_id": "main_B03"
+    },
+    {
+      "population": "main",
+      "question_id": "X01",
+      "label": "品牌加样未满足近6个月购买资格",
+      "type": "single",
+      "values": {
+        "1": "结束访问"
+      },
+      "base": [
+        {
+          "question_id": "H00",
+          "codes": [
+            2
+          ]
+        },
+        {
+          "question_id": "B03",
+          "codes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_X01",
+      "canonical_id": "main_X01"
+    },
+    {
+      "population": "main",
+      "question_id": "B04",
+      "label": "过去6个月，您从「示例生活方式零售品牌」购买过几次？",
+      "type": "single",
+      "values": {
+        "1": "1次",
+        "2": "2至3次",
+        "3": "4次及以上",
+        "4": "记不清"
+      },
+      "base": [
+        {
+          "question_id": "B03",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_B04",
+      "canonical_id": "main_B04"
+    },
+    {
+      "population": "main",
+      "question_id": "B05",
+      "label": "在未来3个月有相关品类需要时，您会在多大程度上考虑「示例生活方式零售品牌」？",
+      "type": "single",
+      "values": {
+        "1": "一定不会考虑",
+        "2": "可能不会考虑",
+        "3": "可能会也可能不会",
+        "4": "可能会考虑",
+        "5": "一定会考虑",
+        "6": "不了解，无法判断"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_B05",
+      "canonical_id": "main_B05"
+    },
+    {
+      "population": "main",
+      "question_id": "B06",
+      "label": "不了解该品牌",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "B03",
+          "codes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_B06_1",
+      "canonical_id": "main_B06_1"
+    },
+    {
+      "population": "main",
+      "question_id": "B06",
+      "label": "附近没有方便到达的门店或渠道",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "B03",
+          "codes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_B06_2",
+      "canonical_id": "main_B06_2"
+    },
+    {
+      "population": "main",
+      "question_id": "B06",
+      "label": "没有合适商品",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "B03",
+          "codes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_B06_3",
+      "canonical_id": "main_B06_3"
+    },
+    {
+      "population": "main",
+      "question_id": "B06",
+      "label": "对质量缺少信心",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "B03",
+          "codes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_B06_4",
+      "canonical_id": "main_B06_4"
+    },
+    {
+      "population": "main",
+      "question_id": "B06",
+      "label": "价格不符合预期",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "B03",
+          "codes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_B06_5",
+      "canonical_id": "main_B06_5"
+    },
+    {
+      "population": "main",
+      "question_id": "B06",
+      "label": "没有购物需要",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "B03",
+          "codes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_B06_6",
+      "canonical_id": "main_B06_6"
+    },
+    {
+      "population": "main",
+      "question_id": "B06",
+      "label": "更偏好其他选择",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "B03",
+          "codes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_B06_7",
+      "canonical_id": "main_B06_7"
+    },
+    {
+      "population": "main",
+      "question_id": "B06",
+      "label": "以上均无",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "B03",
+          "codes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_B06_99",
+      "canonical_id": "main_B06_99"
+    },
+    {
+      "population": "main",
+      "question_id": "N01",
+      "label": "实用可靠",
+      "type": "matrix",
+      "values": {
+        "1": "完全不重要",
+        "2": "不太重要",
+        "3": "一般",
+        "4": "比较重要",
+        "5": "非常重要",
+        "6": "没有相关经历或不适用",
+        "7": "不了解或无法判断",
+        "8": "不愿回答"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_N01_1",
+      "canonical_id": "main_N01_1"
+    },
+    {
+      "population": "main",
+      "question_id": "N01",
+      "label": "价格负担得起",
+      "type": "matrix",
+      "values": {
+        "1": "完全不重要",
+        "2": "不太重要",
+        "3": "一般",
+        "4": "比较重要",
+        "5": "非常重要",
+        "6": "没有相关经历或不适用",
+        "7": "不了解或无法判断",
+        "8": "不愿回答"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_N01_2",
+      "canonical_id": "main_N01_2"
+    },
+    {
+      "population": "main",
+      "question_id": "N01",
+      "label": "外观和设计喜欢",
+      "type": "matrix",
+      "values": {
+        "1": "完全不重要",
+        "2": "不太重要",
+        "3": "一般",
+        "4": "比较重要",
+        "5": "非常重要",
+        "6": "没有相关经历或不适用",
+        "7": "不了解或无法判断",
+        "8": "不愿回答"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_N01_3",
+      "canonical_id": "main_N01_3"
+    },
+    {
+      "population": "main",
+      "question_id": "N01",
+      "label": "能够表达个人兴趣",
+      "type": "matrix",
+      "values": {
+        "1": "完全不重要",
+        "2": "不太重要",
+        "3": "一般",
+        "4": "比较重要",
+        "5": "非常重要",
+        "6": "没有相关经历或不适用",
+        "7": "不了解或无法判断",
+        "8": "不愿回答"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_N01_4",
+      "canonical_id": "main_N01_4"
+    },
+    {
+      "population": "main",
+      "question_id": "N01",
+      "label": "送人合适",
+      "type": "matrix",
+      "values": {
+        "1": "完全不重要",
+        "2": "不太重要",
+        "3": "一般",
+        "4": "比较重要",
+        "5": "非常重要",
+        "6": "没有相关经历或不适用",
+        "7": "不了解或无法判断",
+        "8": "不愿回答"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_N01_5",
+      "canonical_id": "main_N01_5"
+    },
+    {
+      "population": "main",
+      "question_id": "N01",
+      "label": "购物时有发现感",
+      "type": "matrix",
+      "values": {
+        "1": "完全不重要",
+        "2": "不太重要",
+        "3": "一般",
+        "4": "比较重要",
+        "5": "非常重要",
+        "6": "没有相关经历或不适用",
+        "7": "不了解或无法判断",
+        "8": "不愿回答"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_N01_6",
+      "canonical_id": "main_N01_6"
+    },
+    {
+      "population": "main",
+      "question_id": "N02",
+      "label": "实用可靠",
+      "type": "rank",
+      "values": {
+        "1": "Rank 1",
+        "2": "Rank 2",
+        "3": "Rank 3"
+      },
+      "base": [],
+      "missing": "Blank = unranked or not asked; preserve eligibility and missing reason separately.",
+      "variable": "main_N02_1",
+      "canonical_id": "main_N02_1"
+    },
+    {
+      "population": "main",
+      "question_id": "N02",
+      "label": "价格负担得起",
+      "type": "rank",
+      "values": {
+        "1": "Rank 1",
+        "2": "Rank 2",
+        "3": "Rank 3"
+      },
+      "base": [],
+      "missing": "Blank = unranked or not asked; preserve eligibility and missing reason separately.",
+      "variable": "main_N02_2",
+      "canonical_id": "main_N02_2"
+    },
+    {
+      "population": "main",
+      "question_id": "N02",
+      "label": "外观和设计喜欢",
+      "type": "rank",
+      "values": {
+        "1": "Rank 1",
+        "2": "Rank 2",
+        "3": "Rank 3"
+      },
+      "base": [],
+      "missing": "Blank = unranked or not asked; preserve eligibility and missing reason separately.",
+      "variable": "main_N02_3",
+      "canonical_id": "main_N02_3"
+    },
+    {
+      "population": "main",
+      "question_id": "N02",
+      "label": "能够表达个人兴趣",
+      "type": "rank",
+      "values": {
+        "1": "Rank 1",
+        "2": "Rank 2",
+        "3": "Rank 3"
+      },
+      "base": [],
+      "missing": "Blank = unranked or not asked; preserve eligibility and missing reason separately.",
+      "variable": "main_N02_4",
+      "canonical_id": "main_N02_4"
+    },
+    {
+      "population": "main",
+      "question_id": "N02",
+      "label": "送人合适",
+      "type": "rank",
+      "values": {
+        "1": "Rank 1",
+        "2": "Rank 2",
+        "3": "Rank 3"
+      },
+      "base": [],
+      "missing": "Blank = unranked or not asked; preserve eligibility and missing reason separately.",
+      "variable": "main_N02_5",
+      "canonical_id": "main_N02_5"
+    },
+    {
+      "population": "main",
+      "question_id": "N02",
+      "label": "购物时有发现感",
+      "type": "rank",
+      "values": {
+        "1": "Rank 1",
+        "2": "Rank 2",
+        "3": "Rank 3"
+      },
+      "base": [],
+      "missing": "Blank = unranked or not asked; preserve eligibility and missing reason separately.",
+      "variable": "main_N02_6",
+      "canonical_id": "main_N02_6"
+    },
+    {
+      "population": "main",
+      "question_id": "E00",
+      "label": "您能否根据自己的购买经历评价推荐「示例生活方式零售品牌」的意愿？",
+      "type": "single",
+      "values": {
+        "1": "能够评价",
+        "2": "无法评价或不愿评价"
+      },
+      "base": [
+        {
+          "question_id": "B03",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_E00",
+      "canonical_id": "main_E00"
+    },
+    {
+      "population": "main",
+      "question_id": "E01",
+      "label": "如果亲友需要购买相关商品，您有多大可能向他们推荐「示例生活方式零售品牌」？",
+      "type": "nps",
+      "values": {
+        "0": "0 完全不可能",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10 极有可能"
+      },
+      "base": [
+        {
+          "question_id": "B03",
+          "codes": [
+            1
+          ]
+        },
+        {
+          "question_id": "E00",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_E01",
+      "canonical_id": "main_E01"
+    },
+    {
+      "population": "main",
+      "question_id": "E02",
+      "label": "您给出这个推荐分数的主要原因是什么？请尽量联系具体经历。",
+      "type": "open",
+      "values": {},
+      "base": [
+        {
+          "question_id": "B03",
+          "codes": [
+            1
+          ]
+        },
+        {
+          "question_id": "E00",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_E02",
+      "canonical_id": "main_E02"
+    },
+    {
+      "population": "main",
+      "question_id": "E03",
+      "label": "商品质量",
+      "type": "matrix",
+      "values": {
+        "1": "非常不满意",
+        "2": "比较不满意",
+        "3": "一般",
+        "4": "比较满意",
+        "5": "非常满意",
+        "6": "没有相关经历或不适用",
+        "7": "不了解或无法判断",
+        "8": "不愿回答"
+      },
+      "base": [
+        {
+          "question_id": "B03",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_E03_1",
+      "canonical_id": "main_E03_1"
+    },
+    {
+      "population": "main",
+      "question_id": "E03",
+      "label": "价格与价值",
+      "type": "matrix",
+      "values": {
+        "1": "非常不满意",
+        "2": "比较不满意",
+        "3": "一般",
+        "4": "比较满意",
+        "5": "非常满意",
+        "6": "没有相关经历或不适用",
+        "7": "不了解或无法判断",
+        "8": "不愿回答"
+      },
+      "base": [
+        {
+          "question_id": "B03",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_E03_2",
+      "canonical_id": "main_E03_2"
+    },
+    {
+      "population": "main",
+      "question_id": "E03",
+      "label": "商品选择",
+      "type": "matrix",
+      "values": {
+        "1": "非常不满意",
+        "2": "比较不满意",
+        "3": "一般",
+        "4": "比较满意",
+        "5": "非常满意",
+        "6": "没有相关经历或不适用",
+        "7": "不了解或无法判断",
+        "8": "不愿回答"
+      },
+      "base": [
+        {
+          "question_id": "B03",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_E03_3",
+      "canonical_id": "main_E03_3"
+    },
+    {
+      "population": "main",
+      "question_id": "E03",
+      "label": "找到合适商品的便利程度",
+      "type": "matrix",
+      "values": {
+        "1": "非常不满意",
+        "2": "比较不满意",
+        "3": "一般",
+        "4": "比较满意",
+        "5": "非常满意",
+        "6": "没有相关经历或不适用",
+        "7": "不了解或无法判断",
+        "8": "不愿回答"
+      },
+      "base": [
+        {
+          "question_id": "B03",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_E03_4",
+      "canonical_id": "main_E03_4"
+    },
+    {
+      "population": "main",
+      "question_id": "E03",
+      "label": "购买流程",
+      "type": "matrix",
+      "values": {
+        "1": "非常不满意",
+        "2": "比较不满意",
+        "3": "一般",
+        "4": "比较满意",
+        "5": "非常满意",
+        "6": "没有相关经历或不适用",
+        "7": "不了解或无法判断",
+        "8": "不愿回答"
+      },
+      "base": [
+        {
+          "question_id": "B03",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_E03_5",
+      "canonical_id": "main_E03_5"
+    },
+    {
+      "population": "main",
+      "question_id": "E03",
+      "label": "服务或问题处理",
+      "type": "matrix",
+      "values": {
+        "1": "非常不满意",
+        "2": "比较不满意",
+        "3": "一般",
+        "4": "比较满意",
+        "5": "非常满意",
+        "6": "没有相关经历或不适用",
+        "7": "不了解或无法判断",
+        "8": "不愿回答"
+      },
+      "base": [
+        {
+          "question_id": "B03",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_E03_6",
+      "canonical_id": "main_E03_6"
+    },
+    {
+      "population": "main",
+      "question_id": "E04",
+      "label": "未来3个月有相关购物需要时，您再次购买「示例生活方式零售品牌」的可能性有多大？",
+      "type": "single",
+      "values": {
+        "1": "一定不会",
+        "2": "可能不会",
+        "3": "不确定",
+        "4": "可能会",
+        "5": "一定会",
+        "6": "无法评价"
+      },
+      "base": [
+        {
+          "question_id": "B03",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_E04",
+      "canonical_id": "main_E04"
+    },
+    {
+      "population": "main",
+      "question_id": "I01",
+      "label": "过去6个月，您与角色或作品IP相关商品的最接近情况是？",
+      "type": "single",
+      "values": {
+        "1": "购买并收藏",
+        "2": "购买但不收藏",
+        "3": "关注或喜欢但未购买",
+        "4": "没有关注或购买",
+        "5": "不确定"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_I01",
+      "canonical_id": "main_I01"
+    },
+    {
+      "population": "main",
+      "question_id": "I02",
+      "label": "喜欢角色或作品",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "I01",
+          "codes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_I02_1",
+      "canonical_id": "main_I02_1"
+    },
+    {
+      "population": "main",
+      "question_id": "I02",
+      "label": "设计或实用功能",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "I01",
+          "codes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_I02_2",
+      "canonical_id": "main_I02_2"
+    },
+    {
+      "population": "main",
+      "question_id": "I02",
+      "label": "收藏系列或补齐款式",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "I01",
+          "codes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_I02_3",
+      "canonical_id": "main_I02_3"
+    },
+    {
+      "population": "main",
+      "question_id": "I02",
+      "label": "赠送他人",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "I01",
+          "codes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_I02_4",
+      "canonical_id": "main_I02_4"
+    },
+    {
+      "population": "main",
+      "question_id": "I02",
+      "label": "与同好交流",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "I01",
+          "codes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_I02_5",
+      "canonical_id": "main_I02_5"
+    },
+    {
+      "population": "main",
+      "question_id": "I02",
+      "label": "限量或稀缺感",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "I01",
+          "codes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_I02_6",
+      "canonical_id": "main_I02_6"
+    },
+    {
+      "population": "main",
+      "question_id": "I02",
+      "label": "以上均无",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "I01",
+          "codes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_I02_99",
+      "canonical_id": "main_I02_99"
+    },
+    {
+      "population": "main",
+      "question_id": "I03",
+      "label": "对于同类商品，有喜欢的IP设计会怎样影响您的选择？",
+      "type": "single",
+      "values": {
+        "1": "更愿意购买",
+        "2": "没有明显影响",
+        "3": "反而较不愿购买",
+        "4": "不了解或无法判断"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_I03",
+      "canonical_id": "main_I03"
+    },
+    {
+      "population": "main",
+      "question_id": "G01",
+      "label": "过去6个月，您是否购买过这些品类的商品送给他人？",
+      "type": "single",
+      "values": {
+        "1": "有",
+        "2": "没有",
+        "3": "不确定"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_G01",
+      "canonical_id": "main_G01"
+    },
+    {
+      "population": "main",
+      "question_id": "G02",
+      "label": "最近一次赠礼最主要是什么场合？",
+      "type": "single",
+      "values": {
+        "1": "生日或纪念日",
+        "2": "节庆",
+        "3": "表达感谢或关心",
+        "4": "日常小惊喜",
+        "5": "其他场合"
+      },
+      "base": [
+        {
+          "question_id": "G01",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_G02",
+      "canonical_id": "main_G02"
+    },
+    {
+      "population": "main",
+      "question_id": "G03",
+      "label": "不符合对方喜好",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "G01",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_G03_1",
+      "canonical_id": "main_G03_1"
+    },
+    {
+      "population": "main",
+      "question_id": "G03",
+      "label": "质量不可靠",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "G01",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_G03_2",
+      "canonical_id": "main_G03_2"
+    },
+    {
+      "population": "main",
+      "question_id": "G03",
+      "label": "看起来不够体面",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "G01",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_G03_3",
+      "canonical_id": "main_G03_3"
+    },
+    {
+      "population": "main",
+      "question_id": "G03",
+      "label": "包装或送出方式不合适",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "G01",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_G03_4",
+      "canonical_id": "main_G03_4"
+    },
+    {
+      "population": "main",
+      "question_id": "G03",
+      "label": "价格难判断",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "G01",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_G03_5",
+      "canonical_id": "main_G03_5"
+    },
+    {
+      "population": "main",
+      "question_id": "G03",
+      "label": "对方已有类似商品",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "G01",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_G03_6",
+      "canonical_id": "main_G03_6"
+    },
+    {
+      "population": "main",
+      "question_id": "G03",
+      "label": "以上均无",
+      "type": "multi",
+      "values": {
+        "0": "Not selected",
+        "1": "Selected"
+      },
+      "base": [
+        {
+          "question_id": "G01",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.",
+      "variable": "main_G03_99",
+      "canonical_id": "main_G03_99"
+    },
+    {
+      "population": "main",
+      "question_id": "P01",
+      "label": "对于最近购买的同类商品，您如何评价「示例生活方式零售品牌」通常提供的性价比？",
+      "type": "single",
+      "values": {
+        "1": "非常差",
+        "2": "比较差",
+        "3": "一般",
+        "4": "比较好",
+        "5": "非常好",
+        "6": "不了解或无法比较"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_P01",
+      "canonical_id": "main_P01"
+    },
+    {
+      "population": "main",
+      "question_id": "C00",
+      "label": "系统预置的单方案实验组",
+      "type": "single",
+      "values": {
+        "1": "方案A",
+        "2": "方案B",
+        "3": "方案C"
+      },
+      "base": [
+        {
+          "question_id": "H00",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_C00",
+      "canonical_id": "main_C00"
+    },
+    {
+      "population": "main",
+      "question_id": "C01A",
+      "label": "请阅读以下方案：提供容易融入日常生活的小物，兼顾实用性和设计，让每次逛店都有机会发现适合自己的选择。 您觉得它主要表达了什么？可写“不理解”。",
+      "type": "open",
+      "values": {},
+      "base": [
+        {
+          "question_id": "H00",
+          "codes": [
+            1
+          ]
+        },
+        {
+          "question_id": "C00",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_C01A",
+      "canonical_id": "main_C01A"
+    },
+    {
+      "population": "main",
+      "question_id": "C01B",
+      "label": "请阅读以下方案：提供能表达兴趣的角色主题小物，兼顾使用与收藏，让喜欢的内容进入日常生活。 您觉得它主要表达了什么？可写“不理解”。",
+      "type": "open",
+      "values": {},
+      "base": [
+        {
+          "question_id": "H00",
+          "codes": [
+            1
+          ]
+        },
+        {
+          "question_id": "C00",
+          "codes": [
+            2
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_C01B",
+      "canonical_id": "main_C01B"
+    },
+    {
+      "population": "main",
+      "question_id": "C01C",
+      "label": "请阅读以下方案：提供适合表达心意的小礼物，兼顾选择便利和呈现方式，让日常赠礼更容易找到合适选择。 您觉得它主要表达了什么？可写“不理解”。",
+      "type": "open",
+      "values": {},
+      "base": [
+        {
+          "question_id": "H00",
+          "codes": [
+            1
+          ]
+        },
+        {
+          "question_id": "C00",
+          "codes": [
+            3
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_C01C",
+      "canonical_id": "main_C01C"
+    },
+    {
+      "population": "main",
+      "question_id": "C02",
+      "label": "容易理解",
+      "type": "matrix",
+      "values": {
+        "1": "非常不同意",
+        "2": "比较不同意",
+        "3": "既不同意也不反对",
+        "4": "比较同意",
+        "5": "非常同意",
+        "6": "没有相关经历或不适用",
+        "7": "不了解或无法判断",
+        "8": "不愿回答"
+      },
+      "base": [
+        {
+          "question_id": "H00",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_C02_1",
+      "canonical_id": "main_C02_1"
+    },
+    {
+      "population": "main",
+      "question_id": "C02",
+      "label": "有吸引力",
+      "type": "matrix",
+      "values": {
+        "1": "非常不同意",
+        "2": "比较不同意",
+        "3": "既不同意也不反对",
+        "4": "比较同意",
+        "5": "非常同意",
+        "6": "没有相关经历或不适用",
+        "7": "不了解或无法判断",
+        "8": "不愿回答"
+      },
+      "base": [
+        {
+          "question_id": "H00",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_C02_2",
+      "canonical_id": "main_C02_2"
+    },
+    {
+      "population": "main",
+      "question_id": "C02",
+      "label": "与我有关",
+      "type": "matrix",
+      "values": {
+        "1": "非常不同意",
+        "2": "比较不同意",
+        "3": "既不同意也不反对",
+        "4": "比较同意",
+        "5": "非常同意",
+        "6": "没有相关经历或不适用",
+        "7": "不了解或无法判断",
+        "8": "不愿回答"
+      },
+      "base": [
+        {
+          "question_id": "H00",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_C02_3",
+      "canonical_id": "main_C02_3"
+    },
+    {
+      "population": "main",
+      "question_id": "C02",
+      "label": "让人相信",
+      "type": "matrix",
+      "values": {
+        "1": "非常不同意",
+        "2": "比较不同意",
+        "3": "既不同意也不反对",
+        "4": "比较同意",
+        "5": "非常同意",
+        "6": "没有相关经历或不适用",
+        "7": "不了解或无法判断",
+        "8": "不愿回答"
+      },
+      "base": [
+        {
+          "question_id": "H00",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_C02_4",
+      "canonical_id": "main_C02_4"
+    },
+    {
+      "population": "main",
+      "question_id": "C02",
+      "label": "与其他选择不同",
+      "type": "matrix",
+      "values": {
+        "1": "非常不同意",
+        "2": "比较不同意",
+        "3": "既不同意也不反对",
+        "4": "比较同意",
+        "5": "非常同意",
+        "6": "没有相关经历或不适用",
+        "7": "不了解或无法判断",
+        "8": "不愿回答"
+      },
+      "base": [
+        {
+          "question_id": "H00",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_C02_5",
+      "canonical_id": "main_C02_5"
+    },
+    {
+      "population": "main",
+      "question_id": "C03",
+      "label": "如果有相关购物需要，您会在多大程度上考虑提供此方案的品牌？",
+      "type": "single",
+      "values": {
+        "1": "一定不会考虑",
+        "2": "可能不会考虑",
+        "3": "不确定",
+        "4": "可能会考虑",
+        "5": "一定会考虑",
+        "6": "无法判断"
+      },
+      "base": [
+        {
+          "question_id": "H00",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_C03",
+      "canonical_id": "main_C03"
+    },
+    {
+      "population": "main",
+      "question_id": "C04",
+      "label": "这个方案最需要改进什么，或有什么使您不愿选择？没有意见可写“没有”。",
+      "type": "open",
+      "values": {},
+      "base": [
+        {
+          "question_id": "H00",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_C04",
+      "canonical_id": "main_C04"
+    },
+    {
+      "population": "main",
+      "question_id": "D01",
+      "label": "您如何描述自己的性别？",
+      "type": "single",
+      "values": {
+        "1": "女性",
+        "2": "男性",
+        "3": "其他自我描述",
+        "4": "不愿回答"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_D01",
+      "canonical_id": "main_D01"
+    },
+    {
+      "population": "main",
+      "question_id": "D02",
+      "label": "您目前的主要居住地区类型是？",
+      "type": "single",
+      "values": {
+        "1": "大型城市中心",
+        "2": "城市外围或郊区",
+        "3": "中小城市或城镇",
+        "4": "乡村地区",
+        "5": "不确定"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_D02",
+      "canonical_id": "main_D02"
+    },
+    {
+      "population": "main",
+      "question_id": "D03",
+      "label": "您目前的主要生活状态是？",
+      "type": "single",
+      "values": {
+        "1": "全日制学习",
+        "2": "全职工作",
+        "3": "兼职或灵活工作",
+        "4": "照料家庭",
+        "5": "退休",
+        "6": "暂未工作",
+        "7": "其他",
+        "8": "不愿回答"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_D03",
+      "canonical_id": "main_D03"
+    },
+    {
+      "population": "main",
+      "question_id": "D04",
+      "label": "您的家庭是否有18岁以下的孩子共同居住？",
+      "type": "single",
+      "values": {
+        "1": "有",
+        "2": "没有",
+        "3": "不愿回答"
+      },
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_D04",
+      "canonical_id": "main_D04"
+    },
+    {
+      "population": "main",
+      "question_id": "D05",
+      "label": "关于这些商品或购物体验，还有什么您希望补充？没有可写“没有”。",
+      "type": "open",
+      "values": {},
+      "base": [],
+      "missing": "Blank = not asked or missing; keep a separate reason field in collected data.",
+      "variable": "main_D05",
+      "canonical_id": "main_D05"
+    }
+  ],
+  "codeframes": [
+    {
+      "population": "main",
+      "question_id": "A01",
+      "unit": "meaning_unit",
+      "mode": "multi",
+      "codes": [
+        {
+          "code": 1,
+          "label": "示例生活方式零售品牌",
+          "definition": "自发明确提及示例生活方式零售品牌",
+          "include": "名称可按经复核别名表识别",
+          "exclude": "仅出现提示后的品牌内容不计"
+        },
+        {
+          "code": 2,
+          "label": "其他可识别品牌或渠道",
+          "definition": "自发提及其他购物去处",
+          "include": "保留原始名称及顺序，再按当地名录归一",
+          "exclude": "不能识别的名称先待查，不随意删除"
+        },
+        {
+          "code": 995,
+          "label": "明确没有相关意见",
+          "definition": "受访者明确表示没有原因、意见或补充",
+          "include": "仅在整段没有可编码的实质含义时使用",
+          "exclude": "不得覆盖其他可明确编码的含义；空白改记缺失原因",
+          "special": true,
+          "exclusive": true
+        },
+        {
+          "code": 998,
+          "label": "不知道或无法说明",
+          "definition": "明确表示不知道、记不清或无法说明",
+          "include": "仅在整段没有可编码的实质含义时使用",
+          "exclude": "不得覆盖其他可明确编码的含义；空白改记缺失原因",
+          "special": true,
+          "exclusive": true
+        },
+        {
+          "code": 999,
+          "label": "无法解释的有效文本",
+          "definition": "有文本但当前框架无法解释，保留待复核",
+          "include": "仅在整段没有可编码的实质含义时使用",
+          "exclude": "不得覆盖其他可明确编码的含义；空白改记缺失原因",
+          "special": true,
+          "exclusive": true
+        }
+      ]
+    },
+    {
+      "population": "main",
+      "question_id": "B02",
+      "unit": "meaning_unit",
+      "mode": "multi",
+      "codes": [
+        {
+          "code": 1,
+          "label": "质量与可靠性",
+          "definition": "商品质量、耐用、安全感或信任的实际判断",
+          "include": "明确讨论材料、耐用或质量信任",
+          "exclude": "纯粹讨论外观不计"
+        },
+        {
+          "code": 2,
+          "label": "价格与价值",
+          "definition": "付价、贵便宜、物有所值等判断",
+          "include": "涉及价格、优惠或价值比较",
+          "exclude": "不从低推荐分数推断太贵"
+        },
+        {
+          "code": 3,
+          "label": "设计与选择",
+          "definition": "外观、商品范围和适配程度",
+          "include": "涉及设计喜好、品类或款式",
+          "exclude": "IP角色兴趣另计"
+        },
+        {
+          "code": 4,
+          "label": "IP与兴趣",
+          "definition": "角色、作品、收藏及兴趣表达",
+          "include": "明确涉及IP或收藏动机",
+          "exclude": "普通外观喜欢不计"
+        },
+        {
+          "code": 5,
+          "label": "渠道与便利",
+          "definition": "地点、到货、寻找和购买流程",
+          "include": "具体渠道可达或购物便利经历",
+          "exclude": "未提及渠道不得推断"
+        },
+        {
+          "code": 6,
+          "label": "服务与支持",
+          "definition": "店员、退换、沟通或问题处理",
+          "include": "与服务接触相关的具体描述",
+          "exclude": "泛称不喜欢不计"
+        },
+        {
+          "code": 995,
+          "label": "明确没有相关意见",
+          "definition": "受访者明确表示没有原因、意见或补充",
+          "include": "仅在整段没有可编码的实质含义时使用",
+          "exclude": "不得覆盖其他可明确编码的含义；空白改记缺失原因",
+          "special": true,
+          "exclusive": true
+        },
+        {
+          "code": 998,
+          "label": "不知道或无法说明",
+          "definition": "明确表示不知道、记不清或无法说明",
+          "include": "仅在整段没有可编码的实质含义时使用",
+          "exclude": "不得覆盖其他可明确编码的含义；空白改记缺失原因",
+          "special": true,
+          "exclusive": true
+        },
+        {
+          "code": 999,
+          "label": "无法解释的有效文本",
+          "definition": "有文本但当前框架无法解释，保留待复核",
+          "include": "仅在整段没有可编码的实质含义时使用",
+          "exclude": "不得覆盖其他可明确编码的含义；空白改记缺失原因",
+          "special": true,
+          "exclusive": true
+        }
+      ]
+    },
+    {
+      "population": "main",
+      "question_id": "E02",
+      "unit": "meaning_unit",
+      "mode": "multi",
+      "codes": [
+        {
+          "code": 1,
+          "label": "质量与可靠性",
+          "definition": "商品质量、耐用、安全感或信任的实际判断",
+          "include": "明确讨论材料、耐用或质量信任",
+          "exclude": "纯粹讨论外观不计"
+        },
+        {
+          "code": 2,
+          "label": "价格与价值",
+          "definition": "付价、贵便宜、物有所值等判断",
+          "include": "涉及价格、优惠或价值比较",
+          "exclude": "不从低推荐分数推断太贵"
+        },
+        {
+          "code": 3,
+          "label": "设计与选择",
+          "definition": "外观、商品范围和适配程度",
+          "include": "涉及设计喜好、品类或款式",
+          "exclude": "IP角色兴趣另计"
+        },
+        {
+          "code": 4,
+          "label": "IP与兴趣",
+          "definition": "角色、作品、收藏及兴趣表达",
+          "include": "明确涉及IP或收藏动机",
+          "exclude": "普通外观喜欢不计"
+        },
+        {
+          "code": 5,
+          "label": "渠道与便利",
+          "definition": "地点、到货、寻找和购买流程",
+          "include": "具体渠道可达或购物便利经历",
+          "exclude": "未提及渠道不得推断"
+        },
+        {
+          "code": 6,
+          "label": "服务与支持",
+          "definition": "店员、退换、沟通或问题处理",
+          "include": "与服务接触相关的具体描述",
+          "exclude": "泛称不喜欢不计"
+        },
+        {
+          "code": 995,
+          "label": "明确没有相关意见",
+          "definition": "受访者明确表示没有原因、意见或补充",
+          "include": "仅在整段没有可编码的实质含义时使用",
+          "exclude": "不得覆盖其他可明确编码的含义；空白改记缺失原因",
+          "special": true,
+          "exclusive": true
+        },
+        {
+          "code": 998,
+          "label": "不知道或无法说明",
+          "definition": "明确表示不知道、记不清或无法说明",
+          "include": "仅在整段没有可编码的实质含义时使用",
+          "exclude": "不得覆盖其他可明确编码的含义；空白改记缺失原因",
+          "special": true,
+          "exclusive": true
+        },
+        {
+          "code": 999,
+          "label": "无法解释的有效文本",
+          "definition": "有文本但当前框架无法解释，保留待复核",
+          "include": "仅在整段没有可编码的实质含义时使用",
+          "exclude": "不得覆盖其他可明确编码的含义；空白改记缺失原因",
+          "special": true,
+          "exclusive": true
+        }
+      ]
+    },
+    {
+      "population": "main",
+      "question_id": "C04",
+      "unit": "meaning_unit",
+      "mode": "multi",
+      "codes": [
+        {
+          "code": 1,
+          "label": "质量与可靠性",
+          "definition": "商品质量、耐用、安全感或信任的实际判断",
+          "include": "明确讨论材料、耐用或质量信任",
+          "exclude": "纯粹讨论外观不计"
+        },
+        {
+          "code": 2,
+          "label": "价格与价值",
+          "definition": "付价、贵便宜、物有所值等判断",
+          "include": "涉及价格、优惠或价值比较",
+          "exclude": "不从低推荐分数推断太贵"
+        },
+        {
+          "code": 3,
+          "label": "设计与选择",
+          "definition": "外观、商品范围和适配程度",
+          "include": "涉及设计喜好、品类或款式",
+          "exclude": "IP角色兴趣另计"
+        },
+        {
+          "code": 4,
+          "label": "IP与兴趣",
+          "definition": "角色、作品、收藏及兴趣表达",
+          "include": "明确涉及IP或收藏动机",
+          "exclude": "普通外观喜欢不计"
+        },
+        {
+          "code": 5,
+          "label": "渠道与便利",
+          "definition": "地点、到货、寻找和购买流程",
+          "include": "具体渠道可达或购物便利经历",
+          "exclude": "未提及渠道不得推断"
+        },
+        {
+          "code": 6,
+          "label": "服务与支持",
+          "definition": "店员、退换、沟通或问题处理",
+          "include": "与服务接触相关的具体描述",
+          "exclude": "泛称不喜欢不计"
+        },
+        {
+          "code": 995,
+          "label": "明确没有相关意见",
+          "definition": "受访者明确表示没有原因、意见或补充",
+          "include": "仅在整段没有可编码的实质含义时使用",
+          "exclude": "不得覆盖其他可明确编码的含义；空白改记缺失原因",
+          "special": true,
+          "exclusive": true
+        },
+        {
+          "code": 998,
+          "label": "不知道或无法说明",
+          "definition": "明确表示不知道、记不清或无法说明",
+          "include": "仅在整段没有可编码的实质含义时使用",
+          "exclude": "不得覆盖其他可明确编码的含义；空白改记缺失原因",
+          "special": true,
+          "exclusive": true
+        },
+        {
+          "code": 999,
+          "label": "无法解释的有效文本",
+          "definition": "有文本但当前框架无法解释，保留待复核",
+          "include": "仅在整段没有可编码的实质含义时使用",
+          "exclude": "不得覆盖其他可明确编码的含义；空白改记缺失原因",
+          "special": true,
+          "exclusive": true
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "approved",
+    "content": true,
+    "programming": true,
+    "analysis": true,
+    "spec_sha256": "d177274150f5f7fee6dacb79206ce02ed8f75e9a156c773378b85c66a8fa2047"
+  }
+}

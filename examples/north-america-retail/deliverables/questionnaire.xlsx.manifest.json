@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "engine_version": "0.3.0",
+  "tool": "survey-design",
+  "run_id": "53e6d12f-eb9e-4da1-a104-eb07def1d549",
+  "input_sha256": [],
+  "config_sha256": "9ce6409f718e2be0447c52cb435d2aa975935b38065e7316d37ccf896581817e",
+  "output_sha256": "7f34d712237afebbd92350969c6baea41593bc2e46956bc4c3821c697e5dca62",
+  "gates": {
+    "required_review": "passed",
+    "office": "passed"
+  },
+  "counts": {
+    "populations": 1,
+    "questions": 54,
+    "objectives": 6,
+    "cases": 12,
+    "branches": 56,
+    "variables": 120
+  },
+  "openxml_errors": 0
+}

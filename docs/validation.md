@@ -1,5 +1,11 @@
 # Validation record
 
+## Complete design case — 2026-09-09
+
+The fictional North American retail case contains a 23-page Word proposal and two Excel workbooks: 54 questionnaire nodes (51 respondent questions and 3 system fields), 120 variables and 4 open coding frames. All three files pass Microsoft Open XML SDK validation with 0 errors. The proposal pages and all 11 workbook sheets were visually inspected. Twelve synthetic routing cases cover 56 explicit branches in the supported compiler; this does not test a survey platform's live randomization.
+
+The case replay validates frozen input hashes, recompiles both workbooks and completes three scoped design milestones using recorded host reviews. It calls no model, conducts no fieldwork and does not authenticate an independent reviewer. CI now runs this replay alongside the existing behavior tests and demos. Package version remains 0.3.0; `case-study-v1` is a case delivery release, not a new engine version. SkillOpt was not rerun because this increment does not change skill instructions.
+
 Current package: 0.3.0, 2026-09-09. The v0.1.0 release remains a historical five-output bundle.
 
 | Layer | Observed result |

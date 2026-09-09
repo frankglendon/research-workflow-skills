@@ -1,0 +1,48 @@
+{
+  "design": [
+    {
+      "id": "coverage",
+      "verdict": "passed",
+      "reason": "宿主本轮设计案例复核：D01至D06与定性、定量及交付用途对应，配套指南覆盖核心访问环节。"
+    },
+    {
+      "id": "sampling",
+      "verdict": "passed",
+      "reason": "宿主本轮设计案例复核：基础2400、加样最多600、陪访为深访子集；国家与实验组基数分开。"
+    },
+    {
+      "id": "limitations",
+      "verdict": "passed",
+      "reason": "宿主本轮设计案例复核：保留假设和执行条件；没有实地数据，不作代表性、销量或因果承诺。"
+    }
+  ],
+  "questionnaire": [
+    {
+      "id": "measurement",
+      "verdict": "passed",
+      "reason": "宿主本轮设计案例复核：54节点中51为受访者题，题序保留自然提及、品牌基线及刺激前NPS；6至8特殊响应分开。"
+    },
+    {
+      "id": "routes",
+      "verdict": "passed",
+      "reason": "宿主本轮设计案例复核：12个合成用例与预期路径一致，覆盖56个显式分支；平台随机和隐藏字段列为待验证。"
+    },
+    {
+      "id": "bases",
+      "verdict": "passed",
+      "reason": "宿主本轮设计案例复核：加样资格矛盾终止，合格加样跳过主张；NPS仅对可评价购买者，缺失不归零。"
+    }
+  ],
+  "codebook": [
+    {
+      "id": "mapping",
+      "verdict": "passed",
+      "reason": "宿主本轮设计案例复核：120个变量与当前问卷派生结果一致，码表绑定同一规范哈希，保留缺失口径。"
+    },
+    {
+      "id": "open_coding",
+      "verdict": "passed",
+      "reason": "宿主本轮设计案例复核：4套主题框架有定义及纳入排除规则；未知单列，未宣称自动编码或一致性已经实测。"
+    }
+  ]
+}

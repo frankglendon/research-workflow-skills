@@ -1,0 +1,3463 @@
+{
+  "schema_version": 2,
+  "meta": {
+    "version": "1.0-design-case",
+    "project": "示例生活方式零售品牌北美增长研究",
+    "language": "中文主问卷；正式本地化为US English、CA English/French、MX Spanish，尚未完成",
+    "synthetic": true,
+    "status": "可审阅的研究设计案例，未实地执行",
+    "est_minutes": 22,
+    "timing_basis": "设计目标，待12场认知测试与60份试访校准",
+    "sample_layer_rule": "H00由系统写入；品牌加样资格矛盾经X01终止，加样不出示C模块。真实平台须验证隐藏字段、随机化和缺失原因记录。"
+  },
+  "populations": [
+    {
+      "key": "main",
+      "name": "18岁以上当地常住品类购买决策者",
+      "sampling": {
+        "method": "非概率在线面板，拟按国家和人口结构设配额",
+        "base_n": {
+          "US": 1200,
+          "CA": 600,
+          "MX": 600
+        },
+        "booster_max_n": {
+          "US": 200,
+          "CA": 200,
+          "MX": 200
+        },
+        "analysis": "总体漏斗和主张比较仅基础样本；加样仅用于购买者体验诊断"
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "D1",
+      "decision": "确定国家与渠道覆盖优先级",
+      "metric": "国家与地区分组及样本基数"
+    },
+    {
+      "id": "D2",
+      "decision": "选择目标人群与需求场景",
+      "metric": "场景、需要、选择优先级与人群画像"
+    },
+    {
+      "id": "D3",
+      "decision": "明确品牌触达与考虑障碍",
+      "metric": "自然认知、提示认知、购买与考虑漏斗"
+    },
+    {
+      "id": "D4",
+      "decision": "商品IP与赠礼组合优先级",
+      "metric": "用途、触发、实际付价、IP购买与赠礼障碍"
+    },
+    {
+      "id": "D5",
+      "decision": "渠道与体验改善优先级",
+      "metric": "旅程、NPS、具体体验和复购意向"
+    },
+    {
+      "id": "D6",
+      "decision": "筛选主张并设计后续试点",
+      "metric": "主张理解、考虑、可信度与拒绝原因"
+    }
+  ],
+  "qc_plan": "12场认知测试和60份试访为设计数量；先校准时长与矛盾规则，联合复核多信号，不以单项阈值自动删除。保留原始数据、缺失原因、样本层、国家、语言、分配组、供应商及版本；不得把示例复核视为实地认证。",
+  "questions": [
+    {
+      "id": "S00",
+      "population": "main",
+      "module": "筛选",
+      "type": "single",
+      "text": "本研究了解购物经历，自愿参与，可随时退出。是否同意参加？",
+      "objective_ids": [
+        "D2"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "同意"
+        },
+        {
+          "code": 2,
+          "label": "不同意"
+        }
+      ],
+      "routes": [
+        {
+          "codes": [
+            2
+          ],
+          "target": "END"
+        }
+      ]
+    },
+    {
+      "id": "S01",
+      "population": "main",
+      "module": "筛选",
+      "type": "single",
+      "text": "您的年龄属于以下哪一组？",
+      "objective_ids": [
+        "D2"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "18岁以下"
+        },
+        {
+          "code": 2,
+          "label": "18至24岁"
+        },
+        {
+          "code": 3,
+          "label": "25至34岁"
+        },
+        {
+          "code": 4,
+          "label": "35至44岁"
+        },
+        {
+          "code": 5,
+          "label": "45至54岁"
+        },
+        {
+          "code": 6,
+          "label": "55岁及以上"
+        },
+        {
+          "code": 7,
+          "label": "不愿回答"
+        }
+      ],
+      "routes": [
+        {
+          "codes": [
+            1,
+            7
+          ],
+          "target": "END"
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "population": "main",
+      "module": "筛选",
+      "type": "single",
+      "text": "您目前通常居住在哪个国家？",
+      "objective_ids": [
+        "D1"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "美国"
+        },
+        {
+          "code": 2,
+          "label": "加拿大"
+        },
+        {
+          "code": 3,
+          "label": "墨西哥"
+        },
+        {
+          "code": 4,
+          "label": "其他国家"
+        }
+      ],
+      "routes": [
+        {
+          "codes": [
+            4
+          ],
+          "target": "END"
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "population": "main",
+      "module": "筛选",
+      "type": "single",
+      "text": "过去12个月，您在该国居住是否已满6个月？",
+      "objective_ids": [
+        "D1"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "是"
+        },
+        {
+          "code": 2,
+          "label": "否"
+        }
+      ],
+      "routes": [
+        {
+          "codes": [
+            2
+          ],
+          "target": "END"
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "population": "main",
+      "module": "筛选",
+      "type": "multi",
+      "text": "过去6个月，您购买过哪些类别的商品？",
+      "objective_ids": [
+        "D2"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "文具与日常小物"
+        },
+        {
+          "code": 2,
+          "label": "家居生活用品"
+        },
+        {
+          "code": 3,
+          "label": "小型数码配件"
+        },
+        {
+          "code": 4,
+          "label": "个人护理与美妆工具"
+        },
+        {
+          "code": 5,
+          "label": "玩具或收藏品"
+        },
+        {
+          "code": 6,
+          "label": "礼品与节庆用品"
+        },
+        {
+          "code": 99,
+          "label": "以上均无",
+          "kind": "none",
+          "exclusive": true,
+          "fixed": true
+        }
+      ],
+      "min_selections": 1,
+      "max_selections": 6,
+      "randomize": true,
+      "routes": [
+        {
+          "codes": [
+            99
+          ],
+          "target": "END"
+        }
+      ],
+      "instruction": "最多选择6项；‘以上均无’不能与其他选项同选。"
+    },
+    {
+      "id": "S05",
+      "population": "main",
+      "module": "筛选",
+      "type": "single",
+      "text": "对于上述购买，您是否参与选择商品或决定是否购买？",
+      "objective_ids": [
+        "D2"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "自己决定或共同决定"
+        },
+        {
+          "code": 2,
+          "label": "完全由他人决定"
+        }
+      ],
+      "routes": [
+        {
+          "codes": [
+            2
+          ],
+          "target": "END"
+        }
+      ]
+    },
+    {
+      "id": "H00",
+      "population": "main",
+      "module": "系统字段",
+      "type": "single",
+      "text": "样本来源层",
+      "objective_ids": [
+        "D1"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "基础样本"
+        },
+        {
+          "code": 2,
+          "label": "品牌购买者加样"
+        }
+      ],
+      "instruction": "隐藏系统字段，由样本管理系统写入，不向受访者提问。"
+    },
+    {
+      "id": "A01",
+      "population": "main",
+      "module": "自然认知",
+      "type": "open",
+      "text": "想到购买这些商品，您最先想到哪些店、购物平台或品牌？请按想到的顺序填写；想不到可以写“不知道”。",
+      "objective_ids": [
+        "D3"
+      ],
+      "instruction": "此题前不得出现示例生活方式零售品牌、IP名称、标识或刺激物。保留原始提及顺序。"
+    },
+    {
+      "id": "A02",
+      "population": "main",
+      "module": "最近购买",
+      "type": "single",
+      "text": "请回想最近一次购买上述商品，主要购买的是哪一类？",
+      "objective_ids": [
+        "D2"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "文具与日常小物"
+        },
+        {
+          "code": 2,
+          "label": "家居生活用品"
+        },
+        {
+          "code": 3,
+          "label": "小型数码配件"
+        },
+        {
+          "code": 4,
+          "label": "个人护理与美妆工具"
+        },
+        {
+          "code": 5,
+          "label": "玩具或收藏品"
+        },
+        {
+          "code": 6,
+          "label": "礼品与节庆用品"
+        }
+      ]
+    },
+    {
+      "id": "A03",
+      "population": "main",
+      "module": "最近购买",
+      "type": "single",
+      "text": "这次购买主要是给谁使用或收藏？",
+      "objective_ids": [
+        "D2"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "自己"
+        },
+        {
+          "code": 2,
+          "label": "家庭成员"
+        },
+        {
+          "code": 3,
+          "label": "朋友或同事"
+        },
+        {
+          "code": 4,
+          "label": "伴侣"
+        },
+        {
+          "code": 5,
+          "label": "其他对象"
+        }
+      ]
+    },
+    {
+      "id": "A04",
+      "population": "main",
+      "module": "最近购买",
+      "type": "single",
+      "text": "这次购买最主要的用途是什么？",
+      "objective_ids": [
+        "D4"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "满足实际需要或替换"
+        },
+        {
+          "code": 2,
+          "label": "奖励自己或改善心情"
+        },
+        {
+          "code": 3,
+          "label": "日常赠礼"
+        },
+        {
+          "code": 4,
+          "label": "生日节庆等场合赠礼"
+        },
+        {
+          "code": 5,
+          "label": "个人收藏"
+        },
+        {
+          "code": 6,
+          "label": "其他用途"
+        }
+      ]
+    },
+    {
+      "id": "A05",
+      "population": "main",
+      "module": "最近购买",
+      "type": "single",
+      "text": "在开始这次购物之前，您对购买的计划是怎样的？",
+      "objective_ids": [
+        "D2"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "已确定具体商品"
+        },
+        {
+          "code": 2,
+          "label": "确定品类但未定商品"
+        },
+        {
+          "code": 3,
+          "label": "有购物想法但无明确目标"
+        },
+        {
+          "code": 4,
+          "label": "没有购物计划，临时决定"
+        }
+      ]
+    },
+    {
+      "id": "A06",
+      "population": "main",
+      "module": "最近购买",
+      "type": "multi",
+      "text": "哪些事情触发了这次购买？最多选3项。",
+      "objective_ids": [
+        "D4"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "原有物品用完或损坏"
+        },
+        {
+          "code": 2,
+          "label": "看到新品或有趣设计"
+        },
+        {
+          "code": 3,
+          "label": "看到喜欢的IP或角色"
+        },
+        {
+          "code": 4,
+          "label": "有赠礼场合"
+        },
+        {
+          "code": 5,
+          "label": "遇到折扣或优惠"
+        },
+        {
+          "code": 6,
+          "label": "在逛店或浏览时被吸引"
+        },
+        {
+          "code": 7,
+          "label": "朋友或社交内容推荐"
+        },
+        {
+          "code": 99,
+          "label": "以上均无",
+          "kind": "none",
+          "exclusive": true,
+          "fixed": true
+        }
+      ],
+      "min_selections": 1,
+      "max_selections": 3,
+      "randomize": true,
+      "instruction": "最多选择3项；‘以上均无’不能与其他选项同选。"
+    },
+    {
+      "id": "A07",
+      "population": "main",
+      "module": "渠道旅程",
+      "type": "single",
+      "text": "这次最终通过什么渠道购买？",
+      "objective_ids": [
+        "D5"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "生活方式或礼品连锁实体店"
+        },
+        {
+          "code": 2,
+          "label": "大型综合零售实体店"
+        },
+        {
+          "code": 3,
+          "label": "玩具或收藏品专门实体店"
+        },
+        {
+          "code": 4,
+          "label": "线上综合购物平台"
+        },
+        {
+          "code": 5,
+          "label": "品牌自营网站或应用"
+        },
+        {
+          "code": 6,
+          "label": "其他渠道"
+        }
+      ]
+    },
+    {
+      "id": "A08",
+      "population": "main",
+      "module": "渠道旅程",
+      "type": "multi",
+      "text": "决定购买之前，您参考过哪些信息？",
+      "objective_ids": [
+        "D5"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "现场陈列或试用"
+        },
+        {
+          "code": 2,
+          "label": "店员介绍"
+        },
+        {
+          "code": 3,
+          "label": "搜索引擎或商品页面"
+        },
+        {
+          "code": 4,
+          "label": "社交媒体内容"
+        },
+        {
+          "code": 5,
+          "label": "亲友建议"
+        },
+        {
+          "code": 6,
+          "label": "过往购买经验"
+        },
+        {
+          "code": 7,
+          "label": "价格或促销信息"
+        },
+        {
+          "code": 99,
+          "label": "以上均无",
+          "kind": "none",
+          "exclusive": true,
+          "fixed": true
+        }
+      ],
+      "min_selections": 1,
+      "max_selections": 3,
+      "randomize": true,
+      "instruction": "最多选择3项；‘以上均无’不能与其他选项同选。"
+    },
+    {
+      "id": "A09",
+      "population": "main",
+      "module": "渠道旅程",
+      "type": "multi",
+      "text": "您选择该购物渠道的主要原因有哪些？",
+      "objective_ids": [
+        "D5"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "距离近或到货快"
+        },
+        {
+          "code": 2,
+          "label": "商品选择适合"
+        },
+        {
+          "code": 3,
+          "label": "价格在预算内"
+        },
+        {
+          "code": 4,
+          "label": "商品质量可信"
+        },
+        {
+          "code": 5,
+          "label": "发现新品的体验"
+        },
+        {
+          "code": 6,
+          "label": "退换或服务便利"
+        },
+        {
+          "code": 7,
+          "label": "可买到喜欢的IP"
+        },
+        {
+          "code": 99,
+          "label": "以上均无",
+          "kind": "none",
+          "exclusive": true,
+          "fixed": true
+        }
+      ],
+      "min_selections": 1,
+      "max_selections": 3,
+      "randomize": true,
+      "instruction": "最多选择3项；‘以上均无’不能与其他选项同选。"
+    },
+    {
+      "id": "A10",
+      "population": "main",
+      "module": "付价",
+      "type": "single",
+      "text": "您是否记得这次所选品类商品合计实际支付的金额？",
+      "objective_ids": [
+        "D4"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "记得"
+        },
+        {
+          "code": 2,
+          "label": "记不清或不愿回答"
+        }
+      ]
+    },
+    {
+      "id": "A11",
+      "population": "main",
+      "module": "付价",
+      "type": "numeric",
+      "text": "这次该品类合计实际支付多少？请按付款币种填写数字。",
+      "objective_ids": [
+        "D4"
+      ],
+      "min": 0,
+      "max": 1000000,
+      "show_if": [
+        {
+          "question_id": "A10",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "instruction": "记录购物合计金额，不等同于单件价格。极端值复核，不以范围上限作统一剔除线。"
+    },
+    {
+      "id": "A12",
+      "population": "main",
+      "module": "付价",
+      "type": "single",
+      "text": "这笔金额使用什么币种？",
+      "objective_ids": [
+        "D4"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "美元 USD"
+        },
+        {
+          "code": 2,
+          "label": "加元 CAD"
+        },
+        {
+          "code": 3,
+          "label": "墨西哥比索 MXN"
+        },
+        {
+          "code": 4,
+          "label": "其他币种",
+          "kind": "other",
+          "specify": true
+        }
+      ],
+      "show_if": [
+        {
+          "question_id": "A10",
+          "codes": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A13",
+      "population": "main",
+      "module": "付价",
+      "type": "single",
+      "text": "您刚才填写的金额包含税费吗？",
+      "objective_ids": [
+        "D4"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "包含全部已付税费"
+        },
+        {
+          "code": 2,
+          "label": "不包含税费"
+        },
+        {
+          "code": 3,
+          "label": "没有相关税费"
+        },
+        {
+          "code": 4,
+          "label": "不确定"
+        }
+      ],
+      "show_if": [
+        {
+          "question_id": "A10",
+          "codes": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A14",
+      "population": "main",
+      "module": "付价",
+      "type": "single",
+      "text": "这次购买是否使用了折扣、优惠券或其他价格优惠？",
+      "objective_ids": [
+        "D4"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "是"
+        },
+        {
+          "code": 2,
+          "label": "否"
+        },
+        {
+          "code": 3,
+          "label": "不确定"
+        }
+      ]
+    },
+    {
+      "id": "B01",
+      "population": "main",
+      "module": "品牌漏斗",
+      "type": "single",
+      "text": "在今天参加研究之前，您是否听说过「示例生活方式零售品牌」？",
+      "objective_ids": [
+        "D3"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "听说过"
+        },
+        {
+          "code": 2,
+          "label": "没有听说过"
+        },
+        {
+          "code": 3,
+          "label": "不确定"
+        }
+      ]
+    },
+    {
+      "id": "B02",
+      "population": "main",
+      "module": "品牌漏斗",
+      "type": "open",
+      "text": "在看到今天的任何介绍前，「示例生活方式零售品牌」让您想到什么？可填写“不清楚”。",
+      "objective_ids": [
+        "D3"
+      ],
+      "show_if": [
+        {
+          "question_id": "B01",
+          "codes": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B03",
+      "population": "main",
+      "module": "品牌漏斗",
+      "type": "single",
+      "text": "过去6个月，您是否从「示例生活方式零售品牌」购买过商品？",
+      "objective_ids": [
+        "D3"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "购买过"
+        },
+        {
+          "code": 2,
+          "label": "没有购买过"
+        },
+        {
+          "code": 3,
+          "label": "不确定"
+        }
+      ]
+    },
+    {
+      "id": "X01",
+      "population": "main",
+      "module": "系统终止",
+      "type": "single",
+      "text": "品牌加样未满足近6个月购买资格",
+      "objective_ids": [
+        "D1"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "结束访问"
+        }
+      ],
+      "default": "END",
+      "show_if": [
+        {
+          "question_id": "H00",
+          "codes": [
+            2
+          ]
+        },
+        {
+          "question_id": "B03",
+          "codes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "instruction": "隐藏系统终止节点，进入即结束；非受访者问答题。"
+    },
+    {
+      "id": "B04",
+      "population": "main",
+      "module": "品牌漏斗",
+      "type": "single",
+      "text": "过去6个月，您从「示例生活方式零售品牌」购买过几次？",
+      "objective_ids": [
+        "D3"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "1次"
+        },
+        {
+          "code": 2,
+          "label": "2至3次"
+        },
+        {
+          "code": 3,
+          "label": "4次及以上"
+        },
+        {
+          "code": 4,
+          "label": "记不清"
+        }
+      ],
+      "show_if": [
+        {
+          "question_id": "B03",
+          "codes": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B05",
+      "population": "main",
+      "module": "品牌漏斗",
+      "type": "single",
+      "text": "在未来3个月有相关品类需要时，您会在多大程度上考虑「示例生活方式零售品牌」？",
+      "objective_ids": [
+        "D3"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "一定不会考虑"
+        },
+        {
+          "code": 2,
+          "label": "可能不会考虑"
+        },
+        {
+          "code": 3,
+          "label": "可能会也可能不会"
+        },
+        {
+          "code": 4,
+          "label": "可能会考虑"
+        },
+        {
+          "code": 5,
+          "label": "一定会考虑"
+        },
+        {
+          "code": 6,
+          "label": "不了解，无法判断"
+        }
+      ]
+    },
+    {
+      "id": "B06",
+      "population": "main",
+      "module": "未购障碍",
+      "type": "multi",
+      "text": "您近6个月没有购买或无法确认购买「示例生活方式零售品牌」的原因有哪些？",
+      "objective_ids": [
+        "D5"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "不了解该品牌"
+        },
+        {
+          "code": 2,
+          "label": "附近没有方便到达的门店或渠道"
+        },
+        {
+          "code": 3,
+          "label": "没有合适商品"
+        },
+        {
+          "code": 4,
+          "label": "对质量缺少信心"
+        },
+        {
+          "code": 5,
+          "label": "价格不符合预期"
+        },
+        {
+          "code": 6,
+          "label": "没有购物需要"
+        },
+        {
+          "code": 7,
+          "label": "更偏好其他选择"
+        },
+        {
+          "code": 99,
+          "label": "以上均无",
+          "kind": "none",
+          "exclusive": true,
+          "fixed": true
+        }
+      ],
+      "min_selections": 1,
+      "max_selections": 3,
+      "randomize": true,
+      "show_if": [
+        {
+          "question_id": "B03",
+          "codes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "instruction": "最多选择3项；‘以上均无’不能与其他选项同选。"
+    },
+    {
+      "id": "N01",
+      "population": "main",
+      "module": "需求",
+      "type": "matrix",
+      "text": "选择这些品类的商品时，以下各项对您有多重要？",
+      "objective_ids": [
+        "D2"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "完全不重要"
+        },
+        {
+          "code": 2,
+          "label": "不太重要"
+        },
+        {
+          "code": 3,
+          "label": "一般"
+        },
+        {
+          "code": 4,
+          "label": "比较重要"
+        },
+        {
+          "code": 5,
+          "label": "非常重要"
+        },
+        {
+          "code": 6,
+          "label": "没有相关经历或不适用"
+        },
+        {
+          "code": 7,
+          "label": "不了解或无法判断"
+        },
+        {
+          "code": 8,
+          "label": "不愿回答"
+        }
+      ],
+      "rows": [
+        {
+          "code": 1,
+          "label": "实用可靠"
+        },
+        {
+          "code": 2,
+          "label": "价格负担得起"
+        },
+        {
+          "code": 3,
+          "label": "外观和设计喜欢"
+        },
+        {
+          "code": 4,
+          "label": "能够表达个人兴趣"
+        },
+        {
+          "code": 5,
+          "label": "送人合适"
+        },
+        {
+          "code": 6,
+          "label": "购物时有发现感"
+        }
+      ],
+      "programming_note": "行顺序随机；6至8为非实质量表响应。手机端逐项出示；引擎不执行行随机化。",
+      "instruction": "每行选择一项；6为不适用，7为不了解，8为拒答，三者分别保留且不计入量表均值。"
+    },
+    {
+      "id": "N02",
+      "population": "main",
+      "module": "需求",
+      "type": "rank",
+      "text": "请选择最影响您最终选择的3项，并按重要程度排序。",
+      "objective_ids": [
+        "D2"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "实用可靠"
+        },
+        {
+          "code": 2,
+          "label": "价格负担得起"
+        },
+        {
+          "code": 3,
+          "label": "外观和设计喜欢"
+        },
+        {
+          "code": 4,
+          "label": "能够表达个人兴趣"
+        },
+        {
+          "code": 5,
+          "label": "送人合适"
+        },
+        {
+          "code": 6,
+          "label": "购物时有发现感"
+        }
+      ],
+      "rank_count": 3,
+      "instruction": "只排序3项；未排序不表示完全不重要。"
+    },
+    {
+      "id": "E00",
+      "population": "main",
+      "module": "体验",
+      "type": "single",
+      "text": "您能否根据自己的购买经历评价推荐「示例生活方式零售品牌」的意愿？",
+      "objective_ids": [
+        "D5"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "能够评价"
+        },
+        {
+          "code": 2,
+          "label": "无法评价或不愿评价"
+        }
+      ],
+      "show_if": [
+        {
+          "question_id": "B03",
+          "codes": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E01",
+      "population": "main",
+      "module": "体验",
+      "type": "nps",
+      "text": "如果亲友需要购买相关商品，您有多大可能向他们推荐「示例生活方式零售品牌」？",
+      "objective_ids": [
+        "D5"
+      ],
+      "options": [
+        {
+          "code": 0,
+          "label": "0 完全不可能"
+        },
+        {
+          "code": 1,
+          "label": "1"
+        },
+        {
+          "code": 2,
+          "label": "2"
+        },
+        {
+          "code": 3,
+          "label": "3"
+        },
+        {
+          "code": 4,
+          "label": "4"
+        },
+        {
+          "code": 5,
+          "label": "5"
+        },
+        {
+          "code": 6,
+          "label": "6"
+        },
+        {
+          "code": 7,
+          "label": "7"
+        },
+        {
+          "code": 8,
+          "label": "8"
+        },
+        {
+          "code": 9,
+          "label": "9"
+        },
+        {
+          "code": 10,
+          "label": "10 极有可能"
+        }
+      ],
+      "show_if": [
+        {
+          "question_id": "B03",
+          "codes": [
+            1
+          ]
+        },
+        {
+          "question_id": "E00",
+          "codes": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E02",
+      "population": "main",
+      "module": "体验",
+      "type": "open",
+      "text": "您给出这个推荐分数的主要原因是什么？请尽量联系具体经历。",
+      "objective_ids": [
+        "D5"
+      ],
+      "show_if": [
+        {
+          "question_id": "B03",
+          "codes": [
+            1
+          ]
+        },
+        {
+          "question_id": "E00",
+          "codes": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E03",
+      "population": "main",
+      "module": "体验",
+      "type": "matrix",
+      "text": "回想最近一次在「示例生活方式零售品牌」购物，您对以下方面有多满意？",
+      "objective_ids": [
+        "D5"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "非常不满意"
+        },
+        {
+          "code": 2,
+          "label": "比较不满意"
+        },
+        {
+          "code": 3,
+          "label": "一般"
+        },
+        {
+          "code": 4,
+          "label": "比较满意"
+        },
+        {
+          "code": 5,
+          "label": "非常满意"
+        },
+        {
+          "code": 6,
+          "label": "没有相关经历或不适用"
+        },
+        {
+          "code": 7,
+          "label": "不了解或无法判断"
+        },
+        {
+          "code": 8,
+          "label": "不愿回答"
+        }
+      ],
+      "rows": [
+        {
+          "code": 1,
+          "label": "商品质量"
+        },
+        {
+          "code": 2,
+          "label": "价格与价值"
+        },
+        {
+          "code": 3,
+          "label": "商品选择"
+        },
+        {
+          "code": 4,
+          "label": "找到合适商品的便利程度"
+        },
+        {
+          "code": 5,
+          "label": "购买流程"
+        },
+        {
+          "code": 6,
+          "label": "服务或问题处理"
+        }
+      ],
+      "show_if": [
+        {
+          "question_id": "B03",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "instruction": "每行选择一项；6为不适用，7为不了解，8为拒答，三者分别保留且不计入量表均值。"
+    },
+    {
+      "id": "E04",
+      "population": "main",
+      "module": "体验",
+      "type": "single",
+      "text": "未来3个月有相关购物需要时，您再次购买「示例生活方式零售品牌」的可能性有多大？",
+      "objective_ids": [
+        "D5"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "一定不会"
+        },
+        {
+          "code": 2,
+          "label": "可能不会"
+        },
+        {
+          "code": 3,
+          "label": "不确定"
+        },
+        {
+          "code": 4,
+          "label": "可能会"
+        },
+        {
+          "code": 5,
+          "label": "一定会"
+        },
+        {
+          "code": 6,
+          "label": "无法评价"
+        }
+      ],
+      "show_if": [
+        {
+          "question_id": "B03",
+          "codes": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I01",
+      "population": "main",
+      "module": "IP与收藏",
+      "type": "single",
+      "text": "过去6个月，您与角色或作品IP相关商品的最接近情况是？",
+      "objective_ids": [
+        "D4"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "购买并收藏"
+        },
+        {
+          "code": 2,
+          "label": "购买但不收藏"
+        },
+        {
+          "code": 3,
+          "label": "关注或喜欢但未购买"
+        },
+        {
+          "code": 4,
+          "label": "没有关注或购买"
+        },
+        {
+          "code": 5,
+          "label": "不确定"
+        }
+      ]
+    },
+    {
+      "id": "I02",
+      "population": "main",
+      "module": "IP与收藏",
+      "type": "multi",
+      "text": "您实际购买这类IP商品的原因有哪些？",
+      "objective_ids": [
+        "D4"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "喜欢角色或作品"
+        },
+        {
+          "code": 2,
+          "label": "设计或实用功能"
+        },
+        {
+          "code": 3,
+          "label": "收藏系列或补齐款式"
+        },
+        {
+          "code": 4,
+          "label": "赠送他人"
+        },
+        {
+          "code": 5,
+          "label": "与同好交流"
+        },
+        {
+          "code": 6,
+          "label": "限量或稀缺感"
+        },
+        {
+          "code": 99,
+          "label": "以上均无",
+          "kind": "none",
+          "exclusive": true,
+          "fixed": true
+        }
+      ],
+      "min_selections": 1,
+      "max_selections": 3,
+      "randomize": true,
+      "show_if": [
+        {
+          "question_id": "I01",
+          "codes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "instruction": "最多选择3项；‘以上均无’不能与其他选项同选。"
+    },
+    {
+      "id": "I03",
+      "population": "main",
+      "module": "IP与收藏",
+      "type": "single",
+      "text": "对于同类商品，有喜欢的IP设计会怎样影响您的选择？",
+      "objective_ids": [
+        "D4"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "更愿意购买"
+        },
+        {
+          "code": 2,
+          "label": "没有明显影响"
+        },
+        {
+          "code": 3,
+          "label": "反而较不愿购买"
+        },
+        {
+          "code": 4,
+          "label": "不了解或无法判断"
+        }
+      ]
+    },
+    {
+      "id": "G01",
+      "population": "main",
+      "module": "赠礼",
+      "type": "single",
+      "text": "过去6个月，您是否购买过这些品类的商品送给他人？",
+      "objective_ids": [
+        "D4"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "有"
+        },
+        {
+          "code": 2,
+          "label": "没有"
+        },
+        {
+          "code": 3,
+          "label": "不确定"
+        }
+      ]
+    },
+    {
+      "id": "G02",
+      "population": "main",
+      "module": "赠礼",
+      "type": "single",
+      "text": "最近一次赠礼最主要是什么场合？",
+      "objective_ids": [
+        "D4"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "生日或纪念日"
+        },
+        {
+          "code": 2,
+          "label": "节庆"
+        },
+        {
+          "code": 3,
+          "label": "表达感谢或关心"
+        },
+        {
+          "code": 4,
+          "label": "日常小惊喜"
+        },
+        {
+          "code": 5,
+          "label": "其他场合"
+        }
+      ],
+      "show_if": [
+        {
+          "question_id": "G01",
+          "codes": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G03",
+      "population": "main",
+      "module": "赠礼",
+      "type": "multi",
+      "text": "为他人选择这类礼品时，您最担心哪些问题？",
+      "objective_ids": [
+        "D4"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "不符合对方喜好"
+        },
+        {
+          "code": 2,
+          "label": "质量不可靠"
+        },
+        {
+          "code": 3,
+          "label": "看起来不够体面"
+        },
+        {
+          "code": 4,
+          "label": "包装或送出方式不合适"
+        },
+        {
+          "code": 5,
+          "label": "价格难判断"
+        },
+        {
+          "code": 6,
+          "label": "对方已有类似商品"
+        },
+        {
+          "code": 99,
+          "label": "以上均无",
+          "kind": "none",
+          "exclusive": true,
+          "fixed": true
+        }
+      ],
+      "min_selections": 1,
+      "max_selections": 3,
+      "randomize": true,
+      "show_if": [
+        {
+          "question_id": "G01",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "instruction": "最多选择3项；‘以上均无’不能与其他选项同选。"
+    },
+    {
+      "id": "P01",
+      "population": "main",
+      "module": "价值",
+      "type": "single",
+      "text": "对于最近购买的同类商品，您如何评价「示例生活方式零售品牌」通常提供的性价比？",
+      "objective_ids": [
+        "D4"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "非常差"
+        },
+        {
+          "code": 2,
+          "label": "比较差"
+        },
+        {
+          "code": 3,
+          "label": "一般"
+        },
+        {
+          "code": 4,
+          "label": "比较好"
+        },
+        {
+          "code": 5,
+          "label": "非常好"
+        },
+        {
+          "code": 6,
+          "label": "不了解或无法比较"
+        }
+      ]
+    },
+    {
+      "id": "C00",
+      "population": "main",
+      "module": "主张测试",
+      "type": "single",
+      "text": "系统预置的单方案实验组",
+      "objective_ids": [
+        "D6"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "方案A"
+        },
+        {
+          "code": 2,
+          "label": "方案B"
+        },
+        {
+          "code": 3,
+          "label": "方案C"
+        }
+      ],
+      "instruction": "隐藏系统字段，不向受访者提问。演示用例提供固定组别；正式平台须实现并验证按国家与样本层的随机分配。",
+      "programming_note": "仅基础样本进入，品牌加样跳过整个C模块。组别从平台随机器写入，不按受访者偏好分配。当前引擎只验证给定组别的出示分支。",
+      "show_if": [
+        {
+          "question_id": "H00",
+          "codes": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C01A",
+      "population": "main",
+      "module": "主张测试",
+      "type": "open",
+      "text": "请阅读以下方案：提供容易融入日常生活的小物，兼顾实用性和设计，让每次逛店都有机会发现适合自己的选择。 您觉得它主要表达了什么？可写“不理解”。",
+      "objective_ids": [
+        "D6"
+      ],
+      "show_if": [
+        {
+          "question_id": "H00",
+          "codes": [
+            1
+          ]
+        },
+        {
+          "question_id": "C00",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "programming_note": "纯文字合成刺激，无品牌标识、价格或授权IP图片；正式使用需素材、译文及篇幅均衡复核。"
+    },
+    {
+      "id": "C01B",
+      "population": "main",
+      "module": "主张测试",
+      "type": "open",
+      "text": "请阅读以下方案：提供能表达兴趣的角色主题小物，兼顾使用与收藏，让喜欢的内容进入日常生活。 您觉得它主要表达了什么？可写“不理解”。",
+      "objective_ids": [
+        "D6"
+      ],
+      "show_if": [
+        {
+          "question_id": "H00",
+          "codes": [
+            1
+          ]
+        },
+        {
+          "question_id": "C00",
+          "codes": [
+            2
+          ]
+        }
+      ],
+      "programming_note": "纯文字合成刺激，无品牌标识、价格或授权IP图片；正式使用需素材、译文及篇幅均衡复核。"
+    },
+    {
+      "id": "C01C",
+      "population": "main",
+      "module": "主张测试",
+      "type": "open",
+      "text": "请阅读以下方案：提供适合表达心意的小礼物，兼顾选择便利和呈现方式，让日常赠礼更容易找到合适选择。 您觉得它主要表达了什么？可写“不理解”。",
+      "objective_ids": [
+        "D6"
+      ],
+      "show_if": [
+        {
+          "question_id": "H00",
+          "codes": [
+            1
+          ]
+        },
+        {
+          "question_id": "C00",
+          "codes": [
+            3
+          ]
+        }
+      ],
+      "programming_note": "纯文字合成刺激，无品牌标识、价格或授权IP图片；正式使用需素材、译文及篇幅均衡复核。"
+    },
+    {
+      "id": "C02",
+      "population": "main",
+      "module": "主张测试",
+      "type": "matrix",
+      "text": "对于刚才的方案，您在多大程度上同意以下说法？",
+      "objective_ids": [
+        "D6"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "非常不同意"
+        },
+        {
+          "code": 2,
+          "label": "比较不同意"
+        },
+        {
+          "code": 3,
+          "label": "既不同意也不反对"
+        },
+        {
+          "code": 4,
+          "label": "比较同意"
+        },
+        {
+          "code": 5,
+          "label": "非常同意"
+        },
+        {
+          "code": 6,
+          "label": "没有相关经历或不适用"
+        },
+        {
+          "code": 7,
+          "label": "不了解或无法判断"
+        },
+        {
+          "code": 8,
+          "label": "不愿回答"
+        }
+      ],
+      "rows": [
+        {
+          "code": 1,
+          "label": "容易理解"
+        },
+        {
+          "code": 2,
+          "label": "有吸引力"
+        },
+        {
+          "code": 3,
+          "label": "与我有关"
+        },
+        {
+          "code": 4,
+          "label": "让人相信"
+        },
+        {
+          "code": 5,
+          "label": "与其他选择不同"
+        }
+      ],
+      "show_if": [
+        {
+          "question_id": "H00",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "instruction": "每行选择一项；6为不适用，7为不了解，8为拒答，三者分别保留且不计入量表均值。"
+    },
+    {
+      "id": "C03",
+      "population": "main",
+      "module": "主张测试",
+      "type": "single",
+      "text": "如果有相关购物需要，您会在多大程度上考虑提供此方案的品牌？",
+      "objective_ids": [
+        "D6"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "一定不会考虑"
+        },
+        {
+          "code": 2,
+          "label": "可能不会考虑"
+        },
+        {
+          "code": 3,
+          "label": "不确定"
+        },
+        {
+          "code": 4,
+          "label": "可能会考虑"
+        },
+        {
+          "code": 5,
+          "label": "一定会考虑"
+        },
+        {
+          "code": 6,
+          "label": "无法判断"
+        }
+      ],
+      "show_if": [
+        {
+          "question_id": "H00",
+          "codes": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "population": "main",
+      "module": "主张测试",
+      "type": "open",
+      "text": "这个方案最需要改进什么，或有什么使您不愿选择？没有意见可写“没有”。",
+      "objective_ids": [
+        "D6"
+      ],
+      "show_if": [
+        {
+          "question_id": "H00",
+          "codes": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D01",
+      "population": "main",
+      "module": "背景",
+      "type": "single",
+      "text": "您如何描述自己的性别？",
+      "objective_ids": [
+        "D2"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "女性"
+        },
+        {
+          "code": 2,
+          "label": "男性"
+        },
+        {
+          "code": 3,
+          "label": "其他自我描述"
+        },
+        {
+          "code": 4,
+          "label": "不愿回答"
+        }
+      ]
+    },
+    {
+      "id": "D02",
+      "population": "main",
+      "module": "背景",
+      "type": "single",
+      "text": "您目前的主要居住地区类型是？",
+      "objective_ids": [
+        "D1"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "大型城市中心"
+        },
+        {
+          "code": 2,
+          "label": "城市外围或郊区"
+        },
+        {
+          "code": 3,
+          "label": "中小城市或城镇"
+        },
+        {
+          "code": 4,
+          "label": "乡村地区"
+        },
+        {
+          "code": 5,
+          "label": "不确定"
+        }
+      ]
+    },
+    {
+      "id": "D03",
+      "population": "main",
+      "module": "背景",
+      "type": "single",
+      "text": "您目前的主要生活状态是？",
+      "objective_ids": [
+        "D2"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "全日制学习"
+        },
+        {
+          "code": 2,
+          "label": "全职工作"
+        },
+        {
+          "code": 3,
+          "label": "兼职或灵活工作"
+        },
+        {
+          "code": 4,
+          "label": "照料家庭"
+        },
+        {
+          "code": 5,
+          "label": "退休"
+        },
+        {
+          "code": 6,
+          "label": "暂未工作"
+        },
+        {
+          "code": 7,
+          "label": "其他"
+        },
+        {
+          "code": 8,
+          "label": "不愿回答"
+        }
+      ]
+    },
+    {
+      "id": "D04",
+      "population": "main",
+      "module": "背景",
+      "type": "single",
+      "text": "您的家庭是否有18岁以下的孩子共同居住？",
+      "objective_ids": [
+        "D2"
+      ],
+      "options": [
+        {
+          "code": 1,
+          "label": "有"
+        },
+        {
+          "code": 2,
+          "label": "没有"
+        },
+        {
+          "code": 3,
+          "label": "不愿回答"
+        }
+      ]
+    },
+    {
+      "id": "D05",
+      "population": "main",
+      "module": "收尾",
+      "type": "open",
+      "text": "关于这些商品或购物体验，还有什么您希望补充？没有可写“没有”。",
+      "objective_ids": [
+        "D6"
+      ]
+    }
+  ],
+  "routing_cases": [
+    {
+      "id": "buyer_arm_a",
+      "population": "main",
+      "answers": {
+        "S00": 1,
+        "S01": 3,
+        "S02": 1,
+        "S03": 1,
+        "S04": [
+          1
+        ],
+        "S05": 1,
+        "H00": 1,
+        "A01": "合成路径示例，不是真实受访者答案",
+        "A02": 1,
+        "A03": 1,
+        "A04": 1,
+        "A05": 1,
+        "A06": [
+          1
+        ],
+        "A07": 1,
+        "A08": [
+          1
+        ],
+        "A09": [
+          1
+        ],
+        "A10": 1,
+        "A11": 20,
+        "A12": 1,
+        "A13": 1,
+        "A14": 1,
+        "B01": 1,
+        "B02": "合成路径示例，不是真实受访者答案",
+        "B03": 1,
+        "X01": 1,
+        "B04": 1,
+        "B05": 1,
+        "B06": [
+          1
+        ],
+        "N01": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "N02": [
+          1,
+          2,
+          3
+        ],
+        "E00": 1,
+        "E01": 0,
+        "E02": "合成路径示例，不是真实受访者答案",
+        "E03": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "E04": 1,
+        "I01": 1,
+        "I02": [
+          1
+        ],
+        "I03": 1,
+        "G01": 1,
+        "G02": 1,
+        "G03": [
+          1
+        ],
+        "P01": 1,
+        "C00": 1,
+        "C01A": "合成路径示例，不是真实受访者答案",
+        "C01B": "合成路径示例，不是真实受访者答案",
+        "C01C": "合成路径示例，不是真实受访者答案",
+        "C02": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3
+        },
+        "C03": 1,
+        "C04": "合成路径示例，不是真实受访者答案",
+        "D01": 1,
+        "D02": 1,
+        "D03": 1,
+        "D04": 1,
+        "D05": "合成路径示例，不是真实受访者答案"
+      },
+      "expected_visited": [
+        "S00",
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "H00",
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "N01",
+        "N02",
+        "E00",
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "I01",
+        "I02",
+        "I03",
+        "G01",
+        "G02",
+        "G03",
+        "P01",
+        "C00",
+        "C01A",
+        "C02",
+        "C03",
+        "C04",
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05"
+      ]
+    },
+    {
+      "id": "buyer_no_nps_arm_b",
+      "population": "main",
+      "answers": {
+        "S00": 1,
+        "S01": 3,
+        "S02": 1,
+        "S03": 1,
+        "S04": [
+          1
+        ],
+        "S05": 1,
+        "H00": 1,
+        "A01": "合成路径示例，不是真实受访者答案",
+        "A02": 1,
+        "A03": 1,
+        "A04": 1,
+        "A05": 1,
+        "A06": [
+          1
+        ],
+        "A07": 1,
+        "A08": [
+          1
+        ],
+        "A09": [
+          1
+        ],
+        "A10": 1,
+        "A11": 20,
+        "A12": 1,
+        "A13": 1,
+        "A14": 1,
+        "B01": 1,
+        "B02": "合成路径示例，不是真实受访者答案",
+        "B03": 1,
+        "X01": 1,
+        "B04": 1,
+        "B05": 1,
+        "B06": [
+          1
+        ],
+        "N01": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "N02": [
+          1,
+          2,
+          3
+        ],
+        "E00": 2,
+        "E01": 0,
+        "E02": "合成路径示例，不是真实受访者答案",
+        "E03": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "E04": 1,
+        "I01": 1,
+        "I02": [
+          1
+        ],
+        "I03": 1,
+        "G01": 1,
+        "G02": 1,
+        "G03": [
+          1
+        ],
+        "P01": 1,
+        "C00": 2,
+        "C01A": "合成路径示例，不是真实受访者答案",
+        "C01B": "合成路径示例，不是真实受访者答案",
+        "C01C": "合成路径示例，不是真实受访者答案",
+        "C02": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3
+        },
+        "C03": 1,
+        "C04": "合成路径示例，不是真实受访者答案",
+        "D01": 1,
+        "D02": 1,
+        "D03": 1,
+        "D04": 1,
+        "D05": "合成路径示例，不是真实受访者答案"
+      },
+      "expected_visited": [
+        "S00",
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "H00",
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "N01",
+        "N02",
+        "E00",
+        "E03",
+        "E04",
+        "I01",
+        "I02",
+        "I03",
+        "G01",
+        "G02",
+        "G03",
+        "P01",
+        "C00",
+        "C01B",
+        "C02",
+        "C03",
+        "C04",
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05"
+      ]
+    },
+    {
+      "id": "nonbuyer_arm_c",
+      "population": "main",
+      "answers": {
+        "S00": 1,
+        "S01": 3,
+        "S02": 1,
+        "S03": 1,
+        "S04": [
+          1
+        ],
+        "S05": 1,
+        "H00": 1,
+        "A01": "合成路径示例，不是真实受访者答案",
+        "A02": 1,
+        "A03": 1,
+        "A04": 1,
+        "A05": 1,
+        "A06": [
+          1
+        ],
+        "A07": 1,
+        "A08": [
+          1
+        ],
+        "A09": [
+          1
+        ],
+        "A10": 2,
+        "A11": 20,
+        "A12": 1,
+        "A13": 1,
+        "A14": 1,
+        "B01": 2,
+        "B02": "合成路径示例，不是真实受访者答案",
+        "B03": 2,
+        "X01": 1,
+        "B04": 1,
+        "B05": 1,
+        "B06": [
+          1
+        ],
+        "N01": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "N02": [
+          1,
+          2,
+          3
+        ],
+        "E00": 1,
+        "E01": 0,
+        "E02": "合成路径示例，不是真实受访者答案",
+        "E03": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "E04": 1,
+        "I01": 4,
+        "I02": [
+          1
+        ],
+        "I03": 1,
+        "G01": 2,
+        "G02": 1,
+        "G03": [
+          1
+        ],
+        "P01": 1,
+        "C00": 3,
+        "C01A": "合成路径示例，不是真实受访者答案",
+        "C01B": "合成路径示例，不是真实受访者答案",
+        "C01C": "合成路径示例，不是真实受访者答案",
+        "C02": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3
+        },
+        "C03": 1,
+        "C04": "合成路径示例，不是真实受访者答案",
+        "D01": 1,
+        "D02": 1,
+        "D03": 1,
+        "D04": 1,
+        "D05": "合成路径示例，不是真实受访者答案"
+      },
+      "expected_visited": [
+        "S00",
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "H00",
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A14",
+        "B01",
+        "B03",
+        "B05",
+        "B06",
+        "N01",
+        "N02",
+        "I01",
+        "I03",
+        "G01",
+        "P01",
+        "C00",
+        "C01C",
+        "C02",
+        "C03",
+        "C04",
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05"
+      ]
+    },
+    {
+      "id": "booster_skips_all_concepts",
+      "population": "main",
+      "answers": {
+        "S00": 1,
+        "S01": 3,
+        "S02": 1,
+        "S03": 1,
+        "S04": [
+          1
+        ],
+        "S05": 1,
+        "H00": 2,
+        "A01": "合成路径示例，不是真实受访者答案",
+        "A02": 1,
+        "A03": 1,
+        "A04": 1,
+        "A05": 1,
+        "A06": [
+          1
+        ],
+        "A07": 1,
+        "A08": [
+          1
+        ],
+        "A09": [
+          1
+        ],
+        "A10": 1,
+        "A11": 20,
+        "A12": 1,
+        "A13": 1,
+        "A14": 1,
+        "B01": 1,
+        "B02": "合成路径示例，不是真实受访者答案",
+        "B03": 1,
+        "X01": 1,
+        "B04": 1,
+        "B05": 1,
+        "B06": [
+          1
+        ],
+        "N01": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "N02": [
+          1,
+          2,
+          3
+        ],
+        "E00": 1,
+        "E01": 0,
+        "E02": "合成路径示例，不是真实受访者答案",
+        "E03": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "E04": 1,
+        "I01": 1,
+        "I02": [
+          1
+        ],
+        "I03": 1,
+        "G01": 1,
+        "G02": 1,
+        "G03": [
+          1
+        ],
+        "P01": 1,
+        "C00": 1,
+        "C01A": "合成路径示例，不是真实受访者答案",
+        "C01B": "合成路径示例，不是真实受访者答案",
+        "C01C": "合成路径示例，不是真实受访者答案",
+        "C02": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3
+        },
+        "C03": 1,
+        "C04": "合成路径示例，不是真实受访者答案",
+        "D01": 1,
+        "D02": 1,
+        "D03": 1,
+        "D04": 1,
+        "D05": "合成路径示例，不是真实受访者答案"
+      },
+      "expected_visited": [
+        "S00",
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "H00",
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "N01",
+        "N02",
+        "E00",
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "I01",
+        "I02",
+        "I03",
+        "G01",
+        "G02",
+        "G03",
+        "P01",
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05"
+      ]
+    },
+    {
+      "id": "booster_nonbuyer_ends",
+      "population": "main",
+      "answers": {
+        "S00": 1,
+        "S01": 3,
+        "S02": 1,
+        "S03": 1,
+        "S04": [
+          1
+        ],
+        "S05": 1,
+        "H00": 2,
+        "A01": "合成路径示例，不是真实受访者答案",
+        "A02": 1,
+        "A03": 1,
+        "A04": 1,
+        "A05": 1,
+        "A06": [
+          1
+        ],
+        "A07": 1,
+        "A08": [
+          1
+        ],
+        "A09": [
+          1
+        ],
+        "A10": 1,
+        "A11": 20,
+        "A12": 1,
+        "A13": 1,
+        "A14": 1,
+        "B01": 1,
+        "B02": "合成路径示例，不是真实受访者答案",
+        "B03": 2,
+        "X01": 1,
+        "B04": 1,
+        "B05": 1,
+        "B06": [
+          1
+        ],
+        "N01": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "N02": [
+          1,
+          2,
+          3
+        ],
+        "E00": 1,
+        "E01": 0,
+        "E02": "合成路径示例，不是真实受访者答案",
+        "E03": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "E04": 1,
+        "I01": 1,
+        "I02": [
+          1
+        ],
+        "I03": 1,
+        "G01": 1,
+        "G02": 1,
+        "G03": [
+          1
+        ],
+        "P01": 1,
+        "C00": 1,
+        "C01A": "合成路径示例，不是真实受访者答案",
+        "C01B": "合成路径示例，不是真实受访者答案",
+        "C01C": "合成路径示例，不是真实受访者答案",
+        "C02": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3
+        },
+        "C03": 1,
+        "C04": "合成路径示例，不是真实受访者答案",
+        "D01": 1,
+        "D02": 1,
+        "D03": 1,
+        "D04": 1,
+        "D05": "合成路径示例，不是真实受访者答案"
+      },
+      "expected_visited": [
+        "S00",
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "H00",
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "B01",
+        "B02",
+        "B03",
+        "X01"
+      ]
+    },
+    {
+      "id": "screen_S00_2",
+      "population": "main",
+      "answers": {
+        "S00": 2,
+        "S01": 3,
+        "S02": 1,
+        "S03": 1,
+        "S04": [
+          1
+        ],
+        "S05": 1,
+        "H00": 1,
+        "A01": "合成路径示例，不是真实受访者答案",
+        "A02": 1,
+        "A03": 1,
+        "A04": 1,
+        "A05": 1,
+        "A06": [
+          1
+        ],
+        "A07": 1,
+        "A08": [
+          1
+        ],
+        "A09": [
+          1
+        ],
+        "A10": 1,
+        "A11": 20,
+        "A12": 1,
+        "A13": 1,
+        "A14": 1,
+        "B01": 1,
+        "B02": "合成路径示例，不是真实受访者答案",
+        "B03": 1,
+        "X01": 1,
+        "B04": 1,
+        "B05": 1,
+        "B06": [
+          1
+        ],
+        "N01": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "N02": [
+          1,
+          2,
+          3
+        ],
+        "E00": 1,
+        "E01": 0,
+        "E02": "合成路径示例，不是真实受访者答案",
+        "E03": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "E04": 1,
+        "I01": 1,
+        "I02": [
+          1
+        ],
+        "I03": 1,
+        "G01": 1,
+        "G02": 1,
+        "G03": [
+          1
+        ],
+        "P01": 1,
+        "C00": 1,
+        "C01A": "合成路径示例，不是真实受访者答案",
+        "C01B": "合成路径示例，不是真实受访者答案",
+        "C01C": "合成路径示例，不是真实受访者答案",
+        "C02": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3
+        },
+        "C03": 1,
+        "C04": "合成路径示例，不是真实受访者答案",
+        "D01": 1,
+        "D02": 1,
+        "D03": 1,
+        "D04": 1,
+        "D05": "合成路径示例，不是真实受访者答案"
+      },
+      "expected_visited": [
+        "S00"
+      ]
+    },
+    {
+      "id": "screen_S01_1",
+      "population": "main",
+      "answers": {
+        "S00": 1,
+        "S01": 1,
+        "S02": 1,
+        "S03": 1,
+        "S04": [
+          1
+        ],
+        "S05": 1,
+        "H00": 1,
+        "A01": "合成路径示例，不是真实受访者答案",
+        "A02": 1,
+        "A03": 1,
+        "A04": 1,
+        "A05": 1,
+        "A06": [
+          1
+        ],
+        "A07": 1,
+        "A08": [
+          1
+        ],
+        "A09": [
+          1
+        ],
+        "A10": 1,
+        "A11": 20,
+        "A12": 1,
+        "A13": 1,
+        "A14": 1,
+        "B01": 1,
+        "B02": "合成路径示例，不是真实受访者答案",
+        "B03": 1,
+        "X01": 1,
+        "B04": 1,
+        "B05": 1,
+        "B06": [
+          1
+        ],
+        "N01": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "N02": [
+          1,
+          2,
+          3
+        ],
+        "E00": 1,
+        "E01": 0,
+        "E02": "合成路径示例，不是真实受访者答案",
+        "E03": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "E04": 1,
+        "I01": 1,
+        "I02": [
+          1
+        ],
+        "I03": 1,
+        "G01": 1,
+        "G02": 1,
+        "G03": [
+          1
+        ],
+        "P01": 1,
+        "C00": 1,
+        "C01A": "合成路径示例，不是真实受访者答案",
+        "C01B": "合成路径示例，不是真实受访者答案",
+        "C01C": "合成路径示例，不是真实受访者答案",
+        "C02": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3
+        },
+        "C03": 1,
+        "C04": "合成路径示例，不是真实受访者答案",
+        "D01": 1,
+        "D02": 1,
+        "D03": 1,
+        "D04": 1,
+        "D05": "合成路径示例，不是真实受访者答案"
+      },
+      "expected_visited": [
+        "S00",
+        "S01"
+      ]
+    },
+    {
+      "id": "screen_S01_7",
+      "population": "main",
+      "answers": {
+        "S00": 1,
+        "S01": 7,
+        "S02": 1,
+        "S03": 1,
+        "S04": [
+          1
+        ],
+        "S05": 1,
+        "H00": 1,
+        "A01": "合成路径示例，不是真实受访者答案",
+        "A02": 1,
+        "A03": 1,
+        "A04": 1,
+        "A05": 1,
+        "A06": [
+          1
+        ],
+        "A07": 1,
+        "A08": [
+          1
+        ],
+        "A09": [
+          1
+        ],
+        "A10": 1,
+        "A11": 20,
+        "A12": 1,
+        "A13": 1,
+        "A14": 1,
+        "B01": 1,
+        "B02": "合成路径示例，不是真实受访者答案",
+        "B03": 1,
+        "X01": 1,
+        "B04": 1,
+        "B05": 1,
+        "B06": [
+          1
+        ],
+        "N01": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "N02": [
+          1,
+          2,
+          3
+        ],
+        "E00": 1,
+        "E01": 0,
+        "E02": "合成路径示例，不是真实受访者答案",
+        "E03": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "E04": 1,
+        "I01": 1,
+        "I02": [
+          1
+        ],
+        "I03": 1,
+        "G01": 1,
+        "G02": 1,
+        "G03": [
+          1
+        ],
+        "P01": 1,
+        "C00": 1,
+        "C01A": "合成路径示例，不是真实受访者答案",
+        "C01B": "合成路径示例，不是真实受访者答案",
+        "C01C": "合成路径示例，不是真实受访者答案",
+        "C02": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3
+        },
+        "C03": 1,
+        "C04": "合成路径示例，不是真实受访者答案",
+        "D01": 1,
+        "D02": 1,
+        "D03": 1,
+        "D04": 1,
+        "D05": "合成路径示例，不是真实受访者答案"
+      },
+      "expected_visited": [
+        "S00",
+        "S01"
+      ]
+    },
+    {
+      "id": "screen_S02_4",
+      "population": "main",
+      "answers": {
+        "S00": 1,
+        "S01": 3,
+        "S02": 4,
+        "S03": 1,
+        "S04": [
+          1
+        ],
+        "S05": 1,
+        "H00": 1,
+        "A01": "合成路径示例，不是真实受访者答案",
+        "A02": 1,
+        "A03": 1,
+        "A04": 1,
+        "A05": 1,
+        "A06": [
+          1
+        ],
+        "A07": 1,
+        "A08": [
+          1
+        ],
+        "A09": [
+          1
+        ],
+        "A10": 1,
+        "A11": 20,
+        "A12": 1,
+        "A13": 1,
+        "A14": 1,
+        "B01": 1,
+        "B02": "合成路径示例，不是真实受访者答案",
+        "B03": 1,
+        "X01": 1,
+        "B04": 1,
+        "B05": 1,
+        "B06": [
+          1
+        ],
+        "N01": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "N02": [
+          1,
+          2,
+          3
+        ],
+        "E00": 1,
+        "E01": 0,
+        "E02": "合成路径示例，不是真实受访者答案",
+        "E03": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "E04": 1,
+        "I01": 1,
+        "I02": [
+          1
+        ],
+        "I03": 1,
+        "G01": 1,
+        "G02": 1,
+        "G03": [
+          1
+        ],
+        "P01": 1,
+        "C00": 1,
+        "C01A": "合成路径示例，不是真实受访者答案",
+        "C01B": "合成路径示例，不是真实受访者答案",
+        "C01C": "合成路径示例，不是真实受访者答案",
+        "C02": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3
+        },
+        "C03": 1,
+        "C04": "合成路径示例，不是真实受访者答案",
+        "D01": 1,
+        "D02": 1,
+        "D03": 1,
+        "D04": 1,
+        "D05": "合成路径示例，不是真实受访者答案"
+      },
+      "expected_visited": [
+        "S00",
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "id": "screen_S03_2",
+      "population": "main",
+      "answers": {
+        "S00": 1,
+        "S01": 3,
+        "S02": 1,
+        "S03": 2,
+        "S04": [
+          1
+        ],
+        "S05": 1,
+        "H00": 1,
+        "A01": "合成路径示例，不是真实受访者答案",
+        "A02": 1,
+        "A03": 1,
+        "A04": 1,
+        "A05": 1,
+        "A06": [
+          1
+        ],
+        "A07": 1,
+        "A08": [
+          1
+        ],
+        "A09": [
+          1
+        ],
+        "A10": 1,
+        "A11": 20,
+        "A12": 1,
+        "A13": 1,
+        "A14": 1,
+        "B01": 1,
+        "B02": "合成路径示例，不是真实受访者答案",
+        "B03": 1,
+        "X01": 1,
+        "B04": 1,
+        "B05": 1,
+        "B06": [
+          1
+        ],
+        "N01": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "N02": [
+          1,
+          2,
+          3
+        ],
+        "E00": 1,
+        "E01": 0,
+        "E02": "合成路径示例，不是真实受访者答案",
+        "E03": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "E04": 1,
+        "I01": 1,
+        "I02": [
+          1
+        ],
+        "I03": 1,
+        "G01": 1,
+        "G02": 1,
+        "G03": [
+          1
+        ],
+        "P01": 1,
+        "C00": 1,
+        "C01A": "合成路径示例，不是真实受访者答案",
+        "C01B": "合成路径示例，不是真实受访者答案",
+        "C01C": "合成路径示例，不是真实受访者答案",
+        "C02": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3
+        },
+        "C03": 1,
+        "C04": "合成路径示例，不是真实受访者答案",
+        "D01": 1,
+        "D02": 1,
+        "D03": 1,
+        "D04": 1,
+        "D05": "合成路径示例，不是真实受访者答案"
+      },
+      "expected_visited": [
+        "S00",
+        "S01",
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "id": "screen_S04_99",
+      "population": "main",
+      "answers": {
+        "S00": 1,
+        "S01": 3,
+        "S02": 1,
+        "S03": 1,
+        "S04": [
+          99
+        ],
+        "S05": 1,
+        "H00": 1,
+        "A01": "合成路径示例，不是真实受访者答案",
+        "A02": 1,
+        "A03": 1,
+        "A04": 1,
+        "A05": 1,
+        "A06": [
+          1
+        ],
+        "A07": 1,
+        "A08": [
+          1
+        ],
+        "A09": [
+          1
+        ],
+        "A10": 1,
+        "A11": 20,
+        "A12": 1,
+        "A13": 1,
+        "A14": 1,
+        "B01": 1,
+        "B02": "合成路径示例，不是真实受访者答案",
+        "B03": 1,
+        "X01": 1,
+        "B04": 1,
+        "B05": 1,
+        "B06": [
+          1
+        ],
+        "N01": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "N02": [
+          1,
+          2,
+          3
+        ],
+        "E00": 1,
+        "E01": 0,
+        "E02": "合成路径示例，不是真实受访者答案",
+        "E03": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "E04": 1,
+        "I01": 1,
+        "I02": [
+          1
+        ],
+        "I03": 1,
+        "G01": 1,
+        "G02": 1,
+        "G03": [
+          1
+        ],
+        "P01": 1,
+        "C00": 1,
+        "C01A": "合成路径示例，不是真实受访者答案",
+        "C01B": "合成路径示例，不是真实受访者答案",
+        "C01C": "合成路径示例，不是真实受访者答案",
+        "C02": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3
+        },
+        "C03": 1,
+        "C04": "合成路径示例，不是真实受访者答案",
+        "D01": 1,
+        "D02": 1,
+        "D03": 1,
+        "D04": 1,
+        "D05": "合成路径示例，不是真实受访者答案"
+      },
+      "expected_visited": [
+        "S00",
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "id": "screen_S05_2",
+      "population": "main",
+      "answers": {
+        "S00": 1,
+        "S01": 3,
+        "S02": 1,
+        "S03": 1,
+        "S04": [
+          1
+        ],
+        "S05": 2,
+        "H00": 1,
+        "A01": "合成路径示例，不是真实受访者答案",
+        "A02": 1,
+        "A03": 1,
+        "A04": 1,
+        "A05": 1,
+        "A06": [
+          1
+        ],
+        "A07": 1,
+        "A08": [
+          1
+        ],
+        "A09": [
+          1
+        ],
+        "A10": 1,
+        "A11": 20,
+        "A12": 1,
+        "A13": 1,
+        "A14": 1,
+        "B01": 1,
+        "B02": "合成路径示例，不是真实受访者答案",
+        "B03": 1,
+        "X01": 1,
+        "B04": 1,
+        "B05": 1,
+        "B06": [
+          1
+        ],
+        "N01": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "N02": [
+          1,
+          2,
+          3
+        ],
+        "E00": 1,
+        "E01": 0,
+        "E02": "合成路径示例，不是真实受访者答案",
+        "E03": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3
+        },
+        "E04": 1,
+        "I01": 1,
+        "I02": [
+          1
+        ],
+        "I03": 1,
+        "G01": 1,
+        "G02": 1,
+        "G03": [
+          1
+        ],
+        "P01": 1,
+        "C00": 1,
+        "C01A": "合成路径示例，不是真实受访者答案",
+        "C01B": "合成路径示例，不是真实受访者答案",
+        "C01C": "合成路径示例，不是真实受访者答案",
+        "C02": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3
+        },
+        "C03": 1,
+        "C04": "合成路径示例，不是真实受访者答案",
+        "D01": 1,
+        "D02": 1,
+        "D03": 1,
+        "D04": 1,
+        "D05": "合成路径示例，不是真实受访者答案"
+      },
+      "expected_visited": [
+        "S00",
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05"
+      ]
+    }
+  ],
+  "review": {
+    "status": "approved",
+    "content": true,
+    "programming": true,
+    "analysis": true,
+    "spec_sha256": "90ca7d1540b7f9231a8abd6cc28ea43aad2f5d43e03cfc162a867328a4284490"
+  }
+}

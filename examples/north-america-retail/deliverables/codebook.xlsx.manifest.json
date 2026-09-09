@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "engine_version": "0.3.0",
+  "tool": "codebook",
+  "run_id": "63cb40d2-7a1a-4878-936f-84b987c8b081",
+  "input_sha256": [],
+  "config_sha256": "e83062aec4647bba7fc6729ed4c4d7e85396db932ac16f63c51035d96b9bfd76",
+  "output_sha256": "e9413f6cc60b354bfef820a7be58cd9a3261ce37b7494fa80c871c153ce5300b",
+  "gates": {
+    "required_review": "passed",
+    "office": "passed"
+  },
+  "counts": {
+    "variables": 120,
+    "codeframes": 4
+  },
+  "openxml_errors": 0
+}

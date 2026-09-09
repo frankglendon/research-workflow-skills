@@ -16,3 +16,8 @@ dist/
 *.db
 
 .research-workflow/
+
+# Reviewed case outputs explicitly approved for this repository
+!examples/north-america-retail/deliverables/research-plan.docx
+!examples/north-america-retail/deliverables/questionnaire.xlsx
+!examples/north-america-retail/deliverables/codebook.xlsx

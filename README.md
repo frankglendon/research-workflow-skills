@@ -20,6 +20,14 @@ The host agent performs reasoning and review. This repository provides skill ins
 
 ## See the behavior
 
+**Complete design case:** [North American retail study](examples/north-america-retail/README.md) — a 23-page qualitative/quantitative proposal, interview guide, 54-node questionnaire and 120-variable codebook. Download the Word and Excel files from the case folder, or get [all source code and case deliverables together](https://github.com/frankglendon/research-workflow-skills/releases/tag/case-study-v1). The fictional case includes 12 synthetic routing tests covering 56 explicit branches; it reports no fieldwork or market findings.
+
+```bash
+python examples/north-america-retail/reproduce.py --output .runs/full-case
+```
+
+This recompiles the two workbooks, validates the included Word file and replays three recorded design handoffs. It does not regenerate the proposal or perform a new semantic review.
+
 ```text
 $ python -m research_skills demo --output .runs/demo
 {"synthetic": true, "model_calls": 0, "exports": 5,
