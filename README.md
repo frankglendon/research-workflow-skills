@@ -20,6 +20,8 @@ The host agent performs reasoning and review. This repository provides skill ins
 
 ## See the behavior
 
+**Tavily-first retrieval (0.4.0):** the evidence skill now has a persistent MCP request journal, source snapshots, bounded retries and local evidence-candidate search. Firecrawl remains an explicit page-extraction option. See [integration and actual scope](docs/retrieval.md) or run `python examples/retrieval/reproduce.py --output .runs/retrieval-demo` for the synthetic, zero-network demonstration.
+
 **Complete design case:** [North American retail study](examples/north-america-retail/README.md) — a 23-page qualitative/quantitative proposal, interview guide, 54-node questionnaire and 120-variable codebook. Download the Word and Excel files from the case folder, or get [all source code and case deliverables together](https://github.com/frankglendon/research-workflow-skills/releases/tag/case-study-v1). The fictional case includes 12 synthetic routing tests covering 56 explicit branches; it reports no fieldwork or market findings.
 
 ```bash

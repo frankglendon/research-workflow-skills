@@ -1,16 +1,24 @@
 # Validation record
 
+## Tavily-first retrieval — 0.4.0, 2026-09-09
+
+84 behavior tests passed locally, including 19 retrieval checks: one outstanding request, deduplication, persisted retry/budget limits, source/snippet separation, wrong-URL and cross-workspace responses, atomic failed imports, source hashes, Firecrawl markdown normalization, exact candidate offsets, redacted summaries and actual CLI resumption/no-overwrite behavior. The synthetic three-response demonstration makes no network/model calls and refuses an unreviewed ledger.
+
+The host ran three actual Tavily calls through the request/record workflow: one search returned no results, one known-page extraction failed, and a selected official examples page was extracted and retrieved locally. All outcomes remain recorded. Earlier interface lookups are separate setup calls. Firecrawl has fixture checks only. These checks do not measure web coverage or research accuracy. Detailed results: [retrieval validation](retrieval-validation.json).
+
+SkillOpt's new six-case retrieval dataset passed public mock integration, with no adopted edit. Private model scores are not public evaluation. The included case artifacts were generated with 0.3.0; 0.4.0 also recompiles the workbooks and validates the frozen proposal successfully.
+
 ## Complete design case — 2026-09-09
 
 The fictional North American retail case contains a 23-page Word proposal and two Excel workbooks: 54 questionnaire nodes (51 respondent questions and 3 system fields), 120 variables and 4 open coding frames. All three files pass Microsoft Open XML SDK validation with 0 errors. The proposal pages and all 11 workbook sheets were visually inspected. Twelve synthetic routing cases cover 56 explicit branches in the supported compiler; this does not test a survey platform's live randomization.
 
-The case replay validates frozen input hashes, recompiles both workbooks and completes three scoped design milestones using recorded host reviews. It calls no model, conducts no fieldwork and does not authenticate an independent reviewer. CI now runs this replay alongside the existing behavior tests and demos. Package version remains 0.3.0; `case-study-v1` is a case delivery release, not a new engine version. SkillOpt was not rerun because this increment does not change skill instructions.
+The case replay validates frozen input hashes, recompiles both workbooks and completes three scoped design milestones using recorded host reviews. It calls no model, conducts no fieldwork and does not authenticate an independent reviewer. CI runs this replay alongside the existing tests and demos. The case files were authored on engine 0.3.0; `case-study-v1` also bundles the subsequent 0.4.0 retrieval code. The case files themselves were not used as SkillOpt tasks.
 
-Current package: 0.3.0, 2026-09-09. The v0.1.0 release remains a historical five-output bundle.
+Current package: 0.4.0, 2026-09-09. The v0.1.0 release remains a historical five-output bundle.
 
 | Layer | Observed result |
 |---|---|
-| Python behavior tests | 65 passing local tests |
+| Python behavior tests | 84 passing local tests |
 | Office demo | Original five outputs plus two survey/codebook outputs, Microsoft Open XML SDK: 0 errors |
 | Refusal demonstration | Fabricated quote blocked; no final report created |
 | Skill metadata | Eight skill entrypoints passed the skill-creator format validator |

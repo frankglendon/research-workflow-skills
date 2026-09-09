@@ -26,3 +26,5 @@ Act as the host's research lead. Use only the stages needed for the user's decis
 Drafting and checking may occur as separate passes in the same host. Do not describe this as independent model verification. Host planning, search, synthesis and semantic judgment are distinct from the package's deterministic checks.
 
 See [handoffs and deployment choices](references/handoffs.md) when managing a full study.
+
+For source discovery or renewed evidence gaps, route to the evidence skill's [Tavily-first retrieval handoff](../research-evidence-report/references/retrieval.md). Read saved request state before resuming, reuse extracted pages before searching again, and keep within the planned call budget. Firecrawl is an explicit page-extraction alternative. Local retrieval returns candidates, never semantic approval or completed research.

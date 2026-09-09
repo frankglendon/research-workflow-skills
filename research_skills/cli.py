@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 from . import workflows, demo
 from .contracts import GateError
-from . import survey_cli, study_cli
+from . import survey_cli, study_cli, retrieval_cli
 
 
 def main(argv=None):
@@ -12,6 +12,7 @@ def main(argv=None):
     commands = parser.add_subparsers(dest="command", required=True)
     survey_cli.register(commands)
     study_cli.register(commands)
+    retrieval_cli.register(commands)
     for name,fields in {"demo":["output"], "qc":["input","plan","output"],
         "research":["plan","output"], "bind":["input","template","plan","output"],
         "questionnaire":["plan","output"], "translate":["input","plan","output"],
@@ -29,6 +30,7 @@ def main(argv=None):
 
 
 def dispatch(args):
+    if args.command in retrieval_cli.COMMANDS: return retrieval_cli.dispatch(args)
     if args.command in study_cli.COMMANDS: return study_cli.dispatch(args)
     if args.command in survey_cli.COMMANDS: return survey_cli.dispatch(args)
     if args.command == "demo": return demo.run(args.output)

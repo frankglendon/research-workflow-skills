@@ -1,5 +1,7 @@
 # Optional SkillOpt evaluation
 
+The 0.4.0 retrieval increment adds `evals/retrieval-v1.json`: six reviewed synthetic decisions with separate 2/2/2 splits. Public validation ran mock integration only and adopted no edit. Existing datasets are unchanged. This is separate from the 19 program behavior checks and the host's live Tavily integration test; none measures general research accuracy.
+
 ## 2026-09-09 study classification update
 
 The coordinator gained a ten-type business taxonomy and scope/capability guidance. A mock dry-run reused the unchanged six-case dataset: baseline 0.0, candidate 0.0, gate reject, zero edits, zero adoptions and zero sessions. This checks adapter integration only; it is not a model evaluation of the new classification guidance and does not establish improved classification accuracy.

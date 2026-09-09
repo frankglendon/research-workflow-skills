@@ -18,6 +18,8 @@
 
 宿主负责推理和语义复核，项目提供技能流程与可执行文件契约。演示使用**预先编写的合成复核结果，模型调用为 0**，无需 API 密钥即可验证代码行为。
 
+**Tavily 优先检索（0.4.0）：**案头 Skill 已接入请求状态保存、逐页原文、限额退避和本地候选片段检索；Firecrawl 保留为显式单页备选。见 [实现与边界](docs/retrieval.md)，或运行 `python examples/retrieval/reproduce.py --output .runs/retrieval-demo` 查看无需联网的合成演示。
+
 **完整设计案例：**[北美零售研究](examples/north-america-retail/README.zh-CN.md)，包含 23 页定性与定量方案、访谈指南、54 节点问卷和 120 变量码表。案例目录可直接下载 Word、Excel，也可[一次下载全部代码与成品](https://github.com/frankglendon/research-workflow-skills/releases/tag/case-study-v1)。虚构品牌与合成路径用于展示设计交接，没有实地研究或市场发现。
 
 ```bash

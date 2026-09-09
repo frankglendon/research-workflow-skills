@@ -25,3 +25,4 @@ jobs:
       - run: python -m research_skills survey-demo --output .runs/ci-survey-demo
       - run: python -m research_skills study-demo --output .runs/ci-study-demo --repeats 3
       - run: python examples/north-america-retail/reproduce.py --output .runs/ci-full-case
+      - run: python examples/retrieval/reproduce.py --output .runs/ci-retrieval

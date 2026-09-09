@@ -21,3 +21,6 @@ dist/
 !examples/north-america-retail/deliverables/research-plan.docx
 !examples/north-america-retail/deliverables/questionnaire.xlsx
 !examples/north-america-retail/deliverables/codebook.xlsx
+
+# Local web source and request journal
+.retrieval/

@@ -1,0 +1,147 @@
+{
+  "format": "skillopt_sleep.tasks.v1",
+  "reviewed": true,
+  "dataset_kind": "curated_synthetic",
+  "dataset_version": 1,
+  "n_sessions": 0,
+  "tasks": [
+    {
+      "id": "retrieval_v1_case_1",
+      "project": ".",
+      "intent": "Both Tavily and Firecrawl MCP tools are available. The user prefers Tavily. The task is an ordinary web search. Return JSON field provider with its provider name.",
+      "context_excerpt": "Reviewed synthetic retrieval judgment. No client data or sessions. Return only the requested JSON field.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"provider\"\\s*:\\s*\"tavily\"(?=\\s*[,}])"
+          }
+        ]
+      },
+      "split": "train",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "retrieval-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "retrieval_v1_case_2",
+      "project": ".",
+      "intent": "A search tool returns a short result snippet and an aggregate generated answer. No page extraction has run. Return JSON field may_store_answer_as_page_original.",
+      "context_excerpt": "Reviewed synthetic retrieval judgment. No client data or sessions. Return only the requested JSON field.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"may_store_answer_as_page_original\"\\s*:\\s*false(?=\\s*[,}])"
+          }
+        ]
+      },
+      "split": "train",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "retrieval-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "retrieval_v1_case_3",
+      "project": ".",
+      "intent": "A local BM25 result is highly relevant and has a matching source hash. Nobody has checked whether it supports the proposed claim. Return JSON field may_mark_claim_supported.",
+      "context_excerpt": "Reviewed synthetic retrieval judgment. No client data or sessions. Return only the requested JSON field.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"may_mark_claim_supported\"\\s*:\\s*false(?=\\s*[,}])"
+          }
+        ]
+      },
+      "split": "val",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "retrieval-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "retrieval_v1_case_4",
+      "project": ".",
+      "intent": "A request received HTTP 429 and is in persisted backoff. Another copy of the same query could be launched in parallel. Return JSON field launch_parallel_copy.",
+      "context_excerpt": "Reviewed synthetic retrieval judgment. No client data or sessions. Return only the requested JSON field.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"launch_parallel_copy\"\\s*:\\s*false(?=\\s*[,}])"
+          }
+        ]
+      },
+      "split": "val",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "retrieval-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "retrieval_v1_case_5",
+      "project": ".",
+      "intent": "The previous query has a completed, persisted extraction; the unchanged research question is answered by that page and its scope has been reviewed. Return JSON field reuse_saved_source_before_searching_again.",
+      "context_excerpt": "Reviewed synthetic retrieval judgment. No client data or sessions. Return only the requested JSON field.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"reuse_saved_source_before_searching_again\"\\s*:\\s*true(?=\\s*[,}])"
+          }
+        ]
+      },
+      "split": "test",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "retrieval-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "retrieval_v1_case_6",
+      "project": ".",
+      "intent": "A successful page extraction is bound to its requested URL, full returned text and hash. It has not undergone semantic review. The host wants to export this source into a draft ledger with an empty claims array. Return JSON field may_export_unreviewed_source_candidate.",
+      "context_excerpt": "Reviewed synthetic retrieval judgment. No client data or sessions. Return only the requested JSON field.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"may_export_unreviewed_source_candidate\"\\s*:\\s*true(?=\\s*[,}])"
+          }
+        ]
+      },
+      "split": "test",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "retrieval-contract"
+      ],
+      "source_sessions": []
+    }
+  ]
+}

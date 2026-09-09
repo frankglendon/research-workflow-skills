@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-09",
+  "package_version": "0.4.0",
+  "behavior_tests": 84,
+  "retrieval_behavior_tests": 19,
+  "default_provider": "tavily",
+  "firecrawl": "optional page markdown adapter; synthetic tests only",
+  "synthetic_demo": {
+    "requests": 3,
+    "source_pages": 2,
+    "search_snippets": 1,
+    "network_calls": 0,
+    "unreviewed_ledger_blocked": true
+  },
+  "host_tavily_live_test": {
+    "actual_calls": 3,
+    "empty_searches": 1,
+    "failed_extracts": 1,
+    "successful_extracts": 1,
+    "local_candidate_offsets_checked": true,
+    "research_accuracy_measured": false,
+    "prior_interface_lookups_excluded": true
+  },
+  "office_case_replay": {
+    "office_files": 3,
+    "microsoft_openxml_errors": 0,
+    "fieldwork_executed": false
+  },
+  "skillopt": {
+    "backend": "mock",
+    "tasks": 6,
+    "sessions": 0,
+    "baseline": 0.0,
+    "candidate": 0.0,
+    "accepted": false,
+    "adopted": false,
+    "gate_action": "reject",
+    "holdout_leaked": false,
+    "skill_sha256": "76ad0cb333a057e88d7889624d5fd047bfb29ddd69e7db3bf41ce549cb8d1b46",
+    "dataset_sha256": "016680474d424ad26e6dd0bc7e78c0d3d14229bd3f16d1912c7d57e6ea0b21c8"
+  },
+  "upstream_revision": "86fa70982660037bb9292d87d8e811673ae6e818",
+  "upstream_code_copied": false
+}
