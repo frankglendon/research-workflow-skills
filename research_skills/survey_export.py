@@ -77,9 +77,10 @@ def questionnaire(spec, output):
             rows.extend(["", "", "", "", "", r["code"], r["label"], "Matrix row"] for r in q.get("rows", []))
             for option in q.get("options", []):
                 notes = [title for key, title in [("specify", "Collect other text"), ("exclusive", "Exclusive"), ("fixed", "Fixed position")] if option.get(key)]
+                if option.get('show_if'): notes.append('Display: ' + _text(option['show_if']))
                 rows.append(["", "", "", "", "", option["code"], option["label"], "; ".join(notes)])
             programming.append([q["population"], q["id"], q.get("show_if", []), q.get("routes", []), q.get("default", "NEXT"), q.get("randomize", False),
-                                {k: q[k] for k in ("min_selections", "max_selections", "rank_count", "min", "max") if k in q}, q.get("programming_note", "")])
+                                {k: q[k] for k in ("min_selections", "max_selections", "rank_count", "min", "max", "options_from", "rows_from") if k in q}, q.get("programming_note", "")])
         _sheet(book, "Questionnaire", ["Population", "Module", "Question ID", "Type", "Question text", "Code", "Answer label", "Instruction"], rows)
         _sheet(book, "Programming", ["Population", "Question ID", "Display logic", "Route logic", "Default", "Randomize", "Limits", "Programming note"], programming)
         _dictionary(book, variables)

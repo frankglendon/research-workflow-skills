@@ -1,6 +1,6 @@
 # Questionnaire schema v2
 
-Use repository `examples/survey-v2.json` as a **synthetic technical example**, never a ready-made client questionnaire. All business files use absolute paths. The package module `survey_design` is the executable contract.
+Use repository `evals/examples/survey-v2.json` as a **synthetic technical example**, never a ready-made client questionnaire. All business files use absolute paths. The package module `survey_design` is the executable contract.
 
 | Field | Contract |
 |---|---|
@@ -23,6 +23,10 @@ Supported types: `single`, `dropdown`, `multi`, `nps`, `scale5`, `scale0_10`, `m
 - `show_if: [{question_id: "S1", codes: [1]}]` means all conditions must match; a condition matches any listed code. Only earlier selection questions are supported. A skipped prerequisite does not satisfy a condition.
 - `routes: [{codes: [2], target: "END"}]` applies to the current answer. Targets must be later questions in the same population or `END`. If a multi answer matches different targets, simulation fails.
 - `default` is `NEXT` (default) or `END`.
+- `show_if` also accepts `operator: "not_any"`; the prerequisite must have an actual accepted answer. A skipped prerequisite is never treated as a negative answer.
+- An option or matrix row may have its own `show_if` with the same earlier-choice contract, for example a country filter.
+- `options_from: {question_id:"AWARE", always_codes:[99]}` carries selected codes from an earlier multi question while retaining declared order and optional fixed codes. Available options are also intersected with their country conditions. Forward/self/missing sources and unmapped codes fail validation.
+- `rows_from` has the same structure for matrix rows; only selected eligible rows are required by the simulator. Variables retain their full code universe and eligibility, while undisplayed items remain missing instead of becoming zero.
 - `instruction` and `programming_note` are human-readable text. The engine **does not execute** these strings.
 - Explicit loops, derived expressions and piping are blocked. Arbitrary predicates, survey-platform code generation, real quota management, other-text validation and complete fieldwork simulation are not implemented.
 
@@ -44,3 +48,5 @@ Only after content, programming and analysis review, set:
 `survey-run` exports Study, Sampling, Analysis plan, Questionnaire, Programming, Variables and Datamap sheets. Datamap has one answer code per row. Multi choices expand to 0/1 variables; 0 means eligible but not selected. Not-asked and missing states remain distinct and require a separate collection-time missing-reason field. Matrix and rank retain row/item codes. Preserve native survey-program names using `variable_names`.
 
 The compiler does not estimate incidence, validate population representativeness, derive causal claims or certify question wording. These belong to study design and pilot review.
+
+Random seeds, probabilistic brand selection, text piping, companion missing-reason fields, decimal precision, quota closure, back navigation and field-platform recovery remain explicit platform handoff requirements. The local simulator does not implement these by reading prose. Coverage counts refer to declared question display/routes; country-item and carry-forward semantics also need adversarial cases, not a claim that every answer combination was enumerated.

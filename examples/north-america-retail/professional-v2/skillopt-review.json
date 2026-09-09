@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "run_date": "2026-09-09",
+  "scope": "Curated synthetic decision-contract replay against the operational skill variants; not a questionnaire quality certification or client-outcome study. Public English variants were not separately model-replayed.",
+  "runs": [
+    {
+      "skill": "operational-questionnaire",
+      "backend": "codex",
+      "dataset_kind": "curated_synthetic",
+      "sessions": 0,
+      "tasks": 6,
+      "baseline": 1.0,
+      "candidate": 1.0,
+      "accepted": false,
+      "gate_action": "reject",
+      "adopted": false,
+      "holdout_leaked": false,
+      "replay_mode": "codex-text",
+      "skill_sha256": "b08b185064c3b477664835e0aba6b769e21c1e57553abd00e8fe866b8d0d1614",
+      "dataset_sha256": "ced35a19b80727e1688b19b49bb466b3ffbefbc481423afd24e739e894cf9649",
+      "final_test": {
+        "n_test": 2,
+        "hard": 1.0,
+        "soft": 1.0
+      },
+      "replay_health": {
+        "valid": true,
+        "failed_calls": 0,
+        "observed_calls": 6
+      },
+      "evaluation_valid": true
+    },
+    {
+      "skill": "operational-desk-research",
+      "backend": "codex",
+      "dataset_kind": "curated_synthetic",
+      "sessions": 0,
+      "tasks": 6,
+      "baseline": 1.0,
+      "candidate": 1.0,
+      "accepted": false,
+      "gate_action": "reject",
+      "adopted": false,
+      "holdout_leaked": false,
+      "replay_mode": "codex-text",
+      "skill_sha256": "f885dd6ebfdd263d3afa8a772f84d7e95c388284633a4168743ef88d1e4393a3",
+      "dataset_sha256": "446b6cb02682439724111c63c869ba735f841c28a7a233baa57a8372186e556f",
+      "final_test": {
+        "n_test": 2,
+        "hard": 1.0,
+        "soft": 1.0
+      },
+      "replay_health": {
+        "valid": true,
+        "failed_calls": 0,
+        "observed_calls": 8
+      },
+      "evaluation_valid": true
+    }
+  ]
+}

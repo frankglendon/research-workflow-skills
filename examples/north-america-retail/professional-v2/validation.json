@@ -1,0 +1,37 @@
+{
+  "questions": 104,
+  "respondent_questions": 100,
+  "answer_variables": 520,
+  "cases": 22,
+  "branches": 137,
+  "source_count": 12,
+  "claims": 20,
+  "slides": 35,
+  "native_tables": 14,
+  "native_charts": 4,
+  "office_outputs": 3,
+  "openxml_errors": 0,
+  "model_calls": 0,
+  "network_calls": 0,
+  "fieldwork_executed": false,
+  "semantic_review_replayed": false,
+  "visual_review_replayed": false,
+  "visual_review": {
+    "method": "final-slide rendering and worksheet-range inspection by host",
+    "all_slides_reviewed": 35,
+    "native_powerpoint_execution_verified": false,
+    "basis": "Cover reviewed separately; all 34 interior rendered PNGs match the individually reviewed operational report byte for byte.",
+    "different_slides": [
+      1
+    ]
+  },
+  "office_sha256": {
+    "questionnaire.xlsx": "b8230dcbed9654474d4008c83e9c32a218430020d9e6963a3647fa909ecf5809",
+    "desk-research.pptx": "8b25271ef8d536e70e2791ad35e3246d791f1a5942d7c1c32254ec4bcef30de2",
+    "codebook.xlsx": "21ee6ef8a57f0db3910975366cbb58d18c7b90d038f1e1e1dc7da4ee28115321"
+  },
+  "public_content_scan": {
+    "findings": 0,
+    "office_xml_parts_scanned": 192
+  }
+}

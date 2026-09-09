@@ -24,3 +24,8 @@ dist/
 
 # Local web source and request journal
 .retrieval/
+
+# Authored professional v2 delivery approved for this repository
+!examples/north-america-retail/professional-v2/deliverables/questionnaire.xlsx
+!examples/north-america-retail/professional-v2/deliverables/codebook.xlsx
+!examples/north-america-retail/professional-v2/deliverables/desk-research.pptx

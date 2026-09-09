@@ -8,7 +8,7 @@
 
 [![Tests](https://github.com/frankglendon/research-workflow-skills/actions/workflows/test.yml/badge.svg)](https://github.com/frankglendon/research-workflow-skills/actions/workflows/test.yml)
 ![Python](https://img.shields.io/badge/Python-3.12-17324D)
-![Data](https://img.shields.io/badge/Data-synthetic-28766B)
+![Data](https://img.shields.io/badge/Data-public%20%2B%20synthetic-28766B)
 
 [Run the demo](#run-it) · [Architecture](docs/architecture.md) · [Interview guide](docs/interview.md)
 
@@ -20,9 +20,11 @@ The host agent performs reasoning and review. This repository provides skill ins
 
 ## See the behavior
 
+**Professional delivery (0.5.0):** [v2 research pack](examples/north-america-retail/professional-v2/README.md) adds a complete 104-node questionnaire, a linked 520-variable codebook and a 35-slide public-source desk report. Country-aware lists, carry-forward funnels and experience-filtered matrices are executable. [Download code and finished files](https://github.com/frankglendon/research-workflow-skills/releases/tag/case-study-v2). Chinese master; localization, production programming and field piloting remain pending.
+
 **Tavily-first retrieval (0.4.0):** the evidence skill now has a persistent MCP request journal, source snapshots, bounded retries and local evidence-candidate search. Firecrawl remains an explicit page-extraction option. See [integration and actual scope](docs/retrieval.md) or run `python examples/retrieval/reproduce.py --output .runs/retrieval-demo` for the synthetic, zero-network demonstration.
 
-**Complete design case:** [North American retail study](examples/north-america-retail/README.md) — a 23-page qualitative/quantitative proposal, interview guide, 54-node questionnaire and 120-variable codebook. Download the Word and Excel files from the case folder, or get [all source code and case deliverables together](https://github.com/frankglendon/research-workflow-skills/releases/tag/case-study-v1). The fictional case includes 12 synthetic routing tests covering 56 explicit branches; it reports no fieldwork or market findings.
+**Archived v1 design case:** [North American retail study](examples/north-america-retail/README.md) — a 23-page qualitative/quantitative proposal, interview guide, 54-node questionnaire and 120-variable codebook. Download the Word and Excel files from the case folder, or get [all source code and case deliverables together](https://github.com/frankglendon/research-workflow-skills/releases/tag/case-study-v1). The fictional case includes 12 synthetic routing tests covering 56 explicit branches; it reports no fieldwork or market findings.
 
 ```bash
 python examples/north-america-retail/reproduce.py --output .runs/full-case

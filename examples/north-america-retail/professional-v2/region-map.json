@@ -1,0 +1,136 @@
+{
+  "US": [
+    [
+      "Connecticut",
+      "Maine",
+      "Massachusetts",
+      "New Hampshire",
+      "Rhode Island",
+      "Vermont",
+      "New Jersey",
+      "New York",
+      "Pennsylvania"
+    ],
+    [
+      "Illinois",
+      "Indiana",
+      "Michigan",
+      "Ohio",
+      "Wisconsin",
+      "Iowa",
+      "Kansas",
+      "Minnesota",
+      "Missouri",
+      "Nebraska",
+      "North Dakota",
+      "South Dakota"
+    ],
+    [
+      "Delaware",
+      "District of Columbia",
+      "Florida",
+      "Georgia",
+      "Maryland",
+      "North Carolina",
+      "South Carolina",
+      "Virginia",
+      "West Virginia",
+      "Alabama",
+      "Kentucky",
+      "Mississippi",
+      "Tennessee",
+      "Arkansas",
+      "Louisiana",
+      "Oklahoma",
+      "Texas"
+    ],
+    [
+      "Alaska",
+      "Arizona",
+      "California",
+      "Colorado",
+      "Hawaii",
+      "Idaho",
+      "Montana",
+      "Nevada",
+      "New Mexico",
+      "Oregon",
+      "Utah",
+      "Washington",
+      "Wyoming"
+    ]
+  ],
+  "CA": [
+    [
+      "New Brunswick",
+      "Newfoundland and Labrador",
+      "Nova Scotia",
+      "Prince Edward Island"
+    ],
+    [
+      "Quebec"
+    ],
+    [
+      "Ontario"
+    ],
+    [
+      "Alberta",
+      "Manitoba",
+      "Saskatchewan"
+    ],
+    [
+      "British Columbia"
+    ],
+    [
+      "Northwest Territories",
+      "Nunavut",
+      "Yukon"
+    ]
+  ],
+  "MX": [
+    [
+      "Baja California",
+      "Baja California Sur",
+      "Chihuahua",
+      "Durango",
+      "Sinaloa",
+      "Sonora"
+    ],
+    [
+      "Coahuila",
+      "Nuevo León",
+      "Tamaulipas"
+    ],
+    [
+      "Aguascalientes",
+      "Colima",
+      "Guanajuato",
+      "Jalisco",
+      "Michoacán",
+      "Nayarit",
+      "Querétaro",
+      "San Luis Potosí",
+      "Zacatecas"
+    ],
+    [
+      "Ciudad de México",
+      "Estado de México",
+      "Hidalgo",
+      "Morelos",
+      "Puebla",
+      "Tlaxcala"
+    ],
+    [
+      "Chiapas",
+      "Guerrero",
+      "Oaxaca"
+    ],
+    [
+      "Campeche",
+      "Quintana Roo",
+      "Tabasco",
+      "Veracruz",
+      "Yucatán"
+    ]
+  ]
+}

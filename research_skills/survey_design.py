@@ -92,8 +92,22 @@ def validate(spec):
 
 def _validate_logic(q, by, order, options):
     qid = q["id"]
-    for rule in q.get("show_if", []):
-        need(set(rule) == {"question_id", "codes"}, f"{qid}: unsupported display condition")
+    conditions = list(q.get("show_if", []))
+    for item in q.get("options", []) + q.get("rows", []):
+        conditions.extend(item.get("show_if", []))
+    for field, items in [('options_from', q.get('options', [])), ('rows_from', q.get('rows', []))]:
+        if field not in q: continue
+        source = q[field]
+        need(isinstance(source, dict) and set(source) == {'question_id', 'always_codes'}, f'{qid}: invalid {field}')
+        ref = source['question_id']
+        need(ref in by and order[ref] < order[qid] and by[ref]['type'] == 'multi', f'{qid}: {field} needs an earlier multi-select')
+        need(q['type'] in ({'matrix'} if field == 'rows_from' else {'single', 'dropdown', 'multi', 'rank'}), f'{qid}: unsupported {field} type')
+        codes = {str(o['code']) for o in items}
+        fixed = set(map(str, source['always_codes']))
+        upstream = {str(o['code']) for o in by[ref]['options']}
+        need(fixed <= codes and codes - fixed <= upstream, f'{qid}: {field} has unmapped codes')
+    for rule in conditions:
+        need(set(rule) in ({"question_id", "codes"}, {"question_id", "codes", "operator"}) and rule.get('operator', 'any') in {'any', 'not_any'}, f"{qid}: unsupported display condition")
         ref = rule["question_id"]
         need(ref in by and order[ref] < order[qid], f"{qid}: display conditions must reference an earlier question")
         need(by[ref]["type"] in {"single", "dropdown", "multi", "nps", "scale5", "scale0_10"}, f"{qid}: unsupported condition type")
@@ -110,6 +124,14 @@ def _validate_logic(q, by, order, options):
     need(q.get("default", "NEXT") in {"NEXT", "END"}, f"{qid}: invalid default route")
 
 
+def _visible(conditions, accepted):
+    for rule in conditions:
+        if rule['question_id'] not in accepted: return False
+        matched = bool(_selected(accepted[rule['question_id']]) & set(map(str, rule['codes'])))
+        if matched == (rule.get('operator', 'any') == 'not_any'): return False
+    return True
+
+
 def variables(spec):
     validate(spec)
     result = []
@@ -121,17 +143,24 @@ def variables(spec):
                 "missing": "Blank = not asked or missing; keep a separate reason field in collected data."}
         def add(name, **fields):
             result.append({**base, "variable": name, **fields})
+        for key in ('options_from', 'rows_from'):
+            if key in q: base[key] = q[key]
         if q["type"] in {"multi", "rank"}:
             for code, label in labels.items():
                 if q["type"] == "multi":
+                    eligibility = next(o.get('show_if', []) for o in q['options'] if str(o['code']) == code)
+                    dynamic = bool(eligibility or q.get('options_from'))
+                    detail = {'option_show_if': eligibility} if dynamic else {}
                     add(prefix + "_" + code, label=label, values={"0": "Not selected", "1": "Selected"},
-                        missing="0 = eligible and not selected; blank = not asked/missing, never silently replace with 0.")
+                        **detail, missing=("0 = eligible, displayed and not selected; blank = not displayed, not asked/missing, never silently replace with 0." if dynamic else
+                        "0 = eligible and not selected; blank = not asked/missing, never silently replace with 0."))
                 else:
                     add(prefix + "_" + code, label=label, values={str(i): f"Rank {i}" for i in range(1, q["rank_count"] + 1)},
                         missing="Blank = unranked or not asked; preserve eligibility and missing reason separately.")
         elif q["type"] == "matrix":
             for row in q["rows"]:
-                add(prefix + "_" + str(row["code"]), label=row["label"])
+                detail = {'row_show_if': row['show_if']} if row.get('show_if') else {}
+                add(prefix + "_" + str(row["code"]), label=row["label"], **detail)
         else:
             add(prefix, values=labels if labels else ({"range": [q["min"], q["max"]]} if q["type"] == "numeric" else {}))
         for option in q.get("options", []):
@@ -154,6 +183,16 @@ def _selected(answer):
     return {str(a) for a in (answer if isinstance(answer, list) else [answer])}
 
 
+def presented(q, field, accepted):
+    """Retain declared order and filter only by explicit, accepted prior answers."""
+    items = [item for item in q.get(field, []) if _visible(item.get('show_if', []), accepted)]
+    source = q.get('options_from' if field == 'options' else 'rows_from')
+    if source:
+        allowed = _selected(accepted.get(source['question_id'], [])) | set(map(str, source['always_codes']))
+        items = [item for item in items if str(item['code']) in allowed]
+    return items
+
+
 def simulate(spec, population, answers):
     """Simulate explicit display/forward routes; never interpret prose instructions."""
     validate(spec)
@@ -165,15 +204,15 @@ def simulate(spec, population, answers):
     i = 0
     while i < len(qs):
         q = qs[i]; qid = q["id"]
-        visible = all(rule["question_id"] in accepted and _selected(accepted[rule["question_id"]]) & set(map(str, rule["codes"]))
-                      for rule in q.get("show_if", []))
+        visible = _visible(q.get('show_if', []), accepted)
         if q.get("show_if"):
             edges.append(f"{population}:{qid}:show:{bool(visible)}")
         if not visible:
             skipped.append(qid); i += 1; continue
         need(qid in answers, f"{qid}: a required answer is missing")
         answer = answers[qid]
-        _check_answer(q, answer)
+        effective = {**q, 'options': presented(q, 'options', accepted), 'rows': presented(q, 'rows', accepted)}
+        _check_answer(effective, answer)
         accepted[qid] = answer; visited.append(qid)
         targets = {r["target"] for r in q.get("routes", []) if _selected(answer) & set(map(str, r["codes"]))}
         need(len(targets) <= 1, f"{qid}: answer matches conflicting routes")
@@ -224,6 +263,7 @@ def _check_answer(q, answer):
         else:
             need(len(answer) == q["rank_count"], f"{qid}: incomplete rank order")
     elif kind == "matrix":
+        need(bool(q["rows"]), f"{qid}: no eligible matrix rows; add a matching display condition")
         need(isinstance(answer, dict) and set(answer) == {str(r["code"]) for r in q["rows"]}, f"{qid}: incomplete matrix")
         need(all(type(v) in (str, int) and str(v) in opts for v in answer.values()), f"{qid}: invalid matrix value")
     elif kind == "numeric":

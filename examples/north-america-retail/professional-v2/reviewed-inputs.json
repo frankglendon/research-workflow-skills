@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "review_mode": "host_content_programming_analysis_and_visual_review",
+  "fieldwork_executed": false,
+  "sha256": {
+    "README.md": "33e22283bd29caac37250cc3c86e4c7000ecfc2fd8c9eef4d87c48ec8969a5da",
+    "README.zh-CN.md": "b8d5459f05902d1267d15ca5f95f45eaac12f33a8f633c16f1db313ee9e39b02",
+    "analysis-plan.md": "bc847f6243f8123ebcb0f2563e32a57ab95fe8158e3e30534b053f4761d6699c",
+    "authoring/README.md": "20f5522490a7e78cd925feb5456b44ad23a4cf9f53474723247420e4e06e323b",
+    "authoring/render-desk.mjs": "a492c9af00fa2234d0401c91cb5f0ceef97c74b4df1b65f443de78e05cddc0ee",
+    "authoring/render-workbooks.mjs": "dcc3dc7b6e6af28dddc26cd4077ef5d8ca195890510a02a047086be162da41e2",
+    "claims.json": "36173cbcc0534ecafb1a787f9f3ec7e5adb9463f5b7aa0f51e918db62cbd0c88",
+    "codebook-plan.json": "c972b3760271f68d981d4f5ffe62c7d24f07ced7e8b25cc147a5dac0c05c838e",
+    "deliverables/codebook.xlsx": "21ee6ef8a57f0db3910975366cbb58d18c7b90d038f1e1e1dc7da4ee28115321",
+    "deliverables/desk-research.pptx": "8b25271ef8d536e70e2791ad35e3246d791f1a5942d7c1c32254ec4bcef30de2",
+    "deliverables/questionnaire.xlsx": "b8230dcbed9654474d4008c83e9c32a218430020d9e6963a3647fa909ecf5809",
+    "desk-research-content.json": "38c6fef7a362ee2efadd6d56a79c0574a0b595a7861751579e953950a46cf3ec",
+    "programming-guide.md": "865c54f7c290dec54e50e92ff25ac40b0a916a344f709da573493c2030b914e5",
+    "qualitative-guide.md": "87283d7602282f1d4e63d04f7af4464360afb34830f4daf521979ee903182614",
+    "quality-review.md": "ff5c12cb9fdf8e4a16df6b94182fe0551c3da90031b835826e0c95f58bed4ad7",
+    "questionnaire-spec.json": "40bdf19a227105c5d0769db57735b6c860e26ff0d1a154ffc8ac5c8e599a54b9",
+    "region-map.json": "7582f2d0d090885a430387d2843e6fc714ef7e80cc6960365b7023c5411af646",
+    "reproduce.py": "dfa45ee2aad7e794beddcffbb84ef679864530629ae5abf5c5a04e0c9ca8e2ea",
+    "routing-cases.json": "7a1e9e0955f8c3da874be79447682fb58d64f485b36c4f586807306ae7650389",
+    "sources.json": "cddd6a0f66ecdfef4ca046936bc514d7ab5ad5690252895c1d27fbcb7b193f3e",
+    "workbook-data.json": "0bb5035e086755fb4c15023730adff8eee0e99005c0d73dec913561432603ece",
+    "skillopt-review.json": "4220ec88dd60c7591f4d0888056e50594b8f7492c754716cff6be96e93cb4494"
+  }
+}

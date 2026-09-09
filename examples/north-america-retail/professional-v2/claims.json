@@ -1,0 +1,342 @@
+[
+  {
+    "id": "F01",
+    "type": "public_fact",
+    "statement": "MINISO披露北美区域2026上半年收入同比增长37.0%，同店GMV为中个位数增长。",
+    "source_ids": [
+      "D01"
+    ],
+    "locator": {
+      "anchor_start": 4738,
+      "anchor_end": 4774,
+      "anchor_sha256": "78c14ec1a94adb94a86b50c1df344b5dfc3a081f68f9bab8f7ee75de3b7acc73"
+    },
+    "scope": "公司区域/26H1",
+    "limits": "区域不自动等于美加墨；同店GMV不是财报收入",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  },
+  {
+    "id": "F02",
+    "type": "public_fact",
+    "statement": "公司北美区域门店从2025年6月394家增至2026年6月536家；2025年末为461家。",
+    "source_ids": [
+      "D01"
+    ],
+    "locator": {
+      "anchor_start": 53219,
+      "anchor_end": 53244,
+      "anchor_sha256": "a6db5869076bc5be126b7ff20aa1b31f69884ed6e2629e3131407a50d20a03f8"
+    },
+    "scope": "2025-06/2025-12/2026-06",
+    "limits": "不能把门店数量当成需求量或盈利能力",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  },
+  {
+    "id": "F03",
+    "type": "public_fact",
+    "statement": "MINISO称美国会员约580万，贡献当地销售的60.1%。",
+    "source_ids": [
+      "D01"
+    ],
+    "locator": {
+      "anchor_start": 8762,
+      "anchor_end": 8799,
+      "anchor_sha256": "0c5aa82c365988678ced69df92783e5e7ef3cca90dda82c549b7447fdb2ca582"
+    },
+    "scope": "2026上半年披露",
+    "limits": "公司自述；会员销售占比不证明会员计划产生增量",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  },
+  {
+    "id": "F04",
+    "type": "public_fact",
+    "statement": "MINISO海外整体收入增长14.9%，但同店GMV低个位数下降。",
+    "source_ids": [
+      "D01"
+    ],
+    "locator": {
+      "anchor_start": 11472,
+      "anchor_end": 11519,
+      "anchor_sha256": "e097e772391088627db4c439b34548e458cc49470c767290e9e1718846ae9117"
+    },
+    "scope": "26H1海外整体",
+    "limits": "不能用北美强势代表全部海外，也不能用海外下滑推断北美下滑",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  },
+  {
+    "id": "F05",
+    "type": "public_fact",
+    "statement": "Five Below FY2025销售额约47.64亿美元，同比+22.9%，可比店销售+12.8%。",
+    "source_ids": [
+      "D02"
+    ],
+    "locator": {
+      "anchor_start": 268,
+      "anchor_end": 303,
+      "anchor_sha256": "b4be85fd128e2f21e7c5a4205e91988e3079ee096a72990e5f73df2f3a9f7f42"
+    },
+    "scope": "FY2025截至2026-01-31",
+    "limits": "财年与MINISO自然年不同；不是整个折扣零售市场规模",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  },
+  {
+    "id": "F06",
+    "type": "public_fact",
+    "statement": "POP MART 2025美洲收入约68.06亿元人民币，同比+748.4%；线上占64.0%。",
+    "source_ids": [
+      "D03"
+    ],
+    "locator": {
+      "anchor_start": 63491,
+      "anchor_end": 63532,
+      "anchor_sha256": "998b832769f4052e6397e99ff119ea09711b9e50ddfcf22eeb8097648c42dbb9"
+    },
+    "scope": "2025 / Americas",
+    "limits": "美洲不等于美国；高增速含低基数与拓店，不可外推行业",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  },
+  {
+    "id": "F07",
+    "type": "public_fact",
+    "statement": "POP MART美洲实体门店从2024年底22家增至2025年底64家。",
+    "source_ids": [
+      "D03"
+    ],
+    "locator": {
+      "anchor_start": 48713,
+      "anchor_end": 48760,
+      "anchor_sha256": "92c935a56427e7ec7f536f4a14a31330d046a6f337e8e0acd94f44ccb7308d7f"
+    },
+    "scope": "美洲实体门店",
+    "limits": "不含机器人店作为同一实体店指标",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  },
+  {
+    "id": "F08",
+    "type": "public_fact",
+    "statement": "美国玩具销售额2025年同比+6%；三类超级品类贡献92%的行业增量。",
+    "source_ids": [
+      "D04"
+    ],
+    "locator": {
+      "anchor_start": 9342,
+      "anchor_end": 9384,
+      "anchor_sha256": "f3dcb9a0fb0d5d32a53bb6d4118ce5b52c2ced32ac768804073b95939c7e2f64"
+    },
+    "scope": "Circana美国追踪口径",
+    "limits": "增量集中，不能把增长扩展到所有品类",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  },
+  {
+    "id": "F09",
+    "type": "public_fact",
+    "statement": "2025年美国户外运动玩具、毛绒和娃娃属于下滑最明显的超级品类。",
+    "source_ids": [
+      "D04"
+    ],
+    "locator": {
+      "anchor_start": 9407,
+      "anchor_end": 9474,
+      "anchor_sha256": "8387ab433639ae4d18f0b33ab2ca65617e7164fc1927212395efeeaa5e70af09"
+    },
+    "scope": "2025 / 美国玩具",
+    "limits": "个别热门IP不能代表毛绒全品类普涨",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  },
+  {
+    "id": "F10",
+    "type": "public_fact",
+    "statement": "2026年上半年，美国玩具销售额同比+17%，销量+12%，平均售价+4%。",
+    "source_ids": [
+      "D05"
+    ],
+    "locator": {
+      "anchor_start": 7512,
+      "anchor_end": 7543,
+      "anchor_sha256": "aa89c819b9cfe8c0076706f3e32445d4409f813ab3ec55ba7663c6ff001a1579"
+    },
+    "scope": "2026-01至06 / 美国玩具",
+    "limits": "各百分比经取整，不要求相加或乘算严格等于总增长",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  },
+  {
+    "id": "F11",
+    "type": "public_fact",
+    "statement": "授权玩具同比+24%，占玩具销售39%；成年收礼对象的玩具销售同比+25%。",
+    "source_ids": [
+      "D05"
+    ],
+    "locator": {
+      "anchor_start": 9063,
+      "anchor_end": 9093,
+      "anchor_sha256": "fd1378e83eaf17ee90462fdc9c27511f0b62d2b164269c0285a7bce177d50087"
+    },
+    "scope": "2026上半年 / 美国",
+    "limits": "成年收礼对象、成年买家与仅成年人家庭是不同口径",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  },
+  {
+    "id": "F12",
+    "type": "public_fact",
+    "statement": "美国受访消费者2025假日季计划平均花费1595美元，低于2024年的1778美元。",
+    "source_ids": [
+      "D06"
+    ],
+    "locator": {
+      "anchor_start": 3640,
+      "anchor_end": 3677,
+      "anchor_sha256": "8e1d59dd390d4c58ffe3392af9fa20e920f1a9c4de85bb5ea4968c0f6408be23"
+    },
+    "scope": "2025计划值；在线调查4270人",
+    "limits": "不是实际花费，也不是2026年需求预测",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  },
+  {
+    "id": "F13",
+    "type": "public_fact",
+    "statement": "64%的受访者喜欢收到愿望清单上的礼物，因为更确定会使用。",
+    "source_ids": [
+      "D06"
+    ],
+    "locator": {
+      "anchor_start": 6001,
+      "anchor_end": 6040,
+      "anchor_sha256": "0f57355a32dcec956a68b79746c9dd3bffee64c30429be62278dd4531b56ec19"
+    },
+    "scope": "2025美国假日调查",
+    "limits": "节庆与美国语境，需在本项目三国重新测量",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  },
+  {
+    "id": "F14",
+    "type": "public_fact",
+    "statement": "Dollarama披露加拿大1691家门店，价位范围为C$0.25–C$5.00。",
+    "source_ids": [
+      "D07"
+    ],
+    "locator": {
+      "anchor_start": 37359,
+      "anchor_end": 37374,
+      "anchor_sha256": "146ce4c5d3a9abffc33099e125c417c7263d60f91056c3b992e5c11036b25810"
+    },
+    "scope": "门店截至2026-02-01；简报价位范围",
+    "limits": "不是MINISO可比SKU均价；简报封面年份有笔误，按正文口径使用",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  },
+  {
+    "id": "F15",
+    "type": "public_fact",
+    "statement": "Dollarcity在墨西哥2025年底有11家店，首店于2025年6月开出。",
+    "source_ids": [
+      "D07"
+    ],
+    "locator": {
+      "anchor_start": 10952,
+      "anchor_end": 10997,
+      "anchor_sha256": "cc9922fe175730dbc9146d3a1a2a5899a0343a2fe044e9b268d353ccd107062f"
+    },
+    "scope": "Dollarcity / Mexico / 2025",
+    "limits": "不能把Dollarama加拿大收入当成墨西哥表现",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  },
+  {
+    "id": "F16",
+    "type": "public_fact",
+    "statement": "MINISO加拿大官网提供门店查询、奖励计划和DoorDash入口，并展示多个角色合作系列。",
+    "source_ids": [
+      "D08"
+    ],
+    "locator": {
+      "anchor_start": 484,
+      "anchor_end": 508,
+      "anchor_sha256": "e5f4743bd3dc9726bec69b30a039fd49dfa5cee3beba65481b05bed507883110"
+    },
+    "scope": "网页快照2026-09-09",
+    "limits": "入口存在不证明全国覆盖、实际可买或消费者偏好",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  },
+  {
+    "id": "F17",
+    "type": "public_fact",
+    "statement": "Daiso美国FAQ将线上配送范围限定为美国本土相连48州。",
+    "source_ids": [
+      "D09"
+    ],
+    "locator": {
+      "anchor_start": 1327,
+      "anchor_end": 1359,
+      "anchor_sha256": "003a53680bd64d98b5e99606d716b60575000e1cd7ee96c8e82f1e60af67dfbc"
+    },
+    "scope": "官网FAQ线上商店范围",
+    "limits": "不能外推全部实体店政策；页中线上业务有批量采购语境",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  },
+  {
+    "id": "F18",
+    "type": "public_fact",
+    "statement": "MINISO美国官网提供门店查询入口；本轮无法完整读取动态列表。",
+    "source_ids": [
+      "D10"
+    ],
+    "locator": {
+      "anchor_start": 273,
+      "anchor_end": 301,
+      "anchor_sha256": "5c28902317130ae27a3bb83e5d1a68c36f457306f6c5a5700eca4f5f15e91bd5"
+    },
+    "scope": "2026-09-09网页快照",
+    "limits": "不从动态页面不完整结果推算门店总数",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  },
+  {
+    "id": "F19",
+    "type": "public_fact",
+    "statement": "MINISO墨西哥FAQ说明可宅配或门店自取，并列出包括现金网点、卡和电子钱包的支付方式。",
+    "source_ids": [
+      "D11"
+    ],
+    "locator": {
+      "anchor_start": 2582,
+      "anchor_end": 2621,
+      "anchor_sha256": "b2fb419ac0465ecb06066a5b447eb07b85a28dcc1f6a04144fcee9989569ee2e"
+    },
+    "scope": "2026-09-09网页快照",
+    "limits": "官网规则不等于实际履约表现；自取可用性取决于附近库存",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  },
+  {
+    "id": "F20",
+    "type": "public_fact",
+    "statement": "MUMUSO墨西哥官网列出本地门店目录。",
+    "source_ids": [
+      "D12"
+    ],
+    "locator": {
+      "anchor_start": 62,
+      "anchor_end": 68,
+      "anchor_sha256": "e4aa7b2720ac9b559559e7a51065d3bd8b7f447435c7b701572b5b6662ed5f5d"
+    },
+    "scope": "2026-09-09网页快照",
+    "limits": "用于竞争候选品牌存在性，不推算份额或消费者认知",
+    "independent_source_count": 1,
+    "review": "核对原始披露；不等于独立审计"
+  }
+]

@@ -1,0 +1,147 @@
+{
+  "format": "skillopt_sleep.tasks.v1",
+  "reviewed": true,
+  "dataset_kind": "curated_synthetic",
+  "dataset_version": 3,
+  "n_sessions": 0,
+  "tasks": [
+    {
+      "id": "research-questionnaire-benchmark-v3_1",
+      "project": ".",
+      "intent": "A commercial brand health and growth brief requires awareness, past purchase, future consideration, barriers, IP first/repeat/never pathways, and experience diagnostics. A 15-question file passes schema checks but omits most required content. Return only JSON with decision REVISE, DELIVER_DRAFT or PILOT_REQUIRED and a short reason.",
+      "context_excerpt": "Reviewed synthetic quality-control scenario. No client documents or real respondent data. Evaluate the requested delivery status, including scope.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"REVISE\""
+          }
+        ]
+      },
+      "split": "train",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "benchmark-delivery"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "research-questionnaire-benchmark-v3_2",
+      "project": ".",
+      "intent": "A scoped service-experience brief excludes IP, gifting and brand acquisition. Its questionnaire covers all agreed experience questions with justified exclusions, verified bases, independent content/programming/analysis review, and valid readable files. It is explicitly requested as a design draft. Return only JSON with decision REVISE, DELIVER_DRAFT or PILOT_REQUIRED and a short reason.",
+      "context_excerpt": "Reviewed synthetic quality-control scenario. No client documents or real respondent data. Evaluate the requested delivery status, including scope.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"DELIVER_DRAFT\""
+          }
+        ]
+      },
+      "split": "train",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "benchmark-delivery"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "research-questionnaire-benchmark-v3_3",
+      "project": ".",
+      "intent": "Past-six-month purchase options are filtered by the brands a person says they might consider NEXT month. All visible route tests pass. The brief needs an unbiased past-purchase funnel. Return only JSON with decision REVISE, DELIVER_DRAFT or PILOT_REQUIRED and a short reason.",
+      "context_excerpt": "Reviewed synthetic quality-control scenario. No client documents or real respondent data. Evaluate the requested delivery status, including scope.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"REVISE\""
+          }
+        ]
+      },
+      "split": "val",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "benchmark-delivery"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "research-questionnaire-benchmark-v3_4",
+      "project": ".",
+      "intent": "A complete reviewed Chinese master and matching codebook meet the brief, source comparison, explicit route checks and Office/visual checks. Localized wording, production platform integration and pilot remain correctly marked pending. The requested deliverable is a Chinese design draft, not field release. Return only JSON with decision REVISE, DELIVER_DRAFT or PILOT_REQUIRED and a short reason.",
+      "context_excerpt": "Reviewed synthetic quality-control scenario. No client documents or real respondent data. Evaluate the requested delivery status, including scope.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"DELIVER_DRAFT\""
+          }
+        ]
+      },
+      "split": "val",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "benchmark-delivery"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "research-questionnaire-benchmark-v3_5",
+      "project": ".",
+      "intent": "The full questionnaire contains 100 respondent nodes with substantial matrices. Timing is estimated only; no cognitive interviews or soft launch have run. The request now is to certify it as ready for unrestricted field collection. Return only JSON with decision REVISE, DELIVER_DRAFT or PILOT_REQUIRED and a short reason.",
+      "context_excerpt": "Reviewed synthetic quality-control scenario. No client documents or real respondent data. Evaluate the requested delivery status, including scope.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"PILOT_REQUIRED\""
+          }
+        ]
+      },
+      "split": "test",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "benchmark-delivery"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "research-questionnaire-benchmark-v3_6",
+      "project": ".",
+      "intent": "Respondents who never used online delivery must still rate its speed; not applicable is coded as the scale midpoint. Schema and file validation pass. Return only JSON with decision REVISE, DELIVER_DRAFT or PILOT_REQUIRED and a short reason.",
+      "context_excerpt": "Reviewed synthetic quality-control scenario. No client documents or real respondent data. Evaluate the requested delivery status, including scope.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"REVISE\""
+          }
+        ]
+      },
+      "split": "test",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "benchmark-delivery"
+      ],
+      "source_sessions": []
+    }
+  ]
+}

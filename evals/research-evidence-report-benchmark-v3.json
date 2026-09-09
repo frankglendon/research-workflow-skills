@@ -1,0 +1,147 @@
+{
+  "format": "skillopt_sleep.tasks.v1",
+  "reviewed": true,
+  "dataset_kind": "curated_synthetic",
+  "dataset_version": 3,
+  "n_sessions": 0,
+  "tasks": [
+    {
+      "id": "research-evidence-report-benchmark-v3_1",
+      "project": ".",
+      "intent": "A report labels POP MART Americas revenue as US-only revenue and treats it as a share of a cross-category US retail market. Company numbers were transcribed accurately. Return only JSON with decision REVISE, RESEARCH_REQUIRED or DELIVER_REPORT and a short reason.",
+      "context_excerpt": "Reviewed synthetic quality-control scenario. No client documents or real respondent data. Evaluate the requested delivery status, including scope.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"REVISE\""
+          }
+        ]
+      },
+      "split": "train",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "benchmark-delivery"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "research-evidence-report-benchmark-v3_2",
+      "project": ".",
+      "intent": "The deliverable includes only a list of searches, an evidence checklist and a future research plan; no retrieved evidence or actual desk findings. The user requested a standalone finished desk research report. Return only JSON with decision REVISE, RESEARCH_REQUIRED or DELIVER_REPORT and a short reason.",
+      "context_excerpt": "Reviewed synthetic quality-control scenario. No client documents or real respondent data. Evaluate the requested delivery status, including scope.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"RESEARCH_REQUIRED\""
+          }
+        ]
+      },
+      "split": "train",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "benchmark-delivery"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "research-evidence-report-benchmark-v3_3",
+      "project": ".",
+      "intent": "A deck recommends expanding all plush products solely because the overall toy category grew. The primary report also explicitly reports declining plush and dolls, which the deck omits. Return only JSON with decision REVISE, RESEARCH_REQUIRED or DELIVER_REPORT and a short reason.",
+      "context_excerpt": "Reviewed synthetic quality-control scenario. No client documents or real respondent data. Evaluate the requested delivery status, including scope.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"REVISE\""
+          }
+        ]
+      },
+      "split": "val",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "benchmark-delivery"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "research-evidence-report-benchmark-v3_4",
+      "project": ".",
+      "intent": "An editable industry report contains scoped primary-source claims, date/geography/currency qualifications, counterevidence, source locators, interpretation labels, implications and explicit data gaps. It does not invent TAM. Content, visuals and Office validation pass. Delivery is a desk research report, not proof of business success. Return only JSON with decision REVISE, RESEARCH_REQUIRED or DELIVER_REPORT and a short reason.",
+      "context_excerpt": "Reviewed synthetic quality-control scenario. No client documents or real respondent data. Evaluate the requested delivery status, including scope.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"DELIVER_REPORT\""
+          }
+        ]
+      },
+      "split": "val",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "benchmark-delivery"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "research-evidence-report-benchmark-v3_5",
+      "project": ".",
+      "intent": "A readable report with verified facts and zero Office schema errors labels itself officially equivalent to a named research firm and asserts its recommendations are validated for client outcomes solely because software tests pass. Return only JSON with decision REVISE, RESEARCH_REQUIRED or DELIVER_REPORT and a short reason.",
+      "context_excerpt": "Reviewed synthetic quality-control scenario. No client documents or real respondent data. Evaluate the requested delivery status, including scope.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"REVISE\""
+          }
+        ]
+      },
+      "split": "test",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "benchmark-delivery"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "research-evidence-report-benchmark-v3_6",
+      "project": ".",
+      "intent": "A completed, reviewed Canada delivery-channel report answers its agreed questions with sources and boundaries. An unrelated Mexico market-size number remains unavailable, is outside scope and is disclosed; all required delivery checks pass. Return only JSON with decision REVISE, RESEARCH_REQUIRED or DELIVER_REPORT and a short reason.",
+      "context_excerpt": "Reviewed synthetic quality-control scenario. No client documents or real respondent data. Evaluate the requested delivery status, including scope.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"decision\"\\s*:\\s*\"DELIVER_REPORT\""
+          }
+        ]
+      },
+      "split": "test",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "benchmark-delivery"
+      ],
+      "source_sessions": []
+    }
+  ]
+}
