@@ -30,3 +30,16 @@ New questionnaire, codebook and coordinator datasets each have six synthetic cas
 ## Study-design increment — 2026-09-09
 
 Added `research-study-design` and a new six-case synthetic dataset with 2/2/2 splits. Boolean/count fields distinguish draft readiness, fieldwork approval, subset counting, boost/base denominators, assumed segments and sales causality. A mock dry-run completed with zero edits and zero adoptions. This verifies adapter wiring only; no private model scores or client proposal content are imported. Existing holdout cases were not relabeled.
+
+## Lifecycle dataset and replay validity (0.3.0)
+
+`evals/study-lifecycle-v1.json` adds six synthetic stage decisions with explicit boolean fields. The original datasets and holdout labels remain unchanged. Select it explicitly:
+
+```bash
+python -m research_skills.optimize --engine /path/to/SkillOpt \
+  --skill research-workflow --dataset evals/study-lifecycle-v1.json --backend mock --dry-run
+```
+
+Only reviewed synthetic datasets inside `evals/` are accepted, including resolved symlink checks. Real Codex replay requires successful, non-empty model-call evidence; failed or empty calls invalidate evaluation and clear quality scores. Mock replay remains an integration check, never a quality score. A new dataset version cannot establish improvement against an earlier dataset.
+
+For repeated externally graded runs, use `study-eval-summary`; keep task IDs, skill/dataset hashes and failures. At least one success among k and all k succeeding answer different questions. Neither a deterministic 18/18 check nor a small synthetic model score measures professional study quality.

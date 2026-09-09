@@ -1,0 +1,147 @@
+{
+  "format": "skillopt_sleep.tasks.v1",
+  "reviewed": true,
+  "dataset_kind": "curated_synthetic",
+  "dataset_version": 1,
+  "n_sessions": 0,
+  "tasks": [
+    {
+      "id": "lifecycle_v1_case_1",
+      "project": ".",
+      "intent": "A tracked stage has a current candidate and files, all dependencies are current and complete, all required Office/visual and business checks passed, and every acceptance item has a passing current review. Return JSON field may_complete_stage.",
+      "context_excerpt": "Reviewed synthetic lifecycle judgment. No client data or sessions. Return only the requested JSON field.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"may_complete_stage\"\\s*:\\s*true(?=\\s*[,}])"
+          }
+        ]
+      },
+      "split": "train",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "lifecycle-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "lifecycle_v1_case_2",
+      "project": ".",
+      "intent": "A questionnaire stage was restarted after its input changed. A downstream completed codebook still binds the previous completion. Return JSON field downstream_still_current.",
+      "context_excerpt": "Reviewed synthetic lifecycle judgment. No client data or sessions. Return only the requested JSON field.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"downstream_still_current\"\\s*:\\s*false(?=\\s*[,}])"
+          }
+        ]
+      },
+      "split": "train",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "lifecycle-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "lifecycle_v1_case_3",
+      "project": ".",
+      "intent": "A write was prepared at revision 4, but study-status now returns revision 5 after another writer committed. The host proposes blindly replaying the old write. Return JSON field replay_old_write_without_reconciliation.",
+      "context_excerpt": "Reviewed synthetic lifecycle judgment. No client data or sessions. Return only the requested JSON field.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"replay_old_write_without_reconciliation\"\\s*:\\s*false(?=\\s*[,}])"
+          }
+        ]
+      },
+      "split": "val",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "lifecycle-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "lifecycle_v1_case_4",
+      "project": ".",
+      "intent": "Builder and reviewer execution IDs differ in a host-declared record. There is no authenticated runner identity or evidence of separate model execution. Return JSON field independent_verification_proven.",
+      "context_excerpt": "Reviewed synthetic lifecycle judgment. No client data or sessions. Return only the requested JSON field.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"independent_verification_proven\"\\s*:\\s*false(?=\\s*[,}])"
+          }
+        ]
+      },
+      "split": "val",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "lifecycle-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "lifecycle_v1_case_5",
+      "project": ".",
+      "intent": "A user requested only a desk report. The tracked study plan contains no survey stage. A reusable plan example includes a questionnaire. Return JSON field automatically_add_questionnaire.",
+      "context_excerpt": "Reviewed synthetic lifecycle judgment. No client data or sessions. Return only the requested JSON field.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"automatically_add_questionnaire\"\\s*:\\s*false(?=\\s*[,}])"
+          }
+        ]
+      },
+      "split": "test",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "lifecycle-contract"
+      ],
+      "source_sessions": []
+    },
+    {
+      "id": "lifecycle_v1_case_6",
+      "project": ".",
+      "intent": "Six deterministic lifecycle fixtures run three times with prewritten reviews and zero model calls; all 18 pass. The release wants to claim improved market-research accuracy. Return JSON field research_accuracy_gain_measured.",
+      "context_excerpt": "Reviewed synthetic lifecycle judgment. No client data or sessions. Return only the requested JSON field.",
+      "reference_kind": "rule",
+      "judge": {
+        "kind": "rule",
+        "checks": [
+          {
+            "op": "regex",
+            "arg": "\"research_accuracy_gain_measured\"\\s*:\\s*false(?=\\s*[,}])"
+          }
+        ]
+      },
+      "split": "test",
+      "origin": "curated",
+      "tags": [
+        "synthetic",
+        "lifecycle-contract"
+      ],
+      "source_sessions": []
+    }
+  ]
+}

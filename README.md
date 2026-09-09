@@ -93,3 +93,15 @@ Start with [contracts.py](research_skills/contracts.py), [workflows.py](research
 This is a focused public reconstruction with generic rules and synthetic assets. It excludes employer branding, private business rules, client materials, credentials and private repository history. It does not claim autonomous web research, independently verified semantics, production deployment metrics or accuracy on real client data. A matching quote is not proof of entailment, and a review flag is a host declaration. Visual inspection remains necessary.
 
 See [validation and limitations](docs/validation.md) for the actual checks and scope. AI-assisted implementation; the design decisions, code and tests are exposed for inspection.
+
+## Persistent study stages (0.3.0)
+
+The coordinator can now persist multi-stage work in local SQLite. Read status when resuming; changed upstream inputs or artifacts make dependent completions stale. A stage completes only with current dependencies, artifacts and a passing review for every acceptance item.
+
+```bash
+python -m research_skills study-demo --output .runs/study-demo --repeats 3
+```
+
+Six lifecycle scenarios run three times using synthetic files, prewritten reviews and zero model calls. See the [stage guide](skills/research-workflow/references/runtime.md) for initialization, submission, review and recovery commands. Local study databases are excluded from Git.
+
+This is host-driven state and acceptance checking. It does not run models or authenticate reviewers. Distinct declared execution IDs do not establish independent verification. The module governs registered milestones; existing file commands retain their own export contracts.

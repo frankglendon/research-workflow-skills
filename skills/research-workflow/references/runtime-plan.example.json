@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "study_id": "synthetic-001",
+  "stages": [
+    {
+      "id": "design",
+      "depends_on": [],
+      "inputs": [
+        "brief.md"
+      ],
+      "required_artifacts": [
+        "outline"
+      ],
+      "review_mode": "separate_execution",
+      "acceptance": [
+        {
+          "id": "coverage",
+          "description": "Decision and measurement coverage"
+        }
+      ]
+    },
+    {
+      "id": "codebook",
+      "depends_on": [
+        "design"
+      ],
+      "inputs": [],
+      "required_artifacts": [
+        "datamap"
+      ],
+      "review_mode": "host",
+      "acceptance": [
+        {
+          "id": "mapping",
+          "description": "Variable mapping matches the design"
+        }
+      ]
+    }
+  ]
+}

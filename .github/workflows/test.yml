@@ -23,3 +23,4 @@ jobs:
       - run: python -m unittest discover -s tests -v
       - run: python -m research_skills demo --output .runs/ci-demo
       - run: python -m research_skills survey-demo --output .runs/ci-survey-demo
+      - run: python -m research_skills study-demo --output .runs/ci-study-demo --repeats 3

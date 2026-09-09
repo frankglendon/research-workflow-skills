@@ -26,4 +26,8 @@ Start with one host agent and seven focused skills. Skills are easy to revise, r
 
 Split an evidence specialist or questionnaire-programming specialist into another agent only when it has a bounded input, separate permissions/budget, inspectable output and a measurable benefit from parallel work or independent checking. Separate agents add scheduling, retries, state reconciliation and integration testing. Multiple names or roles alone do not establish independence or quality.
 
-For unattended operation, add a real runtime later: provider interfaces, persisted state machine, budget accounting, retry/cancellation, approval boundaries and integration tests. The existing compilers and gates can be reused. Choose that deployment after testing representative real tasks; do not build another platform merely to display agents.
+For unattended operation, add a real runtime later: provider interfaces, a scheduler using the existing persisted stage state, budget accounting, retry/cancellation, approval boundaries and integration tests. The existing compilers and gates can be reused. Choose that deployment after testing representative real tasks; do not build another platform merely to display agents.
+
+## Persistent stage handoff
+
+For tracked multi-stage work, use [the runtime commands](runtime.md). The free-form study record preserves business context; the separate validated plan defines dependencies and acceptance criteria. Resume from status and inspect the current stage before writing. File changes invalidate dependent completions. The local SQLite module does not schedule work, authenticate reviewers or replace existing file-engine contracts.

@@ -1,13 +1,13 @@
 # Validation record
 
-Current package: 0.2.0, 2026-09-08. The v0.1.0 release remains a historical five-output bundle.
+Current package: 0.3.0, 2026-09-09. The v0.1.0 release remains a historical five-output bundle.
 
 | Layer | Observed result |
 |---|---|
-| Python behavior tests | 38 passing local tests |
+| Python behavior tests | 65 passing local tests |
 | Office demo | Original five outputs plus two survey/codebook outputs, Microsoft Open XML SDK: 0 errors |
 | Refusal demonstration | Fabricated quote blocked; no final report created |
-| Skill metadata | Seven skill entrypoints passed the skill-creator format validator |
+| Skill metadata | Eight skill entrypoints passed the skill-creator format validator |
 | SkillOpt | Original five mock checks plus new questionnaire/codebook/coordinator mock dry-runs; no adopted edits |
 | CI | See the public Tests workflow for the independent Linux run |
 
@@ -33,3 +33,11 @@ Added checks cover stale questionnaire/codebook review hashes, objective/populat
 ## Study-design increment — 2026-09-09
 
 The package now has eight skill entrypoints: one coordinator and seven specialists, with six executable file engines. All eight skill formats, reference links and evaluation JSON files passed validation; 38 behavior tests passed locally. A broken desk-skill handoff reference was corrected. The new study-design skill passed a mock SkillOpt integration run with no adopted edit. Study quality, fieldwork and statistical execution were not evaluated by these checks. No client proposal or historical material is included. The v0.2.0 demonstration bundle remains unchanged.
+
+## Persistent-stage increment — 2026-09-09
+
+65 behavior tests passed locally, including persisted resumption, atomic rollback after an injected write failure, revision conflicts, cycle/path/symlink rejection, invalid Office input, missing/failed acceptance items, changed inputs/artifacts, plan changes, cross-study review replay and transitive invalidation. A subprocess test exercises actual CLI status and refusal behavior.
+
+The lifecycle demo ran six scenarios three times in distinct workspaces: **18/18 expected outcomes**, zero model calls, prewritten synthetic reviews. This checks deterministic behavior, not semantic quality or model reliability. The original Office workflows continue to pass the regression suite. The release does not regenerate or replace historical demo bundles.
+
+The additional SkillOpt lifecycle dataset has six reviewed synthetic cases with 2/2/2 training/validation/test splits. The public package completed mock integration only, with no adopted edits. The adapter now marks failed/empty real model calls as invalid evaluation, omits their quality scores and exits with an error; those failures must not be interpreted as poor skill performance.

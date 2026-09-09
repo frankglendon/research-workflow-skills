@@ -6,10 +6,28 @@ import sys
 from .contracts import GateError, fingerprint
 
 
+def select_dataset(root, skill, requested=None):
+    root = Path(root).resolve()
+    path = (root / requested if requested else root / "evals" / (skill + ".json")).resolve()
+    if not path.is_relative_to(root / "evals") or not path.is_file():
+        raise GateError("Evaluation dataset must be an existing repository evals file")
+    metadata = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(metadata, dict) or metadata.get("reviewed") is not True or metadata.get("dataset_kind") != "curated_synthetic":
+        raise GateError("Only reviewed curated synthetic tasks are accepted")
+    return path
+
+
+def replay_health(events):
+    calls = [event for event in events if event.get("event") == "model_call" and not event.get("cache_hit")]
+    failed = sum(bool(event.get("error")) or not bool(event.get("response") or event.get("raw_reply")) for event in calls)
+    return {"valid": bool(calls) and failed == 0, "failed_calls": failed, "observed_calls": len(calls)}
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--engine", required=True, help="Local SkillOpt source checkout")
     parser.add_argument("--skill", required=True)
+    parser.add_argument("--dataset", help="Explicit reviewed dataset under repository evals/; default remains unchanged")
     parser.add_argument("--backend", choices=["mock", "codex"], default="mock")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args(argv)
@@ -17,11 +35,11 @@ def main(argv=None):
     target = (root / "skills" / args.skill / "SKILL.md").resolve()
     if target.parent.parent != root / "skills" or not target.is_file():
         raise GateError("Unknown skill target")
+    task_file = select_dataset(root, args.skill, args.dataset)
     sys.path.insert(0, str(Path(args.engine).resolve()))
     from skillopt_sleep.config import DEFAULTS, SleepConfig
     from skillopt_sleep.tasks_file import load_tasks_file
     from skillopt_sleep.cycle import run_sleep_cycle
-    task_file = root / "evals" / (args.skill + ".json")
     tasks, metadata = load_tasks_file(str(task_file))
     if metadata.get("reviewed") is not True or metadata.get("dataset_kind") != "curated_synthetic":
         raise GateError("Only reviewed curated synthetic tasks are accepted")
@@ -50,6 +68,7 @@ def main(argv=None):
         "replay_mode": config["replay_mode"],
         "staging": outcome.staging_dir, "skill_sha256": before,
         "dataset_sha256": fingerprint(task_file.read_bytes())}
+    events = []
     if outcome.staging_dir:
         evidence_path = Path(outcome.staging_dir) / "evidence.jsonl"
         if evidence_path.is_file():
@@ -58,10 +77,18 @@ def main(argv=None):
                      and event.get("event") == "held_out_score"]
             if tests:
                 result["final_test"] = {key: tests[-1][key] for key in ("n_test", "hard", "soft")}
+    if args.backend == "codex":
+        result["replay_health"] = replay_health(events)
+        result["evaluation_valid"] = result["replay_health"]["valid"]
+        if not result["evaluation_valid"]:
+            result.update(baseline=None, candidate=None, final_test=None, accepted=False,
+                          gate_action="invalid_evaluation")
     folder = root / ".skillopt-sleep/results"
     folder.mkdir(parents=True, exist_ok=True)
     (folder / f"{args.skill}-{args.backend}.json").write_text(json.dumps(result, indent=2))
     print(json.dumps(result))
+    if args.backend == "codex" and not result["evaluation_valid"]:
+        raise GateError("Model replay failed or produced no evidence; scores are invalid; inspect local diagnostics")
 
 
 if __name__ == "__main__":

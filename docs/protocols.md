@@ -22,3 +22,7 @@ The evidence ledger schema is demonstrated in `research_skills/demo.py`. Documen
 - Translation covers slide XML text runs. It preserves other package parts, except deterministic chart axis repair if required. It does not translate notes, images, chart caches or embedded workbooks.
 - Evidence reports render supported claim text directly. Quotes and numeric tokens constrain the output but do not verify online source authenticity or full meaning.
 - Output paths must be new. Keep runtime plans in a local task directory and pass absolute paths when calling a skill script.
+
+## Optional study lifecycle
+
+The [stage protocol](../skills/research-workflow/references/runtime.md) adds a separate schema-versioned DAG plan, local SQLite checkpoints and candidate-bound acceptance review. It does not reinterpret the earlier free-form `study.example.json` as executable configuration. The synthetic runtime plan is a minimal example, not a required sequence for all studies.

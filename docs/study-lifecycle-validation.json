@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-09",
+  "version": "0.3.0",
+  "behavior_tests_passed": 65,
+  "skill_entrypoints": 8,
+  "file_engines": 6,
+  "lifecycle_demo": {
+    "synthetic": true,
+    "model_calls": 0,
+    "semantic_quality_measured": false,
+    "review_identity": "host_declared_not_authenticated",
+    "scenarios": 6,
+    "repeats": 3,
+    "runs": 18,
+    "passed_runs": 18,
+    "all_runs_passed": true,
+    "metric_scope": "Finite observed-run estimates; repeated deterministic fixtures do not measure model reliability."
+  },
+  "skillopt": {
+    "skill": "research-workflow",
+    "backend": "mock",
+    "dataset_kind": "curated_synthetic",
+    "sessions": 0,
+    "tasks": 6,
+    "baseline": 0.0,
+    "candidate": 0.0,
+    "accepted": false,
+    "gate_action": "reject",
+    "adopted": false,
+    "holdout_leaked": false,
+    "replay_mode": "mock",
+    "skill_sha256": "b4e1d122fb93c011ae3e4db93d8edbf796866f1b4e5a1718ac649788ce2017b4",
+    "dataset_sha256": "b9ce7cdfe47cc64b699c6b335f605535039145ecb9b287bfb4f0ea5d53a90197"
+  },
+  "private_data_included": false,
+  "unattended_runtime": false,
+  "reviewer_authentication": false
+}
