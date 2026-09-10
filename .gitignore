@@ -24,6 +24,8 @@ dist/
 
 # Local web source and request journal
 .retrieval/
+.research-kb/
+*.sqlite3
 
 # Authored professional v2 delivery approved for this repository
 !examples/north-america-retail/professional-v2/deliverables/questionnaire.xlsx

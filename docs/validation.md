@@ -55,3 +55,9 @@ The package now has eight skill entrypoints: one coordinator and seven specialis
 The lifecycle demo ran six scenarios three times in distinct workspaces: **18/18 expected outcomes**, zero model calls, prewritten synthetic reviews. This checks deterministic behavior, not semantic quality or model reliability. The original Office workflows continue to pass the regression suite. The release does not regenerate or replace historical demo bundles.
 
 The additional SkillOpt lifecycle dataset has six reviewed synthetic cases with 2/2/2 training/validation/test splits. The public package completed mock integration only, with no adopted edits. The adapter now marks failed/empty real model calls as invalid evaluation, omits their quality scores and exits with an error; those failures must not be interpreted as poor skill performance.
+
+## Local knowledge retrieval — 2026-09-11, 0.7.0
+
+116 tests passed locally. Sixteen new checks cover source locators, CJK/English retrieval, stale-source suppression, atomic failed rebuilds, public/private classification, external-audience filtering, whole-card budgets and CLI integration. The original eight-card demo passed four targeted retrieval smoke checks without network or model calls; it also runs in CI.
+
+The implementation is SQLite FTS5 lexical retrieval with host generation handoff. These tests do not evaluate complete report quality or establish a SkillOpt improvement. No private corpus, template or index is distributed. See the [knowledge protocol](knowledge.md).

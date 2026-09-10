@@ -31,3 +31,6 @@ For source discovery or renewed evidence gaps, route to the evidence skill's [Ta
 
 
 案头研究交接必须包含商业问题及对应答案、重点竞品比较、国家或细分市场分析和机会推导。调用案头 Skill 时先走其研究工作流；不能只执行检索、证据检查和 PPT 渲染后宣布完整报告完成。
+
+
+For desk research, use the [method/template knowledge layer](../research-evidence-report/references/knowledge.md) before chapter planning and page selection. Preserve source provenance and local-only access boundaries; reference knowledge does not prove market claims.

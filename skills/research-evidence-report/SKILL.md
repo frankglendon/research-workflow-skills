@@ -5,6 +5,8 @@ description: Research a question with Tavily-first MCP retrieval, retain source 
 
 # Build an evidence-backed report
 
+Before planning chapters or choosing page types, use the [local method and template knowledge layer](references/knowledge.md). Inspect selected previews and record adopted card IDs. Retrieve current market evidence separately.
+
 完整案头报告执行 [研究工作流](references/research-workflow.md)：问题树、可证伪假设、页面研究需求、逐章研究、统一维度竞品深挖、国家比较、整册编辑审阅。证据登记与出图只是其中两步。
 
 

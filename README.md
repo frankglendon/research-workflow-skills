@@ -14,6 +14,8 @@
 
 </div>
 
+**Local knowledge retrieval (0.7.0):** [Method and template RAG](docs/knowledge.md) adds provenance-bound local search and host context handoff. Reproduce an eight-card original public demo without network or model calls. Private source assets and indexes are not distributed.
+
 A public engineering portfolio: one coordinating entrypoint and seven specialist skills cover study design and reviewed file workflows. Study design runs in the host; six file engines produce Excel and PowerPoint. Missing reviews, stale inputs, fabricated source excerpts and changed numeric tokens block engine exports. Every successful engine export includes an audit manifest and passes Microsoft's Open XML SDK validator.
 
 The host agent performs reasoning and review. This repository provides skill instructions and executable file contracts. Its demo uses **prewritten synthetic reviews and zero model calls**, making it runnable without API credentials.
